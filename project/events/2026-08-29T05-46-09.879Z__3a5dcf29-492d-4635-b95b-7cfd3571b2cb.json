@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "3a5dcf29-492d-4635-b95b-7cfd3571b2cb",
+  "issue_id": "ANTH-da430ae5-fcca-4342-89ad-ab5310c5a943",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-29T05:46:09.879Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "The Year the Coding Agents Went Remote",
+    "description": "Companion to cost-collapse. Feature chart notes. File: Anth.us src/blog/coding-agents-went-remote-2026.mdx",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

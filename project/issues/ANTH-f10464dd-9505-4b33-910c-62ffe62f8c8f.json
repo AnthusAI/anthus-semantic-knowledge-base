@@ -1,0 +1,51 @@
+{
+  "id": "ANTH-f10464dd-9505-4b33-910c-62ffe62f8c8f",
+  "title": "Code-based hill-climbing",
+  "description": "New article. Feature Plexus: text-classifier alignment as an iterative code problem. Separate from the DeckBot EaC intro. Researcher is scouting cites.",
+  "type": "story",
+  "status": "research",
+  "priority": 1,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "3aba8a7d-00c0-4bbb-a51a-a20d773c322d",
+      "author": "box",
+      "text": "Researcher handed ownership 2026-08-29. Cites are in stories/ANTH-f10464dd-9505-4b33-910c-62ffe62f8c8f/research.md. More notes incoming.",
+      "created_at": "2026-08-29T06:37:31.483255Z",
+      "comment_type": "default",
+      "data": {}
+    },
+    {
+      "id": "1a33c4bb-85ca-4ef2-85a6-007ed9ef7201",
+      "author": "box",
+      "text": "Ryan editorial shape: spine is Plexus, AlphaEvolve, Autoresearch. Then generalize. Cousin catalog is optional color, not the open.",
+      "created_at": "2026-08-29T06:39:45.364913Z",
+      "comment_type": "default",
+      "data": {}
+    },
+    {
+      "id": "079bad8e-fbcf-4434-a6a5-808167237d78",
+      "author": "box",
+      "text": "Ryan: also a public brag. Same hill-climb loop on a privacy scanning tool for a privacy/security client. Evals vs ground-truth labels. Agent loops. Quantifiable. Do not name the client yet.",
+      "created_at": "2026-08-29T06:50:27.211888Z",
+      "comment_type": "default",
+      "data": {}
+    },
+    {
+      "id": "9dedb3fe-0380-4e4e-bbfe-108f95e9bb3c",
+      "author": "box",
+      "text": "Loop engineering / Ralph /loop /goal is a separate story: 78500a. Do not fold it into this hill-climb piece.",
+      "created_at": "2026-08-29T06:51:44.523296Z",
+      "comment_type": "default",
+      "data": {}
+    }
+  ],
+  "created_at": "2026-08-29T06:36:53.437949Z",
+  "updated_at": "2026-08-29T06:51:44.523296Z",
+  "closed_at": null,
+  "custom": {}
+}

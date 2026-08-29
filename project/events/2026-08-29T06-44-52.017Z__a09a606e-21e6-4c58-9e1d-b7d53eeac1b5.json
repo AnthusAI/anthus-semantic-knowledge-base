@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "a09a606e-21e6-4c58-9e1d-b7d53eeac1b5",
+  "issue_id": "ANTH-864e95f9-6cc3-4f21-9403-368e7a94a76b",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-29T06:44:52.017Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "Kanbus: project management as code",
+    "description": "EaC cousin. Tracking tasks and bugs as JSON files in the GitHub repo is simpler than an external PM system that needs new integrations and auth. Distinct from DeckBot EaC intro (0bf71a) and hill-climbing (f10464).",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "event_id": "f22e78cc-dba9-45c7-9bb4-53e44b57c774",
+  "issue_id": "ANTH-f10464dd-9505-4b33-910c-62ffe62f8c8f",
+  "event_type": "field_updated",
+  "occurred_at": "2026-08-29T06:37:31.176Z",
+  "actor_id": "box",
+  "payload": {
+    "changes": {
+      "priority": {
+        "from": 2,
+        "to": 1
+      }
+    }
+  }
+}

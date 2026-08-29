@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "11a902c0-d704-4031-a111-5993774c7b6e",
+  "issue_id": "ANTH-629b47a0-c679-43ec-9cf6-c97f2e758ffd",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-29T05:46:09.190Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "A week with Grok Bot",
+    "description": "In-progress review notes on develop. Do not ship until after more real use. File: Anth.us src/blog/a-week-with-grok-bot.mdx",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

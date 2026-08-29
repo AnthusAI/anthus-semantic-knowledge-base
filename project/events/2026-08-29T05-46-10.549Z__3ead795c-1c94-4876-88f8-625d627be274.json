@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "3ead795c-1c94-4876-88f8-625d627be274",
+  "issue_id": "ANTH-0bf71a02-1445-4c02-8e81-33c49dae51e5",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-29T05:46:10.549Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "DeckBot as everything-as-code example",
+    "description": "Nov 2025 article needs rewrite so DeckBot is only a limited example of everything-as-code. File: Anth.us src/blog/everything-as-code-integration.mdx",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

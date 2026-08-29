@@ -1,0 +1,43 @@
+{
+  "id": "ANTH-0bf71a02-1445-4c02-8e81-33c49dae51e5",
+  "title": "DeckBot as everything-as-code example",
+  "description": "Nov 2025 article needs rewrite so DeckBot is only a limited example of everything-as-code. File: Anth.us src/blog/everything-as-code-integration.mdx",
+  "type": "story",
+  "status": "assignment",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "2a28ca38-594c-46f7-8bf8-699155301693",
+      "author": "box",
+      "text": "Split: this story is EaC intro only. Hill-climbing / Plexus is f10464.",
+      "created_at": "2026-08-29T06:37:31.772372Z",
+      "comment_type": "default",
+      "data": {}
+    },
+    {
+      "id": "4c22d48d-c28f-4b5d-bba3-e13875862670",
+      "author": "box",
+      "text": "EaC family now has three: this intro (0bf71a), hill-climb f10464, Kanbus-as-PM 864e95.",
+      "created_at": "2026-08-29T06:45:06.456532Z",
+      "comment_type": "default",
+      "data": {}
+    },
+    {
+      "id": "42628077-ec8d-4cad-82eb-6b1e08fa89bb",
+      "author": "box",
+      "text": "Ryan 2026-08-29: Kanbus piece (864e95) will link here. That article also uses Papyrus as a second EaC example. This story stays the EaC intro.",
+      "created_at": "2026-08-29T11:29:42.145430Z",
+      "comment_type": "default",
+      "data": {}
+    }
+  ],
+  "created_at": "2026-08-29T05:46:10.537589Z",
+  "updated_at": "2026-08-29T11:29:42.145430Z",
+  "closed_at": null,
+  "custom": {}
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "c917247d-8fb7-484b-9930-aad7ea7f268f",
+  "issue_id": "ANTH-46e0579c-a6da-4db8-a180-81f288f1e8f3",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-29T05:46:10.899Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "The Content Paradox",
+    "description": "Published 2026-08-28. https://anth.us/blog/jevons-paradox-ai-slop/",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

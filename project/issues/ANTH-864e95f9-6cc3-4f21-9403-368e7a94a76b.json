@@ -1,0 +1,35 @@
+{
+  "id": "ANTH-864e95f9-6cc3-4f21-9403-368e7a94a76b",
+  "title": "Kanbus: project management as code",
+  "description": "EaC cousin. Tracking tasks and bugs as JSON files in the GitHub repo is simpler than an external PM system that needs new integrations and auth. Distinct from DeckBot EaC intro (0bf71a) and hill-climbing (f10464).",
+  "type": "story",
+  "status": "assignment",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "ffbc4e34-7490-4b06-9b2c-31a3a37fa692",
+      "author": "box",
+      "text": "Ryan: point an agent at the repo and the board is already there. File tasks by telling the bot. Web console exists; the system is AI-first, which means EaC.",
+      "created_at": "2026-08-29T06:47:09.788322Z",
+      "comment_type": "default",
+      "data": {}
+    },
+    {
+      "id": "f277904d-6c31-4470-8943-bcc369daf179",
+      "author": "box",
+      "text": "Ryan 2026-08-29: partly an excuse to talk about Papyrus in our articles. Also link to the everything-as-code story (0bf71a). Kanbus stays the through-line.",
+      "created_at": "2026-08-29T11:29:32.088543Z",
+      "comment_type": "default",
+      "data": {}
+    }
+  ],
+  "created_at": "2026-08-29T06:44:52.005202Z",
+  "updated_at": "2026-08-29T11:29:32.088543Z",
+  "closed_at": null,
+  "custom": {}
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ANTH-629b47a0-c679-43ec-9cf6-c97f2e758ffd",
+  "title": "A week with Grok Bot",
+  "description": "In-progress review notes on develop. Do not ship until after more real use. File: Anth.us src/blog/a-week-with-grok-bot.mdx",
+  "type": "story",
+  "status": "assignment",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [],
+  "created_at": "2026-08-29T05:46:09.179326Z",
+  "updated_at": "2026-08-29T05:47:07.001349Z",
+  "closed_at": null,
+  "custom": {}
+}

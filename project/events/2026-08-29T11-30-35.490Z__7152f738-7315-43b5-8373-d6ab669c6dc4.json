@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "7152f738-7315-43b5-8373-d6ab669c6dc4",
+  "issue_id": "ANTH-4f3e30b7-f52f-432f-809c-8eb173cf4b11",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-29T11:30:35.490Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "A wiki that only gets bigger",
+    "description": "Public article about Papyrus knowledge: files a person can open, drafts until a person accepts, dead pages stay marked, proof is the source. Villain is a wiki that only grows. Separate from f10464, 78500a, 0bf71a, 864e95. Product stays plan-only on PPY-964472.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

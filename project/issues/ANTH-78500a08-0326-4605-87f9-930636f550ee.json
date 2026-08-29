@@ -1,0 +1,27 @@
+{
+  "id": "ANTH-78500a08-0326-4605-87f9-930636f550ee",
+  "title": "Ralph loops and loop engineering",
+  "description": "Separate from hill-climbing (f10464). Recent trend in loop engineering. /loop, /goal, and related features in coding products.",
+  "type": "story",
+  "status": "assignment",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "ef64fd88-b3a1-4a8e-ad0a-e686f13fad06",
+      "author": "box",
+      "text": "Asked Researcher (3d375184) for: Ralph-loop explainer + namesake; /loop /goal in Claude Code, Cursor, Codex, Antigravity; funny cousins.",
+      "created_at": "2026-08-29T06:53:29.409416Z",
+      "comment_type": "default",
+      "data": {}
+    }
+  ],
+  "created_at": "2026-08-29T06:51:29.505390Z",
+  "updated_at": "2026-08-29T06:53:29.409416Z",
+  "closed_at": null,
+  "custom": {}
+}
