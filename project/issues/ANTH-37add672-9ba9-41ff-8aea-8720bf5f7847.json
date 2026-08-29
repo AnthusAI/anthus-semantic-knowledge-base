@@ -80,10 +80,17 @@
       "text": "Copy revision 2026-08-29: Reworked the project-management passage to name Kanbus and explain its role in context. The article now introduces Kanbus as the project-management system used for software and editorial work, describes tasks and bugs becoming cards naturally, and contrasts organizing the work with making management decisions. Removed the dictionary-style definition of board and the filing-cabinet-with-an-API analogy. Story remains in copywriting.",
       "created_at": "2026-08-29T14:07:17.906258Z",
       "comment_type": "default"
+    },
+    {
+      "id": "45cbe41f-07f6-4a70-bc4b-1a90bb6faa0e",
+      "author": "ryan",
+      "text": "Copy revision 2026-08-29: Split the before-and-after organization comparison into two separate Mermaid diagrams so the renderer cannot reverse their visual order. The article now shows Before: four direct agent conversations, followed by After: one supervised software team. Both figures retain the same four coding agents. Story remains in copywriting.",
+      "created_at": "2026-08-29T14:08:17.713013Z",
+      "comment_type": "default"
     }
   ],
   "created_at": "2026-08-29T12:31:25.440250Z",
-  "updated_at": "2026-08-29T14:07:17.906258Z",
+  "updated_at": "2026-08-29T14:08:17.713013Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",

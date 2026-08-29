@@ -40,33 +40,36 @@ The Researcher is not a ceremonial client, either. It has checked delivered work
 
 This is the same number of coding agents arranged in two different ways:
 
-```mermaid
-flowchart LR
-    subgraph FLAT["Four direct agent conversations"]
-        H1["Human"]
-        A1["Coding agent"]
-        A2["Coding agent"]
-        A3["Coding agent"]
-        A4["Coding agent"]
-        H1 -->|"assigns and checks work"| A1
-        H1 -->|"assigns and checks work"| A2
-        H1 -->|"assigns and checks work"| A3
-        H1 -->|"assigns and checks work"| A4
-    end
+### Before: four direct agent conversations
 
-    subgraph MANAGED["One supervised software team"]
-        H2["Human"]
-        D["Software Director"]
-        B1["Coding agent"]
-        B2["Coding agent"]
-        B3["Coding agent"]
-        B4["Coding agent"]
-        H2 -->|"sets direction and checks outcomes"| D
-        D -->|"assigns and reviews work"| B1
-        D -->|"assigns and reviews work"| B2
-        D -->|"assigns and reviews work"| B3
-        D -->|"assigns and reviews work"| B4
-    end
+```mermaid
+flowchart TB
+    H1["Human"]
+    A1["Coding agent"]
+    A2["Coding agent"]
+    A3["Coding agent"]
+    A4["Coding agent"]
+    H1 -->|"assigns and checks work"| A1
+    H1 -->|"assigns and checks work"| A2
+    H1 -->|"assigns and checks work"| A3
+    H1 -->|"assigns and checks work"| A4
+```
+
+### After: one supervised software team
+
+```mermaid
+flowchart TB
+    H2["Human"]
+    D["Software Director"]
+    B1["Coding agent"]
+    B2["Coding agent"]
+    B3["Coding agent"]
+    B4["Coding agent"]
+    H2 -->|"sets direction and checks outcomes"| D
+    D -->|"assigns and reviews work"| B1
+    D -->|"assigns and reviews work"| B2
+    D -->|"assigns and reviews work"| B3
+    D -->|"assigns and reviews work"| B4
 ```
 
 Nothing magical happened to the workers in the second diagram. The change is in who has to remain inside every operational exchange.
