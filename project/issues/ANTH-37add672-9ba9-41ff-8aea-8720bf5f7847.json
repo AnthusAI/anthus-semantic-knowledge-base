@@ -1,0 +1,27 @@
+{
+  "id": "ANTH-37add672-9ba9-41ff-8aea-8720bf5f7847",
+  "title": "From pair programmer to executive",
+  "description": "Concept piece: from one vibe-coding session to administering a virtual company of agents. Grok Bot is the current practical example, not the only future. Distinct from the Grok Bot week-in-review (629b47), Ralph loops (78500a), hill-climb (f10464), and remote-agents (da430a).",
+  "type": "story",
+  "status": "assignment",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "c9bdc858-0275-4c0a-80f9-3e908663f430",
+      "author": "box",
+      "text": "Ryan 2026-08-29: nugget filed. Working title is From pair programmer to executive. He may rename. Diagrams are required. Grok Bot is the glimpse, not the whole story.",
+      "created_at": "2026-08-29T12:32:52.230784Z",
+      "comment_type": "default",
+      "data": {}
+    }
+  ],
+  "created_at": "2026-08-29T12:31:25.440250Z",
+  "updated_at": "2026-08-29T12:32:52.230784Z",
+  "closed_at": null,
+  "custom": {}
+}

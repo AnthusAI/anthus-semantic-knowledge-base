@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "7053cf85-6e48-4898-96c7-f2b7e1f94e6f",
+  "issue_id": "ANTH-37add672-9ba9-41ff-8aea-8720bf5f7847",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-29T12:31:25.451Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "From pair programmer to executive",
+    "description": "Concept piece: from one vibe-coding session to administering a virtual company of agents. Grok Bot is the current practical example, not the only future. Distinct from the Grok Bot week-in-review (629b47), Ralph loops (78500a), hill-climb (f10464), and remote-agents (da430a).",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

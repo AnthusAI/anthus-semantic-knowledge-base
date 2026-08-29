@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "event_id": "89474517-2fad-4c52-acc5-6d113c56062a",
+  "issue_id": "ANTH-37add672-9ba9-41ff-8aea-8720bf5f7847",
+  "event_type": "state_transition",
+  "occurred_at": "2026-08-29T12:32:40.924Z",
+  "actor_id": "box",
+  "payload": {
+    "from_status": "idea",
+    "to_status": "assignment"
+  }
+}
