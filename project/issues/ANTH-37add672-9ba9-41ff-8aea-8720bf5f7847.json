@@ -73,10 +73,17 @@
       "text": "Copywriting draft completed 2026-08-29. Canonical artifact: article.md (2,096 words), with two role-based Mermaid diagrams. The draft uses the selected sequel framing, preserves the Grok Bot review's ownership of the dated scene, explains the project-management board in ordinary language, includes Ryan's firsthand review/cycle/attention/guardrail evidence, and connects long-running agents with falling coding cost and Jevons Paradox. It remains in copywriting and has not been published. Draft-route dependencies to backfill before publication: a-week-with-grok-bot, coding-agents-went-remote-2026, and never-use-fast.",
       "created_at": "2026-08-29T14:01:01.500967Z",
       "comment_type": "default"
+    },
+    {
+      "id": "db56cf44-5c7d-42d1-a52e-fbb5e2484209",
+      "author": "ryan",
+      "text": "Copy revision 2026-08-29: Reworked the project-management passage to name Kanbus and explain its role in context. The article now introduces Kanbus as the project-management system used for software and editorial work, describes tasks and bugs becoming cards naturally, and contrasts organizing the work with making management decisions. Removed the dictionary-style definition of board and the filing-cabinet-with-an-API analogy. Story remains in copywriting.",
+      "created_at": "2026-08-29T14:07:17.906258Z",
+      "comment_type": "default"
     }
   ],
   "created_at": "2026-08-29T12:31:25.440250Z",
-  "updated_at": "2026-08-29T14:01:24.586819Z",
+  "updated_at": "2026-08-29T14:07:17.906258Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",

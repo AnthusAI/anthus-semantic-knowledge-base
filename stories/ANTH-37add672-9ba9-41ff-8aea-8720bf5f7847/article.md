@@ -10,15 +10,15 @@ That is the part I am still trying to get my head around.
 
 The surprising thing is no longer that an agent can write code. It is that one piece of software can supervise the work of other pieces of software.
 
-## The project-management board was not the manager
+## Kanbus organized the work. It did not manage it
 
 In [Cybernetic Development](/blog/cybernetic-development/), I described the move from pair programming with one coding agent to delegating work to several agents at once. That created an immediate management problem: the agents were fast, but every assignment, clarification, result, and next decision still passed through one human.
 
-A project-management board helped. By “board,” I mean a shared collection of cards representing tasks, bugs, user stories, and other work. An agent can claim a card, record what it did, update the status, and leave evidence for the next participant. Unlike a conversation hidden in one tab, the record survives and can be read by everyone involved.
+Kanbus helped me manage that complexity. It is the project-management system I use for software and editorial work. On the Kanbus board, each task, bug, user story, or other piece of work gets its own card. A person or agent can claim the work, record what happened, update its status, and leave evidence for whoever comes next. Unlike a conversation hidden in one tab, that shared record survives and can be read by everyone involved.
 
-But the board is not the manager. It is closer to a filing cabinet with an API.
+But Kanbus organized the work; it did not manage it.
 
-It does not read the code and form an opinion. It does not decide that a test result is inadequate, reject a change because the documentation is missing, or determine which specialist should take the next step. Those decisions still belonged to me.
+It did not read the code and form an opinion. It did not decide that a test result was inadequate, reject a change because the documentation was missing, or determine which specialist should take the next step. Those decisions still belonged to me.
 
 For me, more than three or four active agent conversations became confusing. That is not a universal limit. It is an observation about my own attention, made worse by moving among Codex, Claude Code, Cursor, cloud agents, local agents, different computers, and whichever sessions happened to be pinned in each application. I was carrying information between conversations and remembering which tab in which product connected to which workstream.
 
