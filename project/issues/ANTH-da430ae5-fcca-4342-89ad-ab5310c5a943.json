@@ -10,9 +10,17 @@
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "767593bd-a3a3-449f-b227-f65b2e4b1206",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\nGood premise, but blocked and under-specified. Three notes and a research gap.\n\n**1. Blocked on the chart.** 629b47's draft carries a `(→ second article)` marker and this story says \"chart may move here from the Grok Bot review.\" Both stories think they might own the comparison chart. Settle it before either goes to copy.\n\n**2. \"Five harnesses went remote in 2026\" is a checkable claim that has not been checked.** Which five? There is no list anywhere in this story. That list is the article's backbone and writing it down is the first real task.\n\n**3. The chart axes are better than the chart.** Obedience, scheduling, persistence, hopper vs actor — that last one is a genuine conceptual distinction and it is the whole story. A queue you drop work into is a 2025 object. An agent that acts on its own schedule is a 2026 object. **\"The harnesses became actors\"** is a thesis; an enumeration of five products is not. Recommend building the piece on that shift and using the chart as evidence rather than as the destination.\n\n**RESEARCH GAP.** Needs the five harnesses named and their remote-execution and scheduling claims verified against official docs — the same rigor 78500a applied to its command table. Nothing like that exists here yet. This is the second-largest research need on the board.\n\n**Overlap watch.** Scheduling and persistence also appear in 37add6. That story's split already says \"do not retell the comparison chart.\" The converse should be written down too: this piece should not retell the org/hierarchy argument.\n",
+      "created_at": "2026-08-29T13:03:20.133300Z",
+      "comment_type": "default"
+    }
+  ],
   "created_at": "2026-08-29T05:46:09.867164Z",
-  "updated_at": "2026-08-29T05:47:07.863076Z",
+  "updated_at": "2026-08-29T13:03:20.133300Z",
   "closed_at": null,
   "custom": {}
 }

@@ -16,36 +16,39 @@
       "author": "box",
       "text": "Researcher handed ownership 2026-08-29. Cites are in stories/ANTH-f10464dd-9505-4b33-910c-62ffe62f8c8f/research.md. More notes incoming.",
       "created_at": "2026-08-29T06:37:31.483255Z",
-      "comment_type": "default",
-      "data": {}
+      "comment_type": "default"
     },
     {
       "id": "1a33c4bb-85ca-4ef2-85a6-007ed9ef7201",
       "author": "box",
       "text": "Ryan editorial shape: spine is Plexus, AlphaEvolve, Autoresearch. Then generalize. Cousin catalog is optional color, not the open.",
       "created_at": "2026-08-29T06:39:45.364913Z",
-      "comment_type": "default",
-      "data": {}
+      "comment_type": "default"
     },
     {
       "id": "079bad8e-fbcf-4434-a6a5-808167237d78",
       "author": "box",
       "text": "Ryan: also a public brag. Same hill-climb loop on a privacy scanning tool for a privacy/security client. Evals vs ground-truth labels. Agent loops. Quantifiable. Do not name the client yet.",
       "created_at": "2026-08-29T06:50:27.211888Z",
-      "comment_type": "default",
-      "data": {}
+      "comment_type": "default"
     },
     {
       "id": "9dedb3fe-0380-4e4e-bbfe-108f95e9bb3c",
       "author": "box",
       "text": "Loop engineering / Ralph /loop /goal is a separate story: 78500a. Do not fold it into this hill-climb piece.",
       "created_at": "2026-08-29T06:51:44.523296Z",
-      "comment_type": "default",
-      "data": {}
+      "comment_type": "default"
+    },
+    {
+      "id": "d5917ad6-9a93-425d-8933-15302f43a710",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\nBest-planned story on the board. Three notes before copy, one of which blocks.\n\n**1. The spine contradicts itself on order.** The assignment says \"start with those trusted names as the company, then show Plexus as the same discipline\" — but the numbered list puts Plexus at #1. Those are different articles. Opening with our own product is a brochure; opening with AlphaEvolve and Autoresearch borrows credibility and then spends it on Plexus. Recommend fixing the list order to match the instruction so the copywriter is not guessing.\n\n**2. The thesis is sitting in the optional bin.** Three \"optional color\" cites all say the same thing, and it is a better thesis than the one in the assignment:\n- Bonetto: 63 of 73 hypotheses were wrong. \"The verifier is the product.\"\n- Cisco FAPO: after climb 2 they admitted the rest was retrieval, which a prompt cannot fix.\n- PromptLayer: they refused an \"improved\" prompt at 84.4% vs the 88.6% incumbent.\n\nThe loop is easy. The metric is the hard part. That is the piece's real argument and it is currently filed as color. Recommend promoting one line of it into the spine — it also makes Plexus's classifier-DSL-plus-root-cause-diagnosis the answer to a problem the reader now feels, rather than a feature.\n\n**3. Every spine example is a win.** All-wins reads as marketing. FAPO's \"retrieval, which a prompt cannot fix\" is the honest counterweight and is already cited. One paragraph on when hill-climbing stops working would make the whole piece more credible, not less.\n\n**BLOCKED — needs Ryan.** The client brag is currently unwritable: do not name the client, do not invent numbers. That leaves \"we improved an unnamed tool for an unnamed client by an unspecified amount,\" which is not a brag. Need one of: (a) clearance to name the client, (b) clearance for one real number, or (c) permission to describe the method concretely and drop the outcome claim. Pick one before copywriting starts.\n\n**Research: none needed.** The pack is strong. Cleared to advance to `report`.\n",
+      "created_at": "2026-08-29T13:01:58.626080Z",
+      "comment_type": "default"
     }
   ],
   "created_at": "2026-08-29T06:36:53.437949Z",
-  "updated_at": "2026-08-29T06:51:44.523296Z",
+  "updated_at": "2026-08-29T13:01:58.626080Z",
   "closed_at": null,
   "custom": {}
 }

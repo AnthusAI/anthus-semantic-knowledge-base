@@ -10,9 +10,17 @@
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "2094cab4-77a5-4d20-bc74-f0f39333846a",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\n**State is not what the board says.** This sits at `assignment` next to stories nobody has written, but it is a finished draft, live as DRAFT at /blog/rubrics-for-ai-alignment/. It needs a proofread and Ryan's approval, not a plan. Do not re-pitch it.\n\n**It is the front of the queue.** P1, and the idea names it as next after The Content Paradox, which shipped 2026-08-28. Nothing else on the board is closer to publishable.\n\n**Verify one claim harder than the rest.** \"A 30B model beat a 671B model on open-ended benchmarks with rubric-anchored training\" is specific, impressive, and load-bearing. Before DRAFT comes off, confirm the primary source, the benchmark name, and both model identities. If that number is soft, the headline claim goes with it.\n\n**No further research needed.** This is verification and a human approval gate.\n",
+      "created_at": "2026-08-29T13:01:34.252764Z",
+      "comment_type": "default"
+    }
+  ],
   "created_at": "2026-08-29T05:46:10.206488Z",
-  "updated_at": "2026-08-29T05:47:09.034423Z",
+  "updated_at": "2026-08-29T13:01:34.252764Z",
   "closed_at": null,
   "custom": {}
 }

@@ -16,12 +16,18 @@
       "author": "box",
       "text": "Asked Researcher (3d375184) for: Ralph-loop explainer + namesake; /loop /goal in Claude Code, Cursor, Codex, Antigravity; funny cousins.",
       "created_at": "2026-08-29T06:53:29.409416Z",
-      "comment_type": "default",
-      "data": {}
+      "comment_type": "default"
+    },
+    {
+      "id": "2c20a2d7-62a6-44ae-b8d5-cbb757783f7c",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\nBest-researched story here, weakest assignment. The research already contains the article; nobody has written it into the plan.\n\n**The assignment is a topic, not a story.** \"Name the trend, Ralph is the hook, cover /loop and /goal\" produces a listicle. But research.md's own Distinction section is a genuinely good spine:\n\n> Ralph = same prompt, fresh context, files/git as memory, loop until done.\n> Product `/goal` = keep this session going until a condition.\n> Product `/loop` = re-run on an interval.\n> Cousins, not the same command.\n\nThat is the piece: **the industry shipped three different verbs and called them all Ralph.** VentureBeat already framed it as \"a tale of two Ralphs,\" so the confusion is real, public, and worth clearing up. Recommend writing that into assignment.md before copy.\n\n**The name correction is a real beat, not a footnote.** Ryan said Wiggins; it is Wiggum; Wiggum was himself named after Ralph Kramden. And Huntley never wrote the \"he fails and tries again\" gloss — later writers added it. A term whose folklore accreted meaning it never had, in a piece about a term whose meaning got muddied. Use it.\n\n**Make the funny material structural.** repomirror's agent that pkill'd itself. 1,966 iterations of the same question. `/cancel-ralph` being ignored (issue #65). Huntley's own \"you'll wake up to a broken codebase that doesn't compile.\" That is the cost section. A loop-engineering piece with no failure section is irresponsible, and this one already has the material.\n\n**Shelf life.** The command table is the fastest-rotting thing on this board. Cursor's `/goal` is explicitly \"Rolling out.\" Codex has no `/loop`. Recheck the whole table immediately before publish, not now.\n\n**Research: none needed.** Status is behind the artifacts — `assignment` but research.md exists. Should walk to `research` then `report`.\n",
+      "created_at": "2026-08-29T13:01:58.636241Z",
+      "comment_type": "default"
     }
   ],
   "created_at": "2026-08-29T06:51:29.505390Z",
-  "updated_at": "2026-08-29T06:53:29.409416Z",
+  "updated_at": "2026-08-29T13:01:58.636241Z",
   "closed_at": null,
   "custom": {}
 }

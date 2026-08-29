@@ -10,9 +10,17 @@
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "ffa25c2b-4f59-497c-a9fc-e676b97f683d",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\nClear premise and audience. It is also the fastest-rotting piece on the board, and that should shape how it is written.\n\n**1. Write it so it degrades gracefully.** This is built entirely on prices, quota buckets, and plan structures across Antigravity, Cursor, and Grok Bot — every one of which will change. The idea already says recheck before publish. Stronger version: **put the durable principle in the prose and quarantine the volatile numbers in a clearly dated table.** Then when the plans move, one table is stale instead of the whole article. Without that, this piece is wrong within a month and stays wrong.\n\n**2. The title is a rule; the article should teach the reason.** \"Never Use Fast\" is a good hook and a bad thesis if left unexplained. The actual argument is *you are buying latency you do not need with tokens you do.* A reader who learns the reasoning can re-derive the answer when the plans change. A reader who only learns the rule is stranded the moment it stops being true.\n\n**3. Companion discipline.** It is the how-to for \"Maximize Value, Not Intelligence.\" Link the parent, do not re-argue it.\n\n**Verification, deliberately late.** The Anth.us repo already carries a committed claim that Grok Bot quota is calendar-month aligned rather than billing-cycle aligned — exactly the kind of specific, checkable, short-lived fact this piece runs on. Do the pricing and quota sweep as **late as possible** before publish. Doing it now is wasted work; it will need redoing.\n\n**Research: yes, but not yet.** Schedule the sweep against the publish date, not against today.\n",
+      "created_at": "2026-08-29T13:03:20.142082Z",
+      "comment_type": "default"
+    }
+  ],
   "created_at": "2026-08-29T05:46:09.523439Z",
-  "updated_at": "2026-08-29T05:47:07.427225Z",
+  "updated_at": "2026-08-29T13:03:20.142082Z",
   "closed_at": null,
   "custom": {}
 }

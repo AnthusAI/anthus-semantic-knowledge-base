@@ -10,9 +10,17 @@
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "bce812b2-a8ae-41d1-b416-e93ded9a6c6f",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\nDeliberately parked until Sep 3 — respect that, this is not a copywriting target today. Four notes for when it reopens.\n\n**1. Keep the 4:13 Friday lede.** \"The research bot started reporting bugs to the software director\" is a scene, not a feature list, and it is the strongest opening on this board. Whatever else changes, that survives.\n\n**2. A split is already marked in the draft and nobody has decided it.** The heading `## Same job, different friction (→ second article)` says someone intends part of this to move to da430a. da430a's idea independently says \"chart may move here from the Grok Bot review.\" Both stories currently believe they might own the comparison chart, which means **neither can go to copy until this is settled.** It blocks two stories, not one.\n\n**3. Bigger overlap: this draft is doing 37add6's job.** \"The chat became a control room\" and the whole software-director / researcher-as-client sequence *is* 37add6's thesis. The split says this piece is field notes and 37add6 is the concept piece, but the draft has already crossed that line. Decide who owns the agent-org insight. The cleanest version is probably: this piece keeps the scenes, 37add6 keeps the argument, and this one links forward.\n\n**4. The piece is very positive and should say what it cost.** The idea notes bias-against-Musk-ventures as the honest starting point, which is good. The counterweight material is already in the draft — the crash, the recovery, the fact that the disk survived and the conversation did not. Keep that prominent. Also worth stating plainly: three days is not a week, and the title promises a week.\n\n**Research: none.** Needs elapsed time and two ownership decisions.\n",
+      "created_at": "2026-08-29T13:03:20.122745Z",
+      "comment_type": "default"
+    }
+  ],
   "created_at": "2026-08-29T05:46:09.179326Z",
-  "updated_at": "2026-08-29T05:47:07.001349Z",
+  "updated_at": "2026-08-29T13:03:20.122745Z",
   "closed_at": null,
   "custom": {}
 }

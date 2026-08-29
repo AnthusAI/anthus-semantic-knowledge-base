@@ -16,28 +16,39 @@
       "author": "box",
       "text": "Split: this story is EaC intro only. Hill-climbing / Plexus is f10464.",
       "created_at": "2026-08-29T06:37:31.772372Z",
-      "comment_type": "default",
-      "data": {}
+      "comment_type": "default"
     },
     {
       "id": "4c22d48d-c28f-4b5d-bba3-e13875862670",
       "author": "box",
       "text": "EaC family now has three: this intro (0bf71a), hill-climb f10464, Kanbus-as-PM 864e95.",
       "created_at": "2026-08-29T06:45:06.456532Z",
-      "comment_type": "default",
-      "data": {}
+      "comment_type": "default"
     },
     {
       "id": "42628077-ec8d-4cad-82eb-6b1e08fa89bb",
       "author": "box",
       "text": "Ryan 2026-08-29: Kanbus piece (864e95) will link here. That article also uses Papyrus as a second EaC example. This story stays the EaC intro.",
       "created_at": "2026-08-29T11:29:42.145430Z",
-      "comment_type": "default",
-      "data": {}
+      "comment_type": "default"
+    },
+    {
+      "id": "572f270b-284c-482d-b3bf-ce5df0ddf46d",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\nNo assignment yet, and this may be the keystone article on the board. Four notes.\n\n**1. The title names the example; the idea has a better one.** \"Make the world into source a runtime can reject\" is the whole of everything-as-code in eight words, and it is already sitting in the pitch. That is the title candidate and the opening line. \"DeckBot as everything-as-code example\" describes a work order, not an article.\n\n**2. This is probably the keystone, and it should ship early.** \"Source a runtime can reject\" is the premise underneath at least three other stories:\n- f10464 hill-climbing works because something can score and reject a version\n- 864e95 Kanbus works because issues are a schema a validator can reject\n- 4f3e30 the wiki piece works because a dumb checker can reject a bad page\n\nIf this ships first, all three can link it instead of re-explaining it. It currently has the least planning done of any story here. Worth reconsidering the order.\n\n**3. The rewrite will fight itself.** DeckBot was the *point* of the Nov 2025 article and is now demoted to one example. A rewrite that keeps the old scaffolding will keep arguing the old thesis underneath the new one. Recommend writing the new spine cold — Marp/slides, Terraform, Playwright as three instances of the same move — and dropping DeckBot in as one of them, rather than editing the existing draft top to bottom. Decide this before anyone opens the file.\n\n**4. Write the assignment first.** The idea says \"needs rewrite, not a proofread,\" but nobody has written down what the new spine is. That is the actual next step, not copywriting.\n\n**Research: none needed.** Needs an assignment and a rewrite-vs-restart decision.\n",
+      "created_at": "2026-08-29T13:02:50.634886Z",
+      "comment_type": "default"
+    },
+    {
+      "id": "29a6f1a3-d7ff-4bca-b80b-62bbfeee947d",
+      "author": "ryan",
+      "text": "## Rewrite delivered 2026-08-29 — for Sol's review\n\nFull rewrite of `Anth.us/src/blog/everything-as-code-integration.mdx`. **Uncommitted on `develop`** so the diff is reviewable: 111 insertions, 194 deletions, 1,885 -> 1,807 words. MDX compiles (verified against `@mdx-js/mdx` + `remark-gfm`).\n\n### First: the article was already public\n\n`state: draft` does not gate publication. `gatsby-node.js` `createPages` builds a page for every MDX under `src/blog` with no state filter; only the homepage listings filter on `state: { eq: \"published\" }`. The old draft has been live and crawlable at https://anth.us/blog/everything-as-code-integration/ — unlisted, wearing a DRAFT banner, with three literal `[Diagram of...]` placeholder boxes visible on the page. Worth knowing as a general repo hazard, not just for this story.\n\n### What changed and why\n\n**Title.** \"DeckBot: AI presentation assistant\" -> \"Everything as Code: Source a Runtime Can Reject\". Title, slug, and body previously disagreed about the subject; the slug was already right, so it is unchanged and inbound links survive. Date held at 2025-11-30 per Ryan.\n\n**New spine: the rejecter.** The old draft said \"validate\" a dozen times without landing why it matters. The thesis is now explicit and load-bearing: the value is not that a model can read your system, it is that something can *refuse* what the model writes before it lands. Rejection is the reason the pattern works, not a safety feature bolted on.\n\n**Opens on `/proc`.** Best asset in the old draft, previously buried two-thirds down. Now the lede — kernel state rendered as text so every existing tool works on it.\n\n**Three instances of one move**, as a table: Terraform/HCL/`plan`, Playwright/spec/test run, Marp/Markdown/compiler. DeckBot demoted from the frame to the worked version of the third.\n\n**Replaced a placeholder with real evidence.** The promised before/after now exists: an actual AWS `describe-security-groups` JSON blob against the equivalent Terraform resource. Crucially the section argues *against* the token-compression framing — `\"protocol\": \"tpc\"` is accepted by the API and becomes a downstream incident; `protocol = \"tpc\"` is refused by `terraform validate`. Same typo, two failure modes. That is the point; brevity is the smaller prize.\n\n**Fixed a false claim.** The old draft asserted DSLs \"make hallucinations impossible by construction.\" That is wrong and would have been dunked on. It is now a named failure mode, \"Confusing valid with correct\": a grammar constrains form, not truth — valid HCL can reference a nonexistent subnet, flawless SQL can hit a renamed table.\n\n**DeckBot section rewritten from scratch.** The old one was pasted README (Features bullets, BDD subsection). BDD is kept but repurposed: a `.feature` file is source and `behave` is its rejecter, which is the article's own thesis applied to the project's behavior. The NotebookLM contrast survived because it is a real argument about editability.\n\n**\"Anthus OS\" -> \"The Anthus Platform\"** (3 occurrences, previously inconsistent), per Ryan.\n\n**Cut:** all three placeholder boxes (the `placeholder-box` CSS class was used by no other article), both pure-noun filler lists, the anaphora block, the seven-item bolded virtue list, and the \"This is not configuration / This is cognitive infrastructure\" ending. Ends on \"Build the rejecter first.\"\n\n**Added a fifth failure mode** — \"assuming validation is free\" — because the rejecter is the actual deliverable and underfunding it is the most common way this pattern fails in practice.\n\n### Open questions for Sol\n\n1. **Hero image.** The only assets are DeckBot-branded. A DeckBot hero on an article that just demoted DeckBot re-creates the confusion we removed, so the piece now opens on the `/proc` code block and the hero moved into the DeckBot section. This breaks the house pattern of a centered image at top. Deliberate, and reversible — but a purpose-made hero would be better than either option. `preview_image` still points at the DeckBot asset for social cards.\n2. **Backdating exposure.** Held at 2025-11-30, so nothing post-dating that is referenced. Sol should sanity-check that the Terraform/Playwright/Marp/Nano Banana claims are all defensible as of Nov 2025.\n3. **`state` is still `draft`.** Deliberately not flipped — going live is Ryan's call plus a merge to `main`, not something to do inside a rewrite.\n4. Nano Banana is linked to the Imagen page; the old draft said \"Nano Banana Pro 2\" in one place and \"Nano Banana (Google Imagen)\" in another. Worth a naming check.\n",
+      "created_at": "2026-08-29T13:20:21.472440Z",
+      "comment_type": "default"
     }
   ],
   "created_at": "2026-08-29T05:46:10.537589Z",
-  "updated_at": "2026-08-29T11:29:42.145430Z",
+  "updated_at": "2026-08-29T13:20:21.472440Z",
   "closed_at": null,
   "custom": {}
 }

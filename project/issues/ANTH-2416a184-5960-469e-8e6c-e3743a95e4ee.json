@@ -10,9 +10,17 @@
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "e8eb11d0-a3da-4968-aad8-b0365eb09ae3",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\nShipped 2026-08-29. No copywriting work here. Two notes so it stays useful on the board.\n\n**Its remaining value is as a link target.** Bugonomics is the security companion to the cost-collapse piece, and several unshipped stories should be pointing at it. Notably 37add6's \"links to existing work\" list names Never Use Fast and Maximize Value but **not** this or The Content Paradox. Worth a pass across the in-flight stories to make sure recently shipped work is being linked rather than re-argued.\n\n**Board hygiene.** It sits at `idea`, which reads as \"not started\" — the exact opposite of true. It cannot reach `published` without walking every gate and writing every artifact, so the mismatch is permanent unless the story is closed. Fine to leave, but a copywriter scanning the board should not mistake this for an unwritten pitch.\n",
+      "created_at": "2026-08-29T13:03:37.411045Z",
+      "comment_type": "default"
+    }
+  ],
   "created_at": "2026-08-29T05:46:11.226563Z",
-  "updated_at": "2026-08-29T05:46:11.226563Z",
+  "updated_at": "2026-08-29T13:03:37.411045Z",
   "closed_at": null,
   "custom": {}
 }

@@ -10,9 +10,17 @@
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
-  "created_at": "2026-08-29T11:30:35.479000Z",
-  "updated_at": "2026-08-29T11:30:35.479000Z",
+  "comments": [
+    {
+      "id": "21831767-217d-42af-88cc-61e27ced9d96",
+      "author": "ryan",
+      "text": "## Editorial pass 2026-08-29\n\nGood villain, good spine, plain language. Four notes and one research gap.\n\n**1. The pitch is six claims in one 150-word block.** It reads as a manifesto, not a lede. But those six claims are a clean outline:\n1. Files a person can open, not a pile an agent searches\n2. Agent pages are drafts until a person accepts them\n3. Replaced facts get marked dead; the trail survives\n4. The wiki is not proof; the source is\n5. Attested numbers — the agent may fill in the year, not change the recipe\n6. A dumb checker, not another AI\n\nRecommend one section per claim rather than one paragraph containing all six.\n\n**2. The strongest claim is buried at #6.** \"A dumb checker, not another AI\" is the line that gets quoted, because the reasoning is airtight and slightly counterintuitive: you cannot use the unreliable thing to check the unreliable thing. Consider promoting it.\n\n**3. OKF hands you the reason to exist, in one sentence.** \"The format records how to check and never runs.\" That is precisely the hole Papyrus fills. It should be load-bearing, not a research note.\n\n**4. The failure mode nobody has warned the copywriter about.** This is the one story where the article and an unbuilt product roadmap (PPY-964472) are the same idea. Both the idea and the assignment say plan-only, twice — good discipline about *shipping code*. But the risk at the keyboard is different: the copywriter may describe behavior that does not exist yet. This must be written as a position (\"a knowledge base should be able to say this is dead\") and never as a product tour (\"Papyrus marks pages dead\"). That is not currently stated anywhere and it is the most likely way this piece goes wrong.\n\n**RESEARCH GAP.** TrajWiki, C-Unseen, and the anti-patterns (WikiSkill / SCALE / KBevo) are named in research.md with **no URLs**. OKF has a primary; these do not. If the article cites them by name it needs primaries first. Ask Researcher for those specific sources.\n\n**Title.** \"A wiki that only gets bigger\" names the villain, which is memorable. The thesis — a knowledge base must be able to say \"this is dead\" — is arguably stronger. A choice, not a defect.\n\n**Status is behind the artifacts:** sits at `idea` with assignment.md and research.md present.\n",
+      "created_at": "2026-08-29T13:02:25.215760Z",
+      "comment_type": "default"
+    }
+  ],
+  "created_at": "2026-08-29T11:30:35.479Z",
+  "updated_at": "2026-08-29T13:02:25.215760Z",
   "closed_at": null,
   "custom": {}
 }
