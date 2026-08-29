@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "event_id": "4ecd3967-e8df-4a0c-9f2d-5b0958d752ae",
+  "issue_id": "ANTH-37add672-9ba9-41ff-8aea-8720bf5f7847",
+  "event_type": "state_transition",
+  "occurred_at": "2026-08-29T13:57:06.245Z",
+  "actor_id": "ryan",
+  "payload": {
+    "from_status": "assignment",
+    "to_status": "research"
+  }
+}
