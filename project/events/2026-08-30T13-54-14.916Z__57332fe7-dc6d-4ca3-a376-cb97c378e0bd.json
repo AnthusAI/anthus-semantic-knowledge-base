@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event_id": "57332fe7-dc6d-4ca3-a376-cb97c378e0bd",
+  "issue_id": "ANTH-629b47a0-c679-43ec-9cf6-c97f2e758ffd",
+  "event_type": "field_updated",
+  "occurred_at": "2026-08-30T13:54:14.916Z",
+  "actor_id": "home",
+  "payload": {
+    "changes": {
+      "labels": {
+        "from": [],
+        "to": [
+          "needs-proofread"
+        ]
+      },
+      "title": {
+        "from": "A week with Grok Bot",
+        "to": "Grok Bot Gave My Coding Agents a Boss"
+      }
+    }
+  }
+}

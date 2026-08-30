@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event_id": "724b66fe-ddd2-49c7-a6bf-3a8e5f15945b",
+  "issue_id": "ANTH-46e0579c-a6da-4db8-a180-81f288f1e8f3",
+  "event_type": "field_updated",
+  "occurred_at": "2026-08-30T13:54:15.018Z",
+  "actor_id": "home",
+  "payload": {
+    "changes": {
+      "labels": {
+        "from": [],
+        "to": [
+          "needs-proofread"
+        ]
+      },
+      "title": {
+        "from": "The Content Paradox",
+        "to": "The Content Paradox: Why Making AI Writing Easier Makes the Internet Worse"
+      }
+    }
+  }
+}

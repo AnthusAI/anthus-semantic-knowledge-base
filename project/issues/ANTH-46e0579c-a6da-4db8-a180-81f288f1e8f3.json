@@ -1,6 +1,6 @@
 {
   "id": "ANTH-46e0579c-a6da-4db8-a180-81f288f1e8f3",
-  "title": "The Content Paradox",
+  "title": "The Content Paradox: Why Making AI Writing Easier Makes the Internet Worse",
   "description": "Published 2026-08-28. https://anth.us/blog/jevons-paradox-ai-slop/",
   "type": "story",
   "status": "idea",
@@ -8,19 +8,23 @@
   "assignee": null,
   "creator": null,
   "parent": null,
-  "labels": [],
+  "labels": [
+    "needs-proofread"
+  ],
   "dependencies": [],
   "comments": [
     {
       "id": "a26049d0-d2a0-47ea-ad8d-674798dba6e2",
       "author": "ryan",
       "text": "## Editorial pass 2026-08-29\n\nShipped 2026-08-28. No copywriting work here. Two notes so it stays useful on the board.\n\n**Its remaining value is as a link target.** The Jevons argument — cheaper generation explodes volume, not quality — is upstream of several unshipped stories, and it is the natural thing to point at rather than re-argue. It is currently missing from 37add6's links list. Worth a sweep across in-flight stories for the same omission.\n\n**Board hygiene.** Sits at `idea`, which reads as \"not started\" and is the opposite of true. Same permanent mismatch as Bugonomics: reaching `published` would mean walking every gate and writing every artifact. Fine to leave parked, but do not let it read as an open pitch.\n\n**One editorial note if it is ever revised:** this piece and 8bde91 (Never Use Fast) are arguing adjacent economics from opposite ends — one about the cost of generation collapsing, one about spending the savings well. If a third economics piece ever gets pitched, check it is not a third telling of the same Jevons argument.\n",
-      "created_at": "2026-08-29T13:03:37.421927Z",
-      "comment_type": "default"
+      "created_at": "2026-08-29T13:03:37.421927Z"
     }
   ],
   "created_at": "2026-08-29T05:46:10.885445Z",
-  "updated_at": "2026-08-29T13:03:37.421927Z",
+  "updated_at": "2026-08-30T13:54:15.016053Z",
   "closed_at": null,
-  "custom": {}
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "id": "ANTH-0b6e8bb1-8286-4a4b-a479-5f849056e720",
+  "title": "Maximize Value, Not Intelligence",
+  "description": "Published article requiring retrospective proofreading, factual review, and explicit editorial approval. Publication does not imply review completion.",
+  "type": "story",
+  "status": "idea",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [
+    "needs-proofread"
+  ],
+  "dependencies": [],
+  "comments": [],
+  "created_at": "2026-08-30T13:54:03.548641Z",
+  "updated_at": "2026-08-30T13:54:03.548641Z",
+  "closed_at": null,
+  "custom": {}
+}

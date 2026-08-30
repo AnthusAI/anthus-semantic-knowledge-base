@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "629ed2d0-3201-49fd-8b97-2de0168e09e1",
+  "issue_id": "ANTH-ecc2ae03-9cd2-4bbd-a495-f6e311e34d93",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-30T13:53:59.792Z",
+  "actor_id": "home",
+  "payload": {
+    "assignee": null,
+    "description": "Published article requiring retrospective proofreading, factual review, and explicit editorial approval. Publication does not imply review completion.",
+    "issue_type": "story",
+    "labels": [
+      "needs-proofread"
+    ],
+    "parent": null,
+    "priority": 2,
+    "status": "idea",
+    "title": "The Year Coding Became a Commodity"
+  }
+}

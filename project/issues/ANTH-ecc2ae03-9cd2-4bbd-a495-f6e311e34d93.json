@@ -1,0 +1,20 @@
+{
+  "id": "ANTH-ecc2ae03-9cd2-4bbd-a495-f6e311e34d93",
+  "title": "The Year Coding Became a Commodity",
+  "description": "Published article requiring retrospective proofreading, factual review, and explicit editorial approval. Publication does not imply review completion.",
+  "type": "story",
+  "status": "idea",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [
+    "needs-proofread"
+  ],
+  "dependencies": [],
+  "comments": [],
+  "created_at": "2026-08-30T13:53:59.787334Z",
+  "updated_at": "2026-08-30T13:53:59.787334Z",
+  "closed_at": null,
+  "custom": {}
+}

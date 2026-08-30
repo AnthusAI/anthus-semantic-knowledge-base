@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "6c5753de-13c4-405a-823d-07bfa96f5c77",
+  "issue_id": "ANTH-0b6e8bb1-8286-4a4b-a479-5f849056e720",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-30T13:54:03.550Z",
+  "actor_id": "home",
+  "payload": {
+    "assignee": null,
+    "description": "Published article requiring retrospective proofreading, factual review, and explicit editorial approval. Publication does not imply review completion.",
+    "issue_type": "story",
+    "labels": [
+      "needs-proofread"
+    ],
+    "parent": null,
+    "priority": 2,
+    "status": "idea",
+    "title": "Maximize Value, Not Intelligence"
+  }
+}
