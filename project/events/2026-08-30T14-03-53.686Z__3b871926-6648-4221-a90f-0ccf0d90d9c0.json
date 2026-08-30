@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "event_id": "3b871926-6648-4221-a90f-0ccf0d90d9c0",
+  "issue_id": "ANTH-8bde91e9-0a6c-4781-a220-a2e316806db5",
+  "event_type": "state_transition",
+  "occurred_at": "2026-08-30T14:03:53.686Z",
+  "actor_id": "home",
+  "payload": {
+    "from_status": "report",
+    "to_status": "editor_select"
+  }
+}

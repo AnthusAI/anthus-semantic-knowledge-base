@@ -3,14 +3,12 @@
   "title": "The Content Paradox: Why Making AI Writing Easier Makes the Internet Worse",
   "description": "Published 2026-08-28. https://anth.us/blog/jevons-paradox-ai-slop/",
   "type": "story",
-  "status": "idea",
+  "status": "copywriting",
   "priority": 2,
   "assignee": null,
   "creator": null,
   "parent": null,
-  "labels": [
-    "needs-proofread"
-  ],
+  "labels": [],
   "dependencies": [],
   "comments": [
     {
@@ -21,7 +19,7 @@
     }
   ],
   "created_at": "2026-08-29T05:46:10.885445Z",
-  "updated_at": "2026-08-30T13:54:15.016053Z",
+  "updated_at": "2026-08-30T14:03:54.113641Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",

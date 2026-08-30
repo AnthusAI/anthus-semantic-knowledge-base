@@ -1,0 +1,3 @@
+# Assignment
+
+Retrospective editorial review of the already-published article **The Content Paradox: Why Making AI Writing Easier Makes the Internet Worse**. Proofread the canonical content file at `Anth.us/src/site-content/jevons-paradox-ai-slop.mdx`; verify structure, language, factual claims, links, and executive readability. Publication predates newsroom approval and does not count as review completion.

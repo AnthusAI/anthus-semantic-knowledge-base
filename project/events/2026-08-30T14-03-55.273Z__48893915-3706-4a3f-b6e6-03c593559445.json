@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "48893915-3706-4a3f-b6e6-03c593559445",
+  "issue_id": "ANTH-37add672-9ba9-41ff-8aea-8720bf5f7847",
+  "event_type": "field_updated",
+  "occurred_at": "2026-08-30T14:03:55.273Z",
+  "actor_id": "home",
+  "payload": {
+    "changes": {
+      "labels": {
+        "from": [
+          "review-approved"
+        ],
+        "to": []
+      }
+    }
+  }
+}

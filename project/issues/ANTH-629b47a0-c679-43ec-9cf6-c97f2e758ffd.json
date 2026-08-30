@@ -3,14 +3,12 @@
   "title": "Grok Bot Gave My Coding Agents a Boss",
   "description": "In-progress review notes on develop. Do not ship until after more real use. File: Anth.us src/blog/a-week-with-grok-bot.mdx",
   "type": "story",
-  "status": "assignment",
+  "status": "copywriting",
   "priority": 2,
   "assignee": null,
   "creator": null,
   "parent": null,
-  "labels": [
-    "needs-proofread"
-  ],
+  "labels": [],
   "dependencies": [],
   "comments": [
     {
@@ -21,7 +19,7 @@
     }
   ],
   "created_at": "2026-08-29T05:46:09.179326Z",
-  "updated_at": "2026-08-30T13:54:14.914115Z",
+  "updated_at": "2026-08-30T14:03:53.411694Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",

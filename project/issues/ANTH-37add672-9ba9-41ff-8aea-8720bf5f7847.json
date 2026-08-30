@@ -8,9 +8,7 @@
   "assignee": null,
   "creator": null,
   "parent": null,
-  "labels": [
-    "review-approved"
-  ],
+  "labels": [],
   "dependencies": [],
   "comments": [
     {
@@ -87,7 +85,7 @@
     }
   ],
   "created_at": "2026-08-29T12:31:25.440250Z",
-  "updated_at": "2026-08-30T13:54:15.125454Z",
+  "updated_at": "2026-08-30T14:03:55.271114Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",

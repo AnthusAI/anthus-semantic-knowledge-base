@@ -3,14 +3,12 @@
   "title": "Bugonomics: The Flip Side of Cheap Coding",
   "description": "Published 2026-08-29. https://anth.us/blog/bugonomics-cheap-exploits-2026/",
   "type": "story",
-  "status": "idea",
+  "status": "copywriting",
   "priority": 2,
   "assignee": null,
   "creator": null,
   "parent": null,
-  "labels": [
-    "needs-proofread"
-  ],
+  "labels": [],
   "dependencies": [],
   "comments": [
     {
@@ -21,7 +19,7 @@
     }
   ],
   "created_at": "2026-08-29T05:46:11.226563Z",
-  "updated_at": "2026-08-30T13:54:15.070980Z",
+  "updated_at": "2026-08-30T14:03:54.458987Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",
