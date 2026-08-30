@@ -1,14 +1,14 @@
 # From pair programmer to executive
 
-The bug report did not come to me.
+I didn’t even hear about the bug until after it was fixed.
 
 A Researcher agent found a problem and reported it to a Software Director agent. The director recorded the problem, assigned coding agents to work on separate parts of it in parallel, reviewed what they returned, rejected work that did not meet its requirements, combined the accepted changes, and delivered the result back to the Researcher. The Researcher checked whether the original problem had actually been solved and, when it had not, sent it back around the loop.
 
 I had defined those roles. Early on, I sometimes told one agent to consult another. But I was no longer copying every message, tracking every coding session, or personally moving the work through every handoff. The agents had started collaborating through the responsibilities I gave them.
 
-That is the part I am still trying to get my head around.
+That’s the part I’m still trying to get my head around.
 
-The surprising thing is no longer that an agent can write code. It is that one piece of software can supervise the work of other pieces of software.
+What surprised me wasn’t that an agent could write code. It was watching one piece of software supervise another.
 
 ## Kanbus organized the work. It did not manage it
 
@@ -20,7 +20,7 @@ But Kanbus organized the work; it did not manage it.
 
 It did not read the code and form an opinion. It did not decide that a test result was inadequate, reject a change because the documentation was missing, or determine which specialist should take the next step. Those decisions still belonged to me.
 
-For me, more than three or four active agent conversations became confusing. That is not a universal limit. It is an observation about my own attention, made worse by moving among Codex, Claude Code, Cursor, cloud agents, local agents, different computers, and whichever sessions happened to be pinned in each application. I was carrying information between conversations and remembering which tab in which product connected to which workstream.
+Once I had more than three or four agent conversations going at once, I started losing track. That is not a universal limit. It is an observation about my own attention, made worse by moving among Codex, Claude Code, Cursor, cloud agents, local agents, different computers, and whichever sessions happened to be pinned in each application. I was copying information between conversations and trying to remember which tab belonged to which project.
 
 The answer was not a faster model. It was management.
 
@@ -72,11 +72,11 @@ flowchart TB
     D -->|"assigns and reviews work"| B4
 ```
 
-Nothing magical happened to the workers in the second diagram. The change is in who has to remain inside every operational exchange.
+The coding agents didn’t suddenly get smarter in the second diagram. The difference is that I don’t have to sit inside every conversation.
 
 The human still chooses what matters. The human defines the roles, the boundaries, and the acceptance requirements. The human remains responsible for the consequences. But the human no longer has to notice that a test suite finished, switch back to the correct tab, interpret the result, decide on the next iteration, and restart the work every time.
 
-That attention gap is larger than it sounds. Some agent tasks take hours, but many return in a few minutes and larger ones often take 20 or 30 minutes, depending on the test suite. When I run the loop myself, completed work waits until I have attention available. An agent manager can make the next decision as soon as the evidence appears.
+That delay sounds small, but it adds up fast. Some agent tasks take hours, but many return in a few minutes and larger ones often take 20 or 30 minutes, depending on the test suite. When I run the loop myself, completed work waits until I have attention available. An agent manager can make the next decision as soon as the evidence appears.
 
 Here is the shape of the loop without any product names:
 
@@ -95,7 +95,7 @@ sequenceDiagram
     R-->>D: checks the fix or sends it back
 ```
 
-My current example happens to be [Grok Bot](/blog/a-week-with-grok-bot/), with a local Software Director coordinating Cursor sessions on my Mac. The director could run in the cloud; I prefer the local machine for reasons I discuss in those field notes. Grok Bot is a glimpse of this operating model, not its final form and not the only way it will work.
+Right now, I’m doing this with [Grok Bot](/blog/a-week-with-grok-bot/) and a local Software Director that coordinates Cursor sessions on my Mac. The director could run in the cloud; I prefer the local machine for reasons I discuss in those field notes. Grok Bot is a glimpse of this operating model, not its final form and not the only way it will work.
 
 ## Two 2026 trends met here
 
@@ -105,7 +105,7 @@ First, coding agents became much better at long-running work. They can continue 
 
 Second, high-quality coding became cheaper. In my own work, Composer 2.5 is inexpensive enough that I can keep a development farm working throughout the day and night without treating every model call as a budget decision. That is my current operating posture, not a promise about anyone else's plan or future pricing.
 
-Either trend by itself is insufficient. Cheap agents that stop at every decision leave the human carrying every handoff. Long-running agents that are prohibitively expensive remain impressive demonstrations. Cheap, capable, long-running agents make a persistent software organization possible.
+Neither change would have been enough on its own. Cheap agents that stop at every decision leave the human carrying every handoff. Long-running agents that are prohibitively expensive remain impressive demonstrations. Cheap, capable, long-running agents make a persistent software organization possible.
 
 This is where Jevons Paradox appears. When a useful resource becomes cheaper, we often consume much more of it. One coding session becomes four. A task that was not worth starting becomes worth attempting. A reviewer rereads the workers' output. Total AI usage can rise precisely because each unit of usage became cheaper and useful in more places.
 
@@ -115,19 +115,19 @@ The scarce resource is increasingly human attention: deciding what deserves work
 
 ## This category is escaping the lab
 
-The urge to build an always-available personal agent did not begin with Grok Bot. OpenClaw is the most vivid prior example: powerful, flexible, difficult, and willing to operate close to the edge of what many people would consider comfortable. Its [own introduction](https://openclaw.ai/blog/introducing-openclaw) says it runs on the user's machine and acts through chat applications, while acknowledging that prompt injection remains a security problem. That makes it useful prior art and a useful warning.
+Grok Bot isn’t the first attempt at an always-available personal agent. OpenClaw is the most vivid prior example: powerful, flexible, difficult, and willing to operate close to the edge of what many people would consider comfortable. Its [own introduction](https://openclaw.ai/blog/introducing-openclaw) says it runs on the user's machine and acts through chat applications, while acknowledging that prompt injection remains a security problem. That makes it useful prior art and a useful warning.
 
 The project's rapid sequence of names reads like a compressed history of the category: [Warelay](https://github.com/openclaw/openclaw/commit/16dfc1a5b929), [CLAWDIS or Clawdis](https://github.com/openclaw/openclaw/commit/a27ee2366ebfa366ee960e567f72f97fe63085d9), [Clawdbot](https://github.com/openclaw/openclaw/commit/246adaa1191438b9e9e178384a026b4c123782f1), [Moltbot](https://techcrunch.com/2026/01/27/everything-you-need-to-know-about-viral-personal-ai-assistant-clawdbot-now-moltbot/), and finally [OpenClaw](https://openclaw.ai/blog/introducing-openclaw). [“Clawd” was the assistant character](https://docs.openclaw.ai/start/lore), not another name for the runtime.
 
 Now the major platforms are absorbing the idea. Microsoft describes [Scout](https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/) as an always-on system powered by OpenClaw, with governed access and human signoff. Google describes the next Gemini app, including [Gemini Spark](https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/), as proactive and available around the clock.
 
-These products are not equivalent, and they do not prove that any particular implementation is safe or mature. They do show that persistent agents which act, coordinate, and return with results are becoming a product category rather than a hobbyist stunt.
+These products aren’t all the same, and their existence doesn’t prove that any of them is safe or mature. They do show that persistent agents which act, coordinate, and return with results are becoming a product category rather than a hobbyist stunt.
 
 ## A confidently wrong manager is still wrong
 
-The company metaphor is useful until it is not.
+Of course, these agents aren’t actually employees.
 
-Agents do not have tenure, ambitions, incentives, dissatisfaction, professional pride, or legal accountability. Calling one of them a Software Director does not grant it judgment by title. The name only helps define its responsibilities, its tools, the evidence it must demand, and the limits on what it may do.
+Agents do not have tenure, ambitions, incentives, dissatisfaction, professional pride, or legal accountability. Calling an agent a Software Director doesn’t magically give it good judgment. The name only helps define its responsibilities, its tools, the evidence it must demand, and the limits on what it may do.
 
 Grok Bot has enough agency to do something materially different from what I asked. It has worked in the wrong repository. It has encountered a blocker and found a workaround I did not approve. The exact capability that lets it keep a team moving also lets it amplify a bad decision without waiting for permission.
 
@@ -141,7 +141,7 @@ There is an old observation in software engineering called Conway's Law: the str
 
 With agent teams, that relationship becomes something we can design directly in software. Who assigns work to whom? Who can reject it? What evidence must travel with a result? Who checks whether the integrated change solved the original problem? Which decisions require a human?
 
-Those are organizational questions, but they are also becoming engineering questions.
+Those sound like org-chart questions. Increasingly, they’re also engineering decisions.
 
 Prompts still matter. Tools still matter. Models still matter. But once several agents can work for long periods at low cost, the performance of the whole system depends just as much on reporting lines, shared records, acceptance procedures, and feedback. A brilliant worker inside a confused organization can create confusion faster. A good organization can make capable, inexpensive workers surprisingly effective.
 

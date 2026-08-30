@@ -82,10 +82,16 @@
       "author": "home",
       "text": "Proofreading revision approved by Ryan on 2026-08-30: clarified the Researcher rejection loop, distinguished Kanbus organization from agent management, scoped the 2026 practicality claim to firsthand experience, corrected the tokenmaxxing definition, reduced self-links, removed the OpenClaw naming genealogy, and tightened the conclusion. Verification: git diff --check passes. Prettier flags pre-existing whole-file formatting. Gatsby build reaches MDX processing but is blocked by Gatsby LMDB cache error: key size 1978 exceeds maximum.",
       "created_at": "2026-08-30T13:42:47.288711Z"
+    },
+    {
+      "id": "5187c079-6f90-423f-94bf-976c91ac0ad7",
+      "author": "home",
+      "text": "Ryan-approved voice revision on 2026-08-30: replaced the opening with 'I didn’t even hear about the bug until after it was fixed.' and made selected passages more conversational through contractions, first-person observations, and plainer language. No exclamation points were added. The canonical site MDX and newsroom article artifact were updated together.",
+      "created_at": "2026-08-30T15:01:46.017690Z"
     }
   ],
   "created_at": "2026-08-29T12:31:25.440250Z",
-  "updated_at": "2026-08-30T14:03:55.271114Z",
+  "updated_at": "2026-08-30T15:01:46.083902Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",
