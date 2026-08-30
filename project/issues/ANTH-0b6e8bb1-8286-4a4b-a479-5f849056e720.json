@@ -16,10 +16,16 @@
       "author": "home",
       "text": "Proofread and fact-checked the published article. Reduced it from roughly 6,250 to 2,140 words; removed the volatile provider guide, stale leaderboard, model-specific routing advice, budget packages, and speculative automation scenarios; retained the 2023 classifier story, accepted-work metrics, durable routing policy, security constraint, and Jevons conclusion. Published in anthus-site-content commit ce799d8.",
       "created_at": "2026-08-30T18:54:31.761388Z"
+    },
+    {
+      "id": "c64b5fcb-4bb0-4b92-a512-7b57a029ba9d",
+      "author": "home",
+      "text": "Added the missing connection between falling costs, longer reliable task horizons, and the rapidly moving break-even point for practical automation. Published in anthus-site-content commit c2453f1.",
+      "created_at": "2026-08-30T19:32:40.147995Z"
     }
   ],
   "created_at": "2026-08-30T13:54:03.548641Z",
-  "updated_at": "2026-08-30T18:54:31.761388Z",
+  "updated_at": "2026-08-30T19:32:40.147995Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",

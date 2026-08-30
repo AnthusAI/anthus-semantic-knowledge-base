@@ -113,6 +113,8 @@ The model names will change. The policy doesn't have to.
 
 This is where better value becomes more interesting than a smaller invoice.
 
+Price isn't the only thing moving the break-even point. Agents are also getting better at staying on a task, recovering from failures, and completing longer sequences of work. Some jobs crossed the line because they became cheaper. Others crossed because an agent could finally finish them reliably. Most crossed because both things happened together.
+
 In 2023, our classifier had a break-even point: $200 per million classifications. Below that, it was a business. Above it, it was a demo. Every neglected job on your backlog has the same kind of line. It's worth automating when the agent cost plus your review time is lower than the value of finally getting it done.
 
 For a growing list of jobs, that answer quietly changed from “not worth it” to “obviously worth trying.”
@@ -121,7 +123,7 @@ For a growing list of jobs, that answer quietly changed from “not worth it” 
   images={props.pageContext.frontmatter.images}
   name="break-even-crossing.png"
   className="full"
-  alt="A timeline from 2023 to 2026 showing more engineering and business tasks becoming economical to automate as model costs fall."
+  alt="A timeline from 2023 to 2026 showing more engineering and business tasks becoming practical to automate as model costs fall and reliable task horizons grow."
 />
 
 _Nobody announces the crossing. You just notice the backlog stopped growing._

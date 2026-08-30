@@ -116,8 +116,10 @@ While the price of a fixed level of coding was falling, the length of task an ag
   images={props.pageContext.frontmatter.images}
   name="two-multiplying-curves.png"
   className="full"
-  alt="Two stacked log-scale charts: the price of fixed coding capability falling while the length of task an agent can complete at fifty percent reliability rises, with an inset showing the product curve climbing faster than either alone."
+  alt="Two stacked log-scale charts: the price of fixed coding capability falls while the length of task an agent can complete at fifty percent reliability rises. Together, the trends make more work practical to automate."
 />
+
+These curves don't just make existing automation cheaper. Together, they move the boundary of what can be automated. As agents stay reliable for longer and the cost of those long loops falls, tasks that were impractical a few months ago cross into ordinary use.
 
 ## Why the two effects multiply
 
@@ -330,7 +332,7 @@ data={{
   }}
 />
 
-Coding follows the same curve. Once delegating a milestone to several agents becomes affordable, people do it more often and for more kinds of work. Total spending can rise even while the price of each unit falls.
+Coding follows the same curve. Demand expands in two directions: we run familiar automations more often, and we automate longer, more complicated work that agents couldn't reliably finish before. The unit price falls while both the number and the size of viable tasks grow, so total spending can still rise.
 
 <mark>
   Cheaper coding doesn't necessarily lower your bill. It changes what you can
