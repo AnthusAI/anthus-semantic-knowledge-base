@@ -46,10 +46,16 @@
       "author": "home",
       "text": "Reframed the entire article to serve as the launch announcement for the Pudicus project.",
       "created_at": "2026-08-31T22:50:48.679290Z"
+    },
+    {
+      "id": "10efd00c-3544-4653-baa8-af6bc3750d51",
+      "author": "home",
+      "text": "Translated the two Mermaid diagrams from the Pudicus README into PlantUML, generated the images using the local processor, and embedded them into the article.",
+      "created_at": "2026-08-31T22:54:34.402295Z"
     }
   ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T22:50:48.679290Z",
+  "updated_at": "2026-08-31T22:54:34.402295Z",
   "closed_at": null,
   "custom": {}
 }
