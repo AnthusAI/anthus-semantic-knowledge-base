@@ -34,10 +34,16 @@
       "author": "home",
       "text": "Added an explicit section mapping the sticker concept to 'shift-left' DevOps principles, including a citation.",
       "created_at": "2026-08-31T22:36:37.881258Z"
+    },
+    {
+      "id": "62a48209-2aa4-4af3-8075-ad5119012795",
+      "author": "home",
+      "text": "Replaced the GitLab citation with Larry Smith's original 2001 Dr. Dobb's Journal article on Shift-Left Testing. Added academic citations for software factories (Michael Cusumano's 1991 book) and agent swarms (Qian et al.'s 2023 ChatDev paper) to the first paragraph.",
+      "created_at": "2026-08-31T22:47:26.461685Z"
     }
   ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T22:36:37.881258Z",
+  "updated_at": "2026-08-31T22:47:26.461685Z",
   "closed_at": null,
   "custom": {}
 }
