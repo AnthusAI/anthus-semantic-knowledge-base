@@ -22,10 +22,16 @@
       "author": "home",
       "text": "Merged cursor/inspected-by-sticker-b63f to main and pushed. State changed to published.",
       "created_at": "2026-08-31T22:10:11.952213Z"
+    },
+    {
+      "id": "272488ee-1540-4872-9dc1-40170f7766e7",
+      "author": "home",
+      "text": "Revised article to be more accessible, explaining swarms/software factories first, and cross-linking to recent thinking on cost collapse and Grok bots.",
+      "created_at": "2026-08-31T22:34:26.405616Z"
     }
   ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T22:11:21.543981Z",
+  "updated_at": "2026-08-31T22:34:26.405616Z",
   "closed_at": null,
   "custom": {}
 }
