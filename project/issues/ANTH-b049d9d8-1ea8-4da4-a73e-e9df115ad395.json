@@ -52,10 +52,16 @@
       "author": "home",
       "text": "Translated the two Mermaid diagrams from the Pudicus README into PlantUML, generated the images using the local processor, and embedded them into the article.",
       "created_at": "2026-08-31T22:54:34.402295Z"
+    },
+    {
+      "id": "86454c9f-0c8e-4e6f-a8b5-ff7638ab33d9",
+      "author": "home",
+      "text": "Reordered the article structure so that the problem (agent speed vs human review bottlenecks + skip holes) is fully established before Pudicus is introduced as the tool aimed at solving it.",
+      "created_at": "2026-08-31T22:55:24.468979Z"
     }
   ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T22:54:34.402295Z",
+  "updated_at": "2026-08-31T22:55:24.468979Z",
   "closed_at": null,
   "custom": {}
 }
