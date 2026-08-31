@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "a46fb118-72f4-4d2e-a32e-39b9474edaec",
+  "issue_id": "ANTH-d8e307bf-2c53-4219-84d8-4ba95890792b",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-31T06:40:39.335Z",
+  "actor_id": "home",
+  "payload": {
+    "assignee": null,
+    "description": "Launch article for Chatticus. Keep unpublished until Chatticus launches.\n\nWorking title: Chatticus: The AI Organization You Control\n\nCore thesis:\n- Grok Bot proved that named, persistent, collaborating bots on a shared computer can feel like an organization instead of a collection of chat sessions.\n- OpenClaw proved that people want their own infrastructure, keys, data, and model choice, but it leaves the user operating and securing the host.\n- Chatticus occupies the missing quadrant: a productized agent organization deployed into the customer's AWS account or attached to local hardware, with models, cost policies, private-system access, reporting lines, and approval gates under customer control.\n\nRequired themes:\n- Connect to From pair programmer to executive: the human sets direction and defines the organization while agents run the day-to-day loop.\n- Connect to The Year Coding Became a Commodity and Maximize Value, Not Intelligence: route each job to the least expensive model that clears the bar, escalate on evidence, and measure accepted outcomes rather than model prestige.\n- Explain why model choice is a governance and cost-control decision, not a settings-page nicety.\n- Contrast vendor cloud, self-operated hosting, and customer-owned managed infrastructure without caricaturing competitors.\n- Explain custom private integrations as part of the deployment boundary; public SaaS connectors remain optional.\n- State clearly that Chatticus is under development and do not imply that unshipped capabilities are live.\n\nPublication gate: remain in copywriting/unpublished until the Chatticus launch decision.",
+    "issue_type": "story",
+    "labels": [],
+    "parent": null,
+    "priority": 1,
+    "status": "idea",
+    "title": "Chatticus: The AI Organization You Control"
+  }
+}
