@@ -1,0 +1,18 @@
+{
+  "id": "ANTH-ef4df5e5-111e-476a-b8b7-70d6c1307be4",
+  "title": "Cheap output, expensive cache",
+  "description": "Short visual companion to Maximize Value. Four example workloads on live 2026-08-31 cards. Grok cheap output wins a patch; Sonnet cheap cache wins a long agent. Not a Grok-is-cheaper piece. Distinct from Never Use Fast and Bugonomics.",
+  "type": "story",
+  "status": "idea",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [],
+  "created_at": "2026-08-31T11:56:31.637621Z",
+  "updated_at": "2026-08-31T11:56:31.637621Z",
+  "closed_at": null,
+  "custom": {}
+}
