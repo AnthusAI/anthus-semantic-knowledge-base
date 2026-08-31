@@ -28,10 +28,16 @@
       "author": "home",
       "text": "Revised article to be more accessible, explaining swarms/software factories first, and cross-linking to recent thinking on cost collapse and Grok bots.",
       "created_at": "2026-08-31T22:34:26.405616Z"
+    },
+    {
+      "id": "5b002d66-6c44-4ebb-a6ce-066bf4f20486",
+      "author": "home",
+      "text": "Added an explicit section mapping the sticker concept to 'shift-left' DevOps principles, including a citation.",
+      "created_at": "2026-08-31T22:36:37.881258Z"
     }
   ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T22:34:26.405616Z",
+  "updated_at": "2026-08-31T22:36:37.881258Z",
   "closed_at": null,
   "custom": {}
 }
