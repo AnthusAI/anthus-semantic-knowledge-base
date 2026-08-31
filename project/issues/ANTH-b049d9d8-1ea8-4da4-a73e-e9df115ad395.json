@@ -70,10 +70,16 @@
       "author": "home",
       "text": "Fixed a critical MDX parsing bug where multi-line inline JSX props caused the production build to crash, preventing all recent edits from actually deploying.",
       "created_at": "2026-08-31T23:12:02.019487Z"
+    },
+    {
+      "id": "1530e87c-6269-4c18-8e4d-528bcb2ac592",
+      "author": "home",
+      "text": "Replaced the placeholder cover image with a highly photorealistic, square aspect ratio image of a wooden produce crate and an 'INSPECTED BY 247' sticker, removing any AI-generated sci-fi stylization.",
+      "created_at": "2026-08-31T23:16:33.354930Z"
     }
   ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T23:12:02.019487Z",
+  "updated_at": "2026-08-31T23:16:33.354930Z",
   "closed_at": null,
   "custom": {}
 }
