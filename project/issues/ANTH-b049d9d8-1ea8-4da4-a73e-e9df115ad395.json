@@ -82,10 +82,16 @@
       "author": "home",
       "text": "Replaced the tomato/produce crate cover image with a photorealistic image of a code editor on a monitor, featuring a physical 'INSPECTED BY 247' sticker stuck to the glass, better aligning with the software engineering theme.",
       "created_at": "2026-08-31T23:17:44.323232Z"
+    },
+    {
+      "id": "cf153219-8c16-4df2-8da1-fbe470ca0925",
+      "author": "home",
+      "text": "Replaced the Dell monitor cover image with a sleek, unbranded Mac-style monitor.",
+      "created_at": "2026-08-31T23:18:41.716956Z"
     }
   ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T23:17:44.323232Z",
+  "updated_at": "2026-08-31T23:18:41.716956Z",
   "closed_at": null,
   "custom": {}
 }
