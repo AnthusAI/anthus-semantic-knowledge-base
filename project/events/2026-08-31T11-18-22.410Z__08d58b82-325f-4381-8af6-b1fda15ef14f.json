@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "08d58b82-325f-4381-8af6-b1fda15ef14f",
+  "issue_id": "ANTH-bef41892-2804-4ab8-af3b-87e3c8e74858",
+  "event_type": "issue_created",
+  "occurred_at": "2026-08-31T11:18:22.410Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "Overnight products, leftover gates",
+    "description": "Next rung after coding-as-commodity: whole products overnight via loops and hierarchical swarms (B0RD, Chattic.us). Then leftover gates: QA, privacy, security cannot keep up. Also a sibling of Bugonomics. Distinct from Ralph, hill-climb, and pair-programmer-to-executive.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}
