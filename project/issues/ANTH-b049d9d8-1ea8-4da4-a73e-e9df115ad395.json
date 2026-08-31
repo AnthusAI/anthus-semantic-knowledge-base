@@ -1,0 +1,18 @@
+{
+  "id": "ANTH-b049d9d8-1ea8-4da4-a73e-e9df115ad395",
+  "title": "Inspected-by sticker",
+  "description": "Change-management receipt for agent commits: pinned deterministic validator over the git tree, required at deploy. Research stage. Distinct from leftover-gates (bef418). Not a Sigstore fortress.",
+  "type": "story",
+  "status": "research",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [],
+  "created_at": "2026-08-31T12:11:50.158498Z",
+  "updated_at": "2026-08-31T12:13:03.545934Z",
+  "closed_at": null,
+  "custom": {}
+}
