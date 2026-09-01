@@ -3,7 +3,7 @@
   "title": "Git in the file, or the file in Git",
   "description": "",
   "type": "story",
-  "status": "idea",
+  "status": "published",
   "priority": 2,
   "assignee": null,
   "creator": null,
@@ -12,7 +12,7 @@
   "dependencies": [],
   "comments": [],
   "created_at": "2026-09-01T21:29:35.832639Z",
-  "updated_at": "2026-09-01T21:29:35.832639Z",
+  "updated_at": "2026-09-01T21:37:02.543232Z",
   "closed_at": null,
   "custom": {}
 }
