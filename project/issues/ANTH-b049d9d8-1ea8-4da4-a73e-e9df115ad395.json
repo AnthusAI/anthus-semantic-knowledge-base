@@ -88,10 +88,16 @@
       "author": "home",
       "text": "Replaced the Dell monitor cover image with a sleek, unbranded Mac-style monitor.",
       "created_at": "2026-08-31T23:18:41.716956Z"
+    },
+    {
+      "id": "339646aa-dc26-4843-a1ef-1c70e81519c2",
+      "author": "home",
+      "text": "Replaced the cover image with the provided image from Downloads, and wrapped the article diagrams in 'center-full-image' tags so they are correctly centered.",
+      "created_at": "2026-09-01T00:30:42.135613Z"
     }
   ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T23:18:41.716956Z",
+  "updated_at": "2026-09-01T00:30:42.135613Z",
   "closed_at": null,
   "custom": {}
 }
