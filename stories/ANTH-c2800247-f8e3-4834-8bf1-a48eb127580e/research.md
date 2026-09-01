@@ -8,30 +8,30 @@ Full Cursor receipts (live docs + staff forum, fetched 2026-09-01): `stories/ANT
 
 Ryan, 2026-09-01: open on the analog. Token vendors offer the new Fast (or whatever premium default) like a drug dealer giving you a free first hit, except it isn't even free. You are your own advocate. Interests are misaligned. They don't want you to notice. Just say no.
 
-That is the principle: Resist temptation. Specific settings come after. Auto is another named example of that principle, not a sequel to Never Use Fast.
+Ryan recast the same morning: this is a larger collection of specific instructions, not a single-thesis sequel. Never Use Fast is one technique in that list (turn off the latency premium). Maximize Value stays the policy essay. Auto is another row, not a sequel.
 
 ## Job after the lead
 
-Catalog thrifty techniques other than Fast, per coding app. Verify quota pools, reset cycles, default aliases, cheap-model names.
+Catalog specific instructions per coding app, including Fast as one row. Verify quota pools, reset cycles, default aliases, cheap-model names.
 
 ## Split
 
-- `8bde91` Never Use Fast — Fast surcharge table. Link it. Do not reprint the tax table here.
+- `8bde91` Never Use Fast — published Fast surcharge table. This list includes that instruction and links the table. Do not reprint the 6× numbers here.
 - `0b6e8b` Maximize Value — philosophy.
 - `ef4df5` Cheap output, expensive cache — rate card vs workload mix. Charts stay there.
 - `ecc2ae` Commodity — market.
 - `629b47` Grok Bot review — not this piece.
-- This card (`c28002`) — the fight, then buttons, buckets, aliases, multiplex.
+- This card (`c28002`) — the how-to instruction list (Fast, pin vs Auto, buckets, aliases, multiplex, patience).
 
 ## Known notes to verify (leaked into Never Use Fast)
 
 | App | Technique | Last checked | Risk |
 | --- | --- | --- | --- |
-| Antigravity / Google AI Pro | Two pools: Gemini vs Claude/GPT. Exhaust both. Weekly + 5h rolling. | 2026-08-29 | Plan names move |
+| Antigravity / Google AI Pro | Two pools: Gemini vs Claude/GPT. Exhaust both. Pro 5h until weekly. AI Credit Overages = Never. | **2026-09-01** | Plan names still move |
 | Cursor | Cursor Models vs Other Models. Pin Composer 2.5 Standard. Auto bills at routed-model list. Individuals have Auto, not Router. | **2026-09-01** | Pool unpublished; Pro Individual exception no longer in live docs |
-| Grok Bot | Own weekly pool on paid Cursor plans. Unused dies. | 2026-08-29 | Was wrongly called calendar-month |
-| Codex | Bare `gpt-5.6` routes to Sol. Use `gpt-5.6-luna`. | 2026-08-29 | Aliases retire |
-| Claude | Opus 5 vs Fable 5 habit. | 2026-08-29 | Fast mode belongs on 8bde91 |
+| Grok Bot | Own weekly pool on paid Cursor. Overflow = shared on-demand. Do not quote “unused dies.” | **2026-09-01** | Display vs Other Models still disputed |
+| Codex | Bare `gpt-5.6` / Power = Sol. Pin `gpt-5.6-luna` (or Terra). GPT-5.4 retired ChatGPT-signed Codex 2026-08-31. | **2026-09-01** | Aliases retire |
+| Claude | Don't live on Fable 5. Default Sonnet/Opus 5. Fast = credits-only, link 8bde91. Prefer `--worktree`. | **2026-09-01** | Fast table stays on 8bde91 |
 | Any picker | Kimi, GLM 5.2, DeepSeek, Qwen | 2026-08-27 | Which apps actually expose them |
 
 ## Cursor Auto — fact-checked 2026-09-01 (the other free-hit lever)
@@ -42,7 +42,7 @@ Ryan's four claims, with receipts:
 
 1. **Auto used to be the cheap path — TRUE.** Cursor blog [Updates to Teams and Auto](https://cursor.com/blog/aug-2025-pricing): Dec 2023–Jun 2025 Auto cost the same as other premium models; Jun 2025–next renewal after 2025-09-15 **unlimited for individuals**. Forum residue still says leave Auto on to save money.
 2. **Auto can now cost a lot more than the cheapest pin — TRUE.** [models-and-pricing](https://cursor.com/docs/models-and-pricing): “All Auto modes bill at the list price of the model each request is routed to.” [Help](https://cursor.com/help/account-and-billing/pricing.md): “if your request is routed to Opus 5, you are billed at Opus 5 pricing.” Composer 2.5 Standard is $0.50 / $2.50. Opus 5 is $5 / $25. Included usage is a pool, not a discount; on-demand is the same list. Do **not** write “Pro Auto is still $1.25/$6.” That leftover flat card is **legacy Enterprise Auto Cost until 2026-09-07**, then it joins list-price billing. Even $1.25/$6 is already above Composer Standard.
-3. **Pin Composer 2.5 because Auto uses dearer models — MIXED.** Pin **Standard**, not Fast. Fast is a different knob (belongs on `8bde91`; do not reprint the 6× table). Auto *may* land on Composer, or on Grok / Sol / Opus / Fable. Pool is unpublished ([deanrie, 2026-07-30](https://forum.cursor.com/t/which-models-are-behind-cursor-auto-mode/167010)). Pinning caps the rate at $0.50/$2.50 and keeps you on the larger Cursor Models pool. Luna is cheaper *list* ($0.20/$1.20) but drains the smaller Other Models pool.
+3. **Pin Composer 2.5 because Auto uses dearer models — MIXED.** Pin **Standard**, not Fast. Fast is a row in this list (turn it off) and the 6× table lives on `8bde91`; link, do not reprint. Auto *may* land on Composer, or on Grok / Sol / Opus / Fable. Pool is unpublished ([deanrie, 2026-07-30](https://forum.cursor.com/t/which-models-are-behind-cursor-auto-mode/167010)). Pinning caps the rate at $0.50/$2.50 and keeps you on the larger Cursor Models pool. Luna is cheaper *list* ($0.20/$1.20) but drains the smaller Other Models pool.
 4. **No router unless you are Enterprise — MIXED.** Right about individuals, wrong that it is Enterprise-only. [cursor-router](https://cursor.com/docs/cursor-router): “currently only available on Teams and Enterprise plans.” [Changelog 2026-07-22](https://cursor.com/changelog/router): on by default for **Teams**; Enterprise admins enable from the dashboard (**off** by default). Staff Colin 2026-07-24: “Cursor Router is currently not available on individual plans!” Do **not** write “you lack a router because you are not Enterprise.” Write: individuals have Auto, not Router; Teams has Router on; Enterprise has Router off until an admin flips it.
 
 ### Cursor instruction candidates (settings, after the principle)
@@ -72,12 +72,28 @@ Composer Fast rates stay on `8bde91`. Do not reprint them here.
 
 Cursor Token Rate $0.25/M on third-party is Teams/Enterprise only, not on Grok/Composer, not on individual Auto.
 
+Full other-apps receipts (live docs 2026-09-01): `stories/ANTH-c28002/other-apps-recheck.md`.
+
+## Other apps — fact-checked 2026-09-01
+
+1. **Antigravity — confirmed.** Gemini vs Claude/GPT are separate tanks. Pro refreshes every 5h until weekly. When one family is at 0%, switch family. Setting: **AI Credit Overages = Never**. `/usage` or `/quota`. ([Plans](https://antigravity.google/docs/plans/), [blog](https://antigravity.google/blog/changes-to-antigravity-plans))
+2. **Codex — confirmed, plus a catalog change.** Bare `gpt-5.6` and the Power preset are Sol. Pin `model = "gpt-5.6-luna"` in `~/.codex/config.toml` (or `/model` → Advanced → Luna; Terra for everyday). GPT-5.4 retired from ChatGPT-signed Codex **2026-08-31** — move leftover configs to Terra/Luna. Fast → Never Use Fast; wall-clock substitute is Ultra/subagents. ([Codex Models](https://developers.openai.com/codex/models), [API naming](https://developers.openai.com/api/docs/guides/latest-model))
+3. **Claude — confirmed.** Don't live on Fable 5 (Max = 50% of the same weekly bar, burns faster; Pro = usage credits from token one). Official coding default is Sonnet, escalate to Opus. Fast is credits-only, Opus-only — one Never Use Fast row, no tax table. Prefer `claude --worktree`. Settings > Usage shows Opus-only and all-other-models bars. ([Fable on your plan](https://support.claude.com/en/articles/15424964-claude-fable-5-on-your-plan), [worktrees](https://code.claude.com/docs/en/worktrees))
+4. **Grok Bot — confirmed weekly, not calendar-month.** Separate included weekly pool on paid Cursor; overflow is shared on-demand (cap $0 to hard-stop). Do **not** quote “unused dies” (UNVERIFIED vendor copy). 2026-09-01 users still dispute `grok-bot-*` vs Other Models enforcement — watch both bars. Several Bots in parallel is documented; coding agents on cursor.com/agents are *not* the weekly Bot pool. ([Grok Bot plans](https://cursor.com/help/grok-bot/plans))
+
+### Instruction rows for the list (not draft)
+
+- Exhaust both Antigravity tanks; don't buy overages.
+- Never type Codex `gpt-5.6`; pin Luna/Terra.
+- Don't live on Fable; `/fast` can switch you onto Opus.
+- Spend the Grok Bot weekly bar; it is not the 1st-of-month Cursor cycle.
+- Patience: 5h / weekly windows exist so waiting is cheaper than Fast.
+- Multiplex: Codex Ultra/subagents, Claude `--worktree`, Grok Bot many-Bots.
+
 ## Still to research
 
-- Recheck Antigravity, Grok Bot, Codex, Claude live quota docs (last pass 2026-08-29).
-- Other apps with a real bucket trick (only if verified). Do not invent a fifth app.
-- Multiplex arithmetic without restating Fast.
-- Other “free first hit” levers besides Fast and Auto (aliases, try-the-flagship trials).
+- Other apps with a real bucket trick (only if verified). Do not invent a fifth app. Kimi/GLM/DeepSeek/Qwen picker row still 2026-08-27 — which apps actually expose them.
+- Multiplex arithmetic without restating Fast (click paths are in; dollar math is not).
 
 ## Do not
 

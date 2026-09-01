@@ -1,26 +1,30 @@
 # Assignment
 
-Write a public Anth.us how-to: thrifty tokenmaxxing. Lead with the adversarial joke, then Resist temptation, then the settings list.
+Write a public Anth.us how-to: thrifty tokenmaxxing. A larger collection of specific instructions, not a single-thesis sequel.
 
 Working title: Thrifty tokenmaxxing. Ryan may rename.
 
 ## Spine
 
-1. Open: they offer you Fast (or the new premium default) like a free first hit that isn't free. Interests are misaligned. You are your own advocate. Just say no.
-2. Principle: Resist temptation. Vendors use levers to sell more tokens and more-expensive tokens. They don't want you to realize that.
-3. Then the per-app catalog. Quota pools that expire. Pin the cheap model. Auto and aliases pick expensive ones. Multiplex instead of waiting. Patience is the budget.
-4. Fast as a named example of the principle. One beat, then link Never Use Fast. Do not reprint that tax table.
+1. This piece is the how-to list. Maximize Value is the policy essay; link it, do not retell it.
+2. A short adversarial open is allowed (Fast / the premium default as a free first hit that isn't free) so the list has a reason. Do not open on a spreadsheet, and do not let the analog eat the article.
+3. Then the instruction list. Each row is something you can actually do.
+4. Never Use Fast is one row in that list: turn off the latency premium. Link the published table. Do not reprint the tax table.
+5. Other rows already in research: pin Composer 2.5 Standard instead of Auto; leave Auto (it used to be the cheap default and now bills at routed-model list); Router is not enterprise-only (individuals have Auto, Teams on, Enterprise off until admin); quota buckets; aliases; multiplex; patience.
 
 ## Must
 
-- Lead with the fun analog. Do not open on a settings table.
-- Per-app tables after the principle. Recheck live docs before ship.
+- Treat this as a collection of instructions.
+- Include Never Use Fast as one technique, then the rest.
+- Per-app click paths. Recheck live docs before ship.
 - Apps at least: Cursor, Codex, Claude, Antigravity, Grok Bot. Add others only if research verifies them.
-- Link Never Use Fast and Maximize Value. Do not retell them.
+- Link Never Use Fast and Maximize Value.
 
 ## Must not
 
-- Do not make this the Fast article.
+- Do not make this a sequel that only exists to argue one thesis.
+- Do not reprint the Fast tax table.
 - Do not merge into `ef4df5` or `629b47`.
 - Do not invent quota numbers or model ids.
+- Do not write that Cursor Router is enterprise-only.
 - Do not publish until Ryan says so.
