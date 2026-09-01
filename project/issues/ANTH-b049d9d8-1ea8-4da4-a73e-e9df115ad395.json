@@ -3,16 +3,101 @@
   "title": "Inspected-by sticker",
   "description": "Change-management receipt for agent commits: pinned deterministic validator over the git tree, required at deploy. Research stage. Distinct from leftover-gates (bef418). Not a Sigstore fortress.",
   "type": "story",
-  "status": "research",
+  "status": "published",
   "priority": 2,
   "assignee": null,
   "creator": null,
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "3ec2aa68-b935-4030-a3d0-a3a222f971ae",
+      "author": "home",
+      "text": "Drafted the Pudicus Inspected-By sticker article at src/site-content/pudicus-inspected-by-sticker.mdx on branch cursor/inspected-by-sticker-b63f and pushed to origin.",
+      "created_at": "2026-08-31T21:47:18.090804Z"
+    },
+    {
+      "id": "56a0a43f-92a2-48f6-81e2-dfa938b7f55a",
+      "author": "home",
+      "text": "Merged cursor/inspected-by-sticker-b63f to main and pushed. State changed to published.",
+      "created_at": "2026-08-31T22:10:11.952213Z"
+    },
+    {
+      "id": "272488ee-1540-4872-9dc1-40170f7766e7",
+      "author": "home",
+      "text": "Revised article to be more accessible, explaining swarms/software factories first, and cross-linking to recent thinking on cost collapse and Grok bots.",
+      "created_at": "2026-08-31T22:34:26.405616Z"
+    },
+    {
+      "id": "5b002d66-6c44-4ebb-a6ce-066bf4f20486",
+      "author": "home",
+      "text": "Added an explicit section mapping the sticker concept to 'shift-left' DevOps principles, including a citation.",
+      "created_at": "2026-08-31T22:36:37.881258Z"
+    },
+    {
+      "id": "62a48209-2aa4-4af3-8075-ad5119012795",
+      "author": "home",
+      "text": "Replaced the GitLab citation with Larry Smith's original 2001 Dr. Dobb's Journal article on Shift-Left Testing. Added academic citations for software factories (Michael Cusumano's 1991 book) and agent swarms (Qian et al.'s 2023 ChatDev paper) to the first paragraph.",
+      "created_at": "2026-08-31T22:47:26.461685Z"
+    },
+    {
+      "id": "c91d9906-7fb6-4855-85be-2d1e70d3e231",
+      "author": "home",
+      "text": "Reframed the entire article to serve as the launch announcement for the Pudicus project.",
+      "created_at": "2026-08-31T22:50:48.679290Z"
+    },
+    {
+      "id": "10efd00c-3544-4653-baa8-af6bc3750d51",
+      "author": "home",
+      "text": "Translated the two Mermaid diagrams from the Pudicus README into PlantUML, generated the images using the local processor, and embedded them into the article.",
+      "created_at": "2026-08-31T22:54:34.402295Z"
+    },
+    {
+      "id": "86454c9f-0c8e-4e6f-a8b5-ff7638ab33d9",
+      "author": "home",
+      "text": "Reordered the article structure so that the problem (agent speed vs human review bottlenecks + skip holes) is fully established before Pudicus is introduced as the tool aimed at solving it.",
+      "created_at": "2026-08-31T22:55:24.468979Z"
+    },
+    {
+      "id": "d472aac9-a056-46dd-9dda-92c07e5056e1",
+      "author": "home",
+      "text": "Added direct links to the Pudicus GitHub repository in the launch announcement section and the conclusion.",
+      "created_at": "2026-08-31T23:05:37.444432Z"
+    },
+    {
+      "id": "d8347a82-f812-4866-a48a-bb6b973202df",
+      "author": "home",
+      "text": "Fixed a critical MDX parsing bug where multi-line inline JSX props caused the production build to crash, preventing all recent edits from actually deploying.",
+      "created_at": "2026-08-31T23:12:02.019487Z"
+    },
+    {
+      "id": "1530e87c-6269-4c18-8e4d-528bcb2ac592",
+      "author": "home",
+      "text": "Replaced the placeholder cover image with a highly photorealistic, square aspect ratio image of a wooden produce crate and an 'INSPECTED BY 247' sticker, removing any AI-generated sci-fi stylization.",
+      "created_at": "2026-08-31T23:16:33.354930Z"
+    },
+    {
+      "id": "d1474a72-8032-44d6-9843-352500690609",
+      "author": "home",
+      "text": "Replaced the tomato/produce crate cover image with a photorealistic image of a code editor on a monitor, featuring a physical 'INSPECTED BY 247' sticker stuck to the glass, better aligning with the software engineering theme.",
+      "created_at": "2026-08-31T23:17:44.323232Z"
+    },
+    {
+      "id": "cf153219-8c16-4df2-8da1-fbe470ca0925",
+      "author": "home",
+      "text": "Replaced the Dell monitor cover image with a sleek, unbranded Mac-style monitor.",
+      "created_at": "2026-08-31T23:18:41.716956Z"
+    },
+    {
+      "id": "339646aa-dc26-4843-a1ef-1c70e81519c2",
+      "author": "home",
+      "text": "Replaced the cover image with the provided image from Downloads, and wrapped the article diagrams in 'center-full-image' tags so they are correctly centered.",
+      "created_at": "2026-09-01T00:30:42.135613Z"
+    }
+  ],
   "created_at": "2026-08-31T12:11:50.158498Z",
-  "updated_at": "2026-08-31T12:13:03.545934Z",
+  "updated_at": "2026-09-01T00:30:42.135613Z",
   "closed_at": null,
   "custom": {}
 }
