@@ -17,10 +17,17 @@
       "text": "Ryan 2026-09-03: add a how-to row for compaction epochs. Do not draft yet.\n\nHaiku explores and describes what it found. `/compact` before swapping up. Do not pass a large Haiku session to Opus — a model change invalidates the cache prefix. Opus writes the plan. `/compact` again. Sonnet does the work. Always compact history before changing models.\n\nRelated to ef4df5 (cache cost) but this is a click-path, not that article. Attach the recent harness writeups that use the phrase \"compaction epochs.\" Do not invent titles.\n",
       "created_at": "2026-09-03T12:30:32.441313981Z",
       "comment_type": "default"
+    },
+    {
+      "id": "2c243c55-9401-4c98-8439-889fadef9a26",
+      "author": "box",
+      "text": "Cites attached 2026-09-03 (exact phrase; not invented). ContextSpectre glossary: compaction epoch = period between two compactions. oh-my-openagent PR 2802 (merged 2026-03-24) names repeated compaction epochs in a continuation guard. They do not describe Haiku→compact→Opus→compact→Sonnet. That row is Ryan's. No other public writeup used the exact phrase as a title.\n",
+      "created_at": "2026-09-03T12:34:17.621098037Z",
+      "comment_type": "default"
     }
   ],
   "created_at": "2026-09-01T11:13:21.846658284Z",
-  "updated_at": "2026-09-03T12:30:32.441313981Z",
+  "updated_at": "2026-09-03T12:34:17.621098037Z",
   "closed_at": null,
   "custom": {}
 }

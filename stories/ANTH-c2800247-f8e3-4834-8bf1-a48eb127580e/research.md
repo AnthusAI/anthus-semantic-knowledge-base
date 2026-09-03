@@ -109,13 +109,17 @@ Always compact history before changing models. Those cuts are **compaction epoch
 
 Related to `ef4df5` (cheap output, expensive cache) but this is a click-path: compact, then swap. Do not merge the two articles. Do not retell the rate-card charts.
 
-Cites: still to attach. Researcher should file the recent "compaction epochs" harness writeups on this story. Do not invent a paper list.
+Cites found 2026-09-03 (exact phrase only; titles not invented):
+
+- **ContextSpectre** (ppiankov/contextspectre). README title: ContextSpectre. Glossary: “Compaction epoch — Period between two compactions. Unit of reasoning history.” Also: “Compaction archaeology and epoch timeline.” Reassessed 2026-07-20. https://github.com/ppiankov/contextspectre and https://github.com/ppiankov/contextspectre/blob/main/docs/concepts.md
+- **oh-my-openagent PR #2802**, merged 2026-03-24, title: “fix: handle repeated compaction epochs in continuation guard.” https://github.com/code-yeongyu/oh-my-openagent/pull/2802
+
+These name the epoch as a harness primitive (cache/guard after `/compact`). They do not describe the Haiku → compact → Opus → compact → Sonnet click-path. That path is Ryan’s instruction, not theirs. Searched; no other public writeup used the exact phrase “compaction epochs” as a title. Did not attach near-misses (compaction without “epoch”, “epoch fencing”, “compaction-only Epoch”).
 
 ## Still to research
 
 - Other apps with a real bucket trick (only if verified). Do not invent a fifth app. Kimi/GLM/DeepSeek/Qwen picker row still 2026-08-27 — which apps actually expose them.
 - Multiplex arithmetic without restating Fast (click paths are in; dollar math is not).
-- Attach cites for "compaction epochs" in agent harnesses. Do not invent titles.
 
 ## Do not
 
