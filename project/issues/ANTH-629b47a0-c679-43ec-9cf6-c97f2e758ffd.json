@@ -15,17 +15,26 @@
       "id": "bce812b2-a8ae-41d1-b416-e93ded9a6c6f",
       "author": "ryan",
       "text": "## Editorial pass 2026-08-29\n\nDeliberately parked until Sep 3 — respect that, this is not a copywriting target today. Four notes for when it reopens.\n\n**1. Keep the 4:13 Friday lede.** \"The research bot started reporting bugs to the software director\" is a scene, not a feature list, and it is the strongest opening on this board. Whatever else changes, that survives.\n\n**2. A split is already marked in the draft and nobody has decided it.** The heading `## Same job, different friction (→ second article)` says someone intends part of this to move to da430a. da430a's idea independently says \"chart may move here from the Grok Bot review.\" Both stories currently believe they might own the comparison chart, which means **neither can go to copy until this is settled.** It blocks two stories, not one.\n\n**3. Bigger overlap: this draft is doing 37add6's job.** \"The chat became a control room\" and the whole software-director / researcher-as-client sequence *is* 37add6's thesis. The split says this piece is field notes and 37add6 is the concept piece, but the draft has already crossed that line. Decide who owns the agent-org insight. The cleanest version is probably: this piece keeps the scenes, 37add6 keeps the argument, and this one links forward.\n\n**4. The piece is very positive and should say what it cost.** The idea notes bias-against-Musk-ventures as the honest starting point, which is good. The counterweight material is already in the draft — the crash, the recovery, the fact that the disk survived and the conversation did not. Keep that prominent. Also worth stating plainly: three days is not a week, and the title promises a week.\n\n**Research: none.** Needs elapsed time and two ownership decisions.\n",
-      "created_at": "2026-08-29T13:03:20.122745Z"
+      "created_at": "2026-08-29T13:03:20.122745Z",
+      "comment_type": "default"
     },
     {
       "id": "ecb618c6-4cd5-4f42-82f8-0fc0e82d258e",
       "author": "home",
       "text": "Proofread and fact-checked the published product review. Compressed the opening duplicated by From Pair Programmer to Executive, focused the article on Grok Bot's persistent computer, agent communication, Cursor dispatch, concrete failures, and security boundary, and revised the voice to be more conversational. Product claims were checked against official Grok Bot documentation and launch materials. Published in anthus-site-content commit 8d16ea2.",
-      "created_at": "2026-08-30T19:07:28.971194Z"
+      "created_at": "2026-08-30T19:07:28.971194Z",
+      "comment_type": "default"
+    },
+    {
+      "id": "eaa70510-b610-4313-9f92-c7db2877f0df",
+      "author": "box",
+      "text": "Ryan's week-later outcome (2026-09-03): by about day four, Grok Bot's organization-shaped paradigm was convincing enough that he started cloning it as [Chatticus](https://chattic.us).\n\nUse the exact current marketing headline: **Shared spaces for people and bots.** Do not use the obsolete repository README line \"Named AI teammates on a computer you control.\"\n\nThe verdict: wants more persistent named teammates, rooms/channels, handoffs, durable memory, routines, laptop-closed work, and multi-user groupware for people and bots. Does not want Grok-only model selection/no parameter control; one coarse compute path for interactive and flexible-SLA batch work; one generic shared Linux+Chrome computer; no base container/VM image experimentation; no choice between containers and VMs; pointer-driven GUI as the only computer primitive; one account-level space rather than collaborative human groupware.\n\nChatticus design facts from the live marketing site: shared collaborative space around common files, tools, authority, and approvals; \"one shared filing cabinet, compute that flexes\"; durable bots live foundation; computerless turns/shared-computer starts/handoff-recovery/approval checks proven in development; skills/routines authoring, approval cards, roles, polished computer preview/history shipping next. Do not overstate roadmap as shipped.\n\nWorking notebook updated. Do not publish until Ryan says.\n",
+      "created_at": "2026-09-03T15:21:50.263396549Z",
+      "comment_type": "default"
     }
   ],
   "created_at": "2026-08-29T05:46:09.179326Z",
-  "updated_at": "2026-08-30T19:07:28.971194Z",
+  "updated_at": "2026-09-03T15:21:50.263396549Z",
   "closed_at": null,
   "custom": {
     "project_label": "ANTH",
