@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "948aa208-92ca-458e-b06b-c6148d8cfa2a",
+  "issue_id": "ANTH-da4c0be5-eb7e-4838-bc7c-4d59642b33e6",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-03T15:03:10.452Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "All I do now is log in",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}
