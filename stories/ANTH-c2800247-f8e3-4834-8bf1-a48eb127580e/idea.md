@@ -43,5 +43,6 @@ Distinct from:
 - Codex (fact-checked 2026-09-01): bare `gpt-5.6` / Power = Sol. Pin `gpt-5.6-luna` (or Terra). GPT-5.4 retired ChatGPT-signed Codex 2026-08-31.
 - Manager pattern: Grok 4.6 over Composer 2.5 workers. Write that in the plan before you approve.
 - Cheap 2026 coding models when a picker exists: Kimi, GLM 5.2, DeepSeek, Qwen.
+- Compaction epochs (Ryan, 2026-09-03): Haiku explores → `/compact` → Opus plans → `/compact` → Sonnet works. Always compact before a model swap; changing models invalidates the cache prefix. Distinct from `ef4df5`. Cites still to attach.
 
 Recheck every plan name, reset cycle, and model id before publish.

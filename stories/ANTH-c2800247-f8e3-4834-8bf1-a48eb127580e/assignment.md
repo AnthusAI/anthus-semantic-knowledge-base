@@ -10,7 +10,7 @@ Working title: Thrifty tokenmaxxing. Ryan may rename.
 2. A short adversarial open is allowed (Fast / the premium default as a free first hit that isn't free) so the list has a reason. Do not open on a spreadsheet, and do not let the analog eat the article.
 3. Then the instruction list. Each row is something you can actually do.
 4. Never Use Fast is one row in that list: turn off the latency premium. Link the published table. Do not reprint the tax table.
-5. Other rows already in research: pin Composer 2.5 Standard instead of Auto; leave Auto (it used to be the cheap default and now bills at routed-model list); Router is not enterprise-only (individuals have Auto, Teams on, Enterprise off until admin); quota buckets; aliases; multiplex; patience.
+5. Other rows already in research: pin Composer 2.5 Standard instead of Auto; leave Auto (it used to be the cheap default and now bills at routed-model list); Router is not enterprise-only (individuals have Auto, Teams on, Enterprise off until admin); quota buckets; aliases; multiplex; patience; compaction epochs (`/compact` before every model swap).
 
 ## Must
 

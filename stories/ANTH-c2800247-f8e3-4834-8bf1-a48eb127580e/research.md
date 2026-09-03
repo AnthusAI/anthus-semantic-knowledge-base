@@ -89,11 +89,33 @@ Full other-apps receipts (live docs 2026-09-01): `stories/ANTH-c28002/other-apps
 - Spend the Grok Bot weekly bar; it is not the 1st-of-month Cursor cycle.
 - Patience: 5h / weekly windows exist so waiting is cheaper than Fast.
 - Multiplex: Codex Ultra/subagents, Claude `--worktree`, Grok Bot many-Bots.
+- Compaction epochs: `/compact` before every model swap so you don't invalidate a fat cache prefix.
+
+## Compaction epochs (Ryan, 2026-09-03) — instruction row, not draft
+
+One technique for giving expensive models the exact context they need, and not too much: use a cheaper model (Haiku) to explore and describe what it found, then `/compact` before swapping up.
+
+Do not pass a large Haiku session to Opus. A model change costs tokens by invalidating the cache prefix. Compact first.
+
+Then:
+
+1. Haiku explores the files involved in the issue and writes a short description of what it found.
+2. `/compact`.
+3. Opus writes a planning document.
+4. `/compact` again.
+5. Sonnet does the work.
+
+Always compact history before changing models. Those cuts are **compaction epochs**. Recent references use that name in sophisticated harnesses. It matters because invalidating a long cache prefix is one of the expensive mistakes this list is for.
+
+Related to `ef4df5` (cheap output, expensive cache) but this is a click-path: compact, then swap. Do not merge the two articles. Do not retell the rate-card charts.
+
+Cites: still to attach. Researcher should file the recent "compaction epochs" harness writeups on this story. Do not invent a paper list.
 
 ## Still to research
 
 - Other apps with a real bucket trick (only if verified). Do not invent a fifth app. Kimi/GLM/DeepSeek/Qwen picker row still 2026-08-27 — which apps actually expose them.
 - Multiplex arithmetic without restating Fast (click paths are in; dollar math is not).
+- Attach cites for "compaction epochs" in agent harnesses. Do not invent titles.
 
 ## Do not
 
