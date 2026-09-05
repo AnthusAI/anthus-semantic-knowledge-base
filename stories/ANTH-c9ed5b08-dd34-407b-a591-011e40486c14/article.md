@@ -1,6 +1,6 @@
 # article.md (mirror of site-content published article)
 
-Source of truth: `AnthusAI/anthus-site-content` `main` @ `a6f94c3`, file `commodity-receipts.mdx` (`state: published`).
+Source of truth: `AnthusAI/anthus-site-content` `main` @ `fa6f524`, file `commodity-receipts.mdx` (`state: published`).
 Production: https://anth.us/blog/commodity-receipts/
 
 ---
