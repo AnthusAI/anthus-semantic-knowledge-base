@@ -18,8 +18,8 @@ hosted Papyrus infrastructure exists.
 ## Voice and scope
 
 - Posts explain how Anthus builds and operates AI systems for real editorial work.
-- Category-beat ("Agent Zoo") pieces follow `anthus-site-content/AGENT_ZOO.md`:
-  wonder and excitement, participant voice, never call it Model Zoo.
+- Voice: wonder and excitement, participant register, no hedging — same bar as
+  Chatticus blog Voice (see Anth.us `AGENTS.md` / site-content README).
 - Research and report artifacts are internal notes; only `article.md` is reader-facing.
 - Keep doctrine short enough to read in full every run.
 
