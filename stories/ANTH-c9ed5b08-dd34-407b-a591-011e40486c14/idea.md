@@ -68,3 +68,53 @@ Secondary roundup: Startup Fortune Sep 4, 2026, https://startupfortune.com/corpo
 ## Editorial boundary
 
 Idea artifact only. Do not draft the listicle here. Leave stage at `idea`. Do not invent numbers. Prefer company blogs over aggregators. Do not implement product or post live from this story.
+
+
+## Perplexity page confirmation (2026-09-05)
+
+Page: https://www.perplexity.ai/page/major-u-s-firms-swap-premium-a-b19jyW_nS_iIX1A3OooDQw — title “Major U.S. firms swap premium AI for cheap open-weight models,” published ~17h before fetch. Synthesis, not a cite of record. Aligns with our receipt rows; adds named routers **Airbnb** and **Siemens** (need primaries before publish). Points at FT price-war piece as a better lab-cuts primary than Startup Fortune:
+
+- Financial Times: “OpenAI and Anthropic in price war as Chinese AI rivals gain ground” — https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01
+- Also cites Futurism, TechStartups (Goldman / AT&T 56%), YC X post.
+
+Ollama CEO Jeffrey Morgan quoted on AT&T’s ~40% open-weight token plan; Ollama self-claims (85% Fortune 500, $65M Series B) are vendor PR — use sparingly or verify.
+
+DeepSeek V4 Flash ~$0.28/M input vs ~$15 for Claude Opus 4.6 / GPT-5.4 — verify against current rate cards before publishing.
+
+
+## More receipts (scout 2026-09-05)
+
+Full notes: `/workspace/research-commodity-receipts-more-2026-09-05.md`
+
+### Shopify — Flow agent → fine-tuned Qwen3-32B (high)
+
+Primary: https://shopify.engineering/fine-tuning-agent-shopify-flow (updated 2026-04-22). Frontier → fine-tuned **Qwen3-32B** tool-calling agent for Flow NL→automation in Sidekick. **2.2× faster**, **68% cheaper**, outperforms closed models, majority of production traffic for that skill.
+
+### Shopify — Sidekick continual-learning flywheel (high)
+
+Primary: https://shopify.engineering/sidekicks-continual-learning-loop (2026-08-05). Frontier baseline → specialized fine-tuned smaller model; estimated serving **~$27M/yr → ~$1M/yr (~96%)**; up to ~2k rpm. Companion to Flow post (base family named there as Qwen3-32B).
+
+### Firetiger — Claude → DeepSeek v4 Pro (high)
+
+Primary: https://blog.firetiger.com/migrating-from-claude-to-deepseek-without-breaking-everything/ First three agent types: **~$606K/yr → ~$231K/yr (62%)** real-dollar cut (path to ~70% if cache matches Claude). Via Baseten; evals + prompt work required.
+
+### Airbnb — Qwen-heavy CS agent (high, press + letter)
+
+Chesky interview (Fortune/Bloomberg 2025-10-21): customer-service agent relies heavily on **Alibaba Qwen**; OpenAI latest used less because faster/cheaper alternatives exist. House letter 2026-04-29: https://homeland.house.gov/wp-content/uploads/2026/04/2026.04.29-Homeland-China-Select-Letter-to-Airbnb-re-PRC-AI.pdf · Fortune: https://fortune.com/2025/10/21/brian-chesky-openai-tools-not-ready/
+
+### Siemens — in-house open-weight LLM API (high)
+
+Primary: https://blog.siemens.com/2024/04/open-source-llms-for-everyone/ — **vLLM + LiteLLM + Kong**, OpenAI-compatible, data internal. 2025 slides: https://opensource.siemens.com/events/2025/slides/Roger_Meier__Latest_news_on_Open_Source_%40_Siemens_and_open_weight_LLM_usage_in-house.pdf Soft on token %; clear self-hosted open-weight default for internal assistants.
+
+### Coinbase — GLM + Kimi gateway defaults (medium)
+
+Secondary: https://thenewstack.io/multi-model-ai-infrastructure/ (2026-07-07). Defaults to self-hosted **GLM 5.2** and **Kimi 2.7**; ~**half** AI bill while tokens grew; ~1,200 agents. Prefer Coinbase primary before publish.
+
+### LiteLLM anon production auto-router (medium)
+
+https://docs.litellm.ai/blog/auto-router-production-savings — flagship → Haiku/Sonnet/Opus cascade; **51%** save; **95%** of requests never needed flagship (Apr–Aug 2026). Closed-family cascade, not open-weight, but same “only hard work to premium” lever.
+
+### Adjacent (different pattern)
+
+- **Cursor/Anysphere Composer 2** built on **Kimi K2.5** (~1/4 compute from base): https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/ — product weights, not API traffic swap.
+- **Vercel** AI Gateway customer mix includes DeepSeek/GLM; >1T tokens/day: https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/ — ecosystem signal, not Vercel’s own app swap.
