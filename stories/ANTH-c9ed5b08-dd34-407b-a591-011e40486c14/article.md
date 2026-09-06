@@ -1,15 +1,15 @@
 # article.md (mirror of site-content published article)
 
-Source of truth: `AnthusAI/anthus-site-content` `main` @ `fa6f524`, file `commodity-receipts.mdx` (`state: published`).
+Source of truth: `AnthusAI/anthus-site-content` `main` @ `9cd2da5`, file `commodity-receipts.mdx` (`state: published`).
 Production: https://anth.us/blog/commodity-receipts/
 
 ---
-title: "Commodity receipts: who actually swapped"
+title: "Who actually swapped off premium models"
 slug: "commodity-receipts"
 date: "2026-09-05"
 authors:
   - author: <a href="/ryan">Ryan Porter</a>
-excerpt: "Price charts showed useful capability getting cheaper. These are the procurement receipts — named orgs, what they swapped or routed, and one checkable number each."
+excerpt: "Useful capability got cheaper. Here are named orgs that moved production traffic, what they swapped or routed to, and one checkable number each."
 preview_image: "./images/commodity-receipts.png"
 images:
   - "./images/commodity-receipts.png"
@@ -27,12 +27,26 @@ import { Citation, CitationsList } from "gatsby-citation-manager"
   images={props.pageContext.frontmatter.images}
   name="commodity-receipts.png"
   className="centered"
-  alt="German cash-register receipt (Kassenbon) scanned and centered on a light sky background — Wikimedia Commons, public domain."
+  alt="Simple diagram: two Fantastic AI product cards on white — left $100, right same $100 with a hand-drawn red slash and handwritten red $1."
 />
 
-_Public domain: Wikimedia Commons [File:Kassenbon.jpg](https://commons.wikimedia.org/wiki/File:Kassenbon.jpg), author Lkawer._
+Six months ago, "frontier" and "cheap" didn't belong in the same sentence. Then a wave of Chinese models — DeepSeek, Kimi, Qwen — started clearing real production quality bars at a fraction of the price, and the big U.S. labs started answering on their own price sheets instead of pretending not to notice. The Financial Times now has OpenAI and Anthropic in an open price war as Chinese rivals close the gap.<Citation
+data={{
+    type: "webpage",
+    title: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+    "container-title": "Financial Times",
+    URL: "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01",
+    accessed: { "date-parts": [[2026, 9, 5]] }
+  }}
+/>
 
-AT&T's AI Gateway sees about **45 billion tokens a day**.<Citation
+That doesn't mean AI got cheap across the board. It means one layer of AI work got cheap — the tasks routine enough that a much cheaper model handles them exactly as well as the flagship one. Nobody has a fixed list of which tasks qualify, and nobody will; it's a moving target, redrawn every time a router gets smarter or a fine-tune gets sharper. [Maximize Value, Not Intelligence](/blog/maximize-value-not-intelligence/) made the argument for routing every job to the cheapest model that clears the bar. [The Year Coding Became a Commodity](/blog/ai-coding-cost-collapse-2026/) showed that happening to coding specifically. Go back far enough and [How Does the Drama at OpenAI Affect You?](/blog/a-world-with-no-moats/) was written the week OpenAI's board drama cracked the idea that any one lab was a safe, permanent one-stop shop — the moats were already looking thin in 2023.
+
+The trend is real. The hard part is noticing it's landed on your own workload before someone else finds out the expensive way. So skip the price charts — here are named companies that moved, what they swapped or routed, and one number each you can check for yourself.
+
+## AT&T: route every turn
+
+AT&T's AI Gateway handles about **45 billion tokens a day**.<Citation
 data={{
     type: "webpage",
     title: "The Tokenomics Equation: Balancing Cost and Performance",
@@ -40,25 +54,13 @@ data={{
     URL: "https://about.att.com/blogs/2026/the-tokenomics-equation.html",
     accessed: { "date-parts": [[2026, 9, 5]] }
   }}
-/> Most of those turns don't need the newest frontier model. Their cache-aware router picks a cheaper one — and can change mid-session — and they say AI costs are down **as much as 90%**, already saving millions.
+/> At that volume, "just use the latest model" stops being a preference and becomes a line item. So AT&T built a system that picks the cheapest model that still clears the quality bar for each task — and can swap models mid-conversation. They say it's cut AI costs by **as much as 90%**, saving millions already, and they're training their own smaller models to run on cheaper hardware too.
 
-That's a receipt. Not a benchmark curve, not a pricing table. A named organization, a concrete swap (or route), and a number you can check against a primary write-up.
-
-[The Year Coding Became a Commodity](/blog/ai-coding-cost-collapse-2026/) made the case that useful coding capability got dramatically cheaper while agents learned to stay on a task longer. This piece doesn't retell those curves. It walks the field: who moved production traffic, what they moved it to, and what the bill did.
-
-Buying philosophy lives elsewhere — [Maximize Value, Not Intelligence](/blog/maximize-value-not-intelligence/), [Never Use Fast](/blog/never-use-fast/), [Thrifty tokenmaxxing](/blog/thrifty-tokenmaxxing/). Here we're just reading the invoices people published.
-
-## AT&T: route every turn
-
-Scale is the first thing that lands. Forty-five billion tokens a day is enough that "default to the latest model" stops being a preference and starts being a budget category.
-
-AT&T's answer is an AI Gateway with cache-aware routing: match each task to the most cost-effective model that still clears the quality bar, and allow the model to change during a multi-turn session. They're also training telco-specific open models so more work can land on right-sized hardware. The efficiency claim they put in public is blunt — up to a 90% cost cut, millions already saved.
-
-The wonder isn't that a telco built a router. It's that at that volume, model choice becomes operations: every turn is a procurement decision, and the gateway automates it.
+The takeaway isn't that a phone company built a router. It's that at this scale, picking which AI to use for a job stops being an engineering choice and starts being a budgeting one.
 
 ## Lindy: migrate the managed fleet
 
-Lindy's pricing only works if inference keeps getting cheaper. Staff engineer Bruno Škvorc published the migration that made that bet real: most managed-agent traffic — Claude/Sonnet paths and the remaining Gemini routes — moved to **DeepSeek v4 Flash** on Atlas Cloud.<Citation
+Lindy runs AI assistants for other businesses, and its pricing only works if the AI underneath keeps getting cheaper. So it moved most of that traffic off Claude and Gemini and onto **DeepSeek**, a much cheaper Chinese model, cutting inference costs on that traffic by about **90%**.<Citation
 data={{
     type: "webpage",
     title: "Migrating from Claude to DeepSeek",
@@ -68,15 +70,13 @@ data={{
     accessed: { "date-parts": [[2026, 9, 5]] },
     issued: { "date-parts": [[2026, 6, 24]] }
   }}
-/> On the migrated traffic, inference costs fell about **90%**. Sonnet stays when a user picks it or a higher-intelligence path needs it.
+/> Customers who specifically ask for Claude still get it.
 
-The part that stuck with me: they tried Kimi K2.5 in offline evals, then rolled a small slice to real users, and someone said it felt like their assistant had had brain surgery overnight. Offline scores weren't enough. Provider choice mattered too — the same nominal model scored differently depending on who served it. Prompt optimization (their GEPA loop), internal rollout, online evals, and retention all had to hold before they ramped to 100% of the target traffic.
-
-Changing the model string was the easy headline. Earning the right to move the traffic was the job.
+It wasn't instant. An earlier swap made the assistant feel, in one tester's words, like it "had brain surgery overnight" — so this time Lindy tested offline first, rolled it out to a small slice of real users, and kept tuning before flipping the switch for everyone. Changing the model was the easy part; earning the right to actually ship the change was the job.
 
 ## Shopify Flow: fine-tune the skill
 
-Sidekick's natural-language → Flow skill used to sit on a frontier model Shopify didn't control. The engineering team fine-tuned **Qwen3-32B** into a tool-calling agent that writes Flow automations — **2.2× faster**, **68% cheaper**, and now carrying the **majority of production traffic** for that skill.<Citation
+Shopify's Sidekick assistant used to lean on a big, general-purpose AI model to turn plain-English requests into "Flow" automations for merchants. Shopify trained its own smaller, specialized model for that one job instead — and it now runs **2.2× faster**, costs **68% less**, and handles the **majority of production traffic** for that feature.<Citation
 data={{
     type: "webpage",
     title: "Flow generation through natural language: An agentic modeling approach",
@@ -87,13 +87,11 @@ data={{
   }}
 />
 
-They didn't get there with a dropdown. Synthetic trajectories reverse-engineered from real merchant workflows, a Python DSL closer to pretraining than Flow's JSON, weekly retraining on Tangle, and a production flywheel that scored conversations with a calibrated LLM judge. Benchmarks said ready; a 1% traffic slice said activation was 35% lower than the prompt-based agent. Two weeks of flywheel work closed the gap.
-
-Six months from rented frontier to owned weights, on data only Shopify has, at 68% lower cost. The version serving merchants is already worse than the one retraining behind it.
+Getting there took real work: months of generating practice examples from real merchant workflows, then continually retraining as new mistakes turned up in production. It took six months to go from renting a frontier model to owning a smaller one that's cheaper and better at this one job — because that's the only job it has to do.
 
 ## Shopify Sidekick GraphQL: compress failures into weights
 
-A second Shopify receipt sits next to Flow, and it's even louder on dollars. Sidekick's GraphQL agent — merchant questions answered by writing and running Admin GraphQL — serves up to about **2,000 requests per minute**.<Citation
+A second, louder Shopify number: its GraphQL assistant answers merchant questions by writing and running database queries, at up to **2,000 requests per minute**.<Citation
 data={{
     type: "webpage",
     title: "Sidekick's continual learning loop",
@@ -102,15 +100,13 @@ data={{
     accessed: { "date-parts": [[2026, 9, 5]] },
     issued: { "date-parts": [[2026, 8, 5]] }
   }}
-/> Serving that traffic on a frontier model was estimated at roughly **$27M/yr**. The fine-tuned continual-learning loop brings it closer to **~$1M/yr** — about **96%**.
+/> Running that on a frontier model was projected to cost roughly **$27M a year**. By continually retraining a smaller model on its own production mistakes, Shopify brought that down to about **$1M a year** — a **96%** cut — without losing quality.
 
-The loop is the story: rubric → calibrated judge → autoresearch on the harness → hard negatives from production → heal with a panel of frontier critics → SFT + GRPO into smaller weights → gist-compress the long system prompt. Frontier models launch the product; the flywheel turns production failures into parameters. Quality rises past the frontier baseline while latency and GPU count fall.
-
-That's what "commodity" looks like when you own the skill: the expensive general model becomes training signal and a fallback, not the serving path.
+The pattern here: the expensive general model stops being the thing that serves customers. It becomes the teacher. The cheap model that learned from its mistakes does the actual work.
 
 ## Firetiger: Claude → DeepSeek with the eval bar held
 
-Firetiger runs incident-investigation and monitoring agents whose COGS is mostly inference. Claudes on Bedrock had been the default. For the first three agent types migrated to **DeepSeek v4 Pro**, real-dollar spend went from roughly **$606K/yr to $231K/yr** — a **62%** cut.<Citation
+Firetiger builds AI agents that monitor other companies' software and investigate outages; it ran on Claude by default. After moving its first three agent types to **DeepSeek**, its yearly AI bill fell from roughly **$606K to $231K** — a **62%** cut.<Citation
 data={{
     type: "webpage",
     title: "Migrating from Claude to DeepSeek without breaking everything",
@@ -120,13 +116,11 @@ data={{
   }}
 />
 
-Drop-in failed. DeepSeek with reasoning started at 80% task completion against Sonnet 4.6's 94%. A self-improvement loop rewrote prompts — second-order effects from a PR diff, how to treat prior notes as directional context — until DeepSeek hit 92% without hurting Sonnet. Then cost-per-task still lagged list-price spreads because the cheap model wrote more and wandered into web rabbit holes. More prompt work, tool-policy hardening, and session replays before production.
-
-The one-sentence lesson they published: the eval score is the start of the work, not the end. Getting the right answer tells you migration is possible; getting there efficiently, by a path you understand, is the finish line.
+It wasn't a simple swap. The cheaper model was noticeably worse out of the box, and it took real tuning to close the accuracy gap — and even then, the cheap model tended to overthink and ramble, which quietly ate into the savings until they reined it in. Their own lesson: passing the accuracy test is the starting line, not the finish line.
 
 ## FrontierHarness: hold the model, vary the harness
 
-One more receipt flips the axis. RUNTA's FrontierHarness Eval keeps the model fixed — **Kimi K3** on Fireworks — and varies the agent harness across nine harnesses and twelve configs, 30 tasks, 360 cold starts.<Citation
+One more field note flips the question around. Instead of comparing different AI models, RUNTA plugged the same one — **Kimi K3**, a Chinese model — into nine different agent tools and had each run the same 30 tasks.<Citation
 data={{
     type: "webpage",
     title: "Introducing FrontierHarness Eval",
@@ -134,25 +128,15 @@ data={{
     URL: "https://runta.com/blog/introducing-frontierharness-eval/",
     accessed: { "date-parts": [[2026, 9, 5]] }
   }}
-/> Pass rates clustered **50.0%–66.7%**. Median cost per completed pass ran from **$1.05** (Exo) to **$18.34** (Claude Code) — about **17×**.
+/> Same brain, different bodies. Every setup passed at roughly the same rate, but the cost per completed task ranged from about **$1** to about **$18** — a **17×** spread — depending purely on how the surrounding tool was built.
 
-Same weights. Same tasks. Same cold-start restore. Very different bills.
-
-The authors flag an important caveat: Claude Code's high end may reflect harness–model–gateway interaction (Anthropic-oriented caching against K3's implicit cache), not the harness alone. Even with that asterisk, the spread is the point. Commodity pricing isn't only "which model." It's which loop burns the tokens.
+Which model you pick isn't the only cost lever. How the software around it uses that model can matter just as much.
 
 ## What the labs do next
 
-When application companies publish moves like these, labs answer on the rate card. The Financial Times covered OpenAI and Anthropic in a price war as Chinese rivals gain ground — the same pressure showing up on the rate card.<Citation
-data={{
-    type: "webpage",
-    title: "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-    "container-title": "Financial Times",
-    URL: "https://www.ft.com/content/32a70a3c-7d28-40b4-808e-36edb58c7d01",
-    accessed: { "date-parts": [[2026, 9, 5]] }
-  }}
-/>
+When companies publish savings like these in public, the big labs feel it in their own pricing — hence that open price war among OpenAI, Anthropic, and their Chinese rivals mentioned up top.
 
-Useful work is moving down the cost curve in public, with numbers attached. Gateways route. Fleets migrate. Skills get fine-tuned. Harnesses get measured. The scarce thing keeps sliding toward judgment: which traffic can move, what quality bar to hold, and whether the cheaper path still feels like the product.
+Useful AI work keeps sliding down the cost curve, in public, with numbers attached. Companies are routing traffic to cheaper models, retraining their own smaller ones, and measuring exactly what it costs. What's left to judgment: figuring out which of your own tasks belong in that cheaper tier, and whether the savings are still worth it once you count the engineering it took to get there.
 
 ## References
 
