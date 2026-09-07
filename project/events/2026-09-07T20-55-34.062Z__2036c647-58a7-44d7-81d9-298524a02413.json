@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "2036c647-58a7-44d7-81d9-298524a02413",
+  "issue_id": "ANTH-f0b52e59-2142-488c-b19e-4e8422d18044",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-07T20:55:34.062Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "Codex as open harness (approval + sandbox)",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

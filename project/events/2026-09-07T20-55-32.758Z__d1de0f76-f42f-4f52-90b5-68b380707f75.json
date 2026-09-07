@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "d1de0f76-f42f-4f52-90b5-68b380707f75",
+  "issue_id": "ANTH-3da04d38-bc6a-4fd4-a55d-29efbd737134",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-07T20:55:32.758Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "Spotify Portal: shunt Claude Code I/O (~90%)",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}

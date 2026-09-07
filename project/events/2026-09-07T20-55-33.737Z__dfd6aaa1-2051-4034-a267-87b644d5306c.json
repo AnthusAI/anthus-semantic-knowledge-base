@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "dfd6aaa1-2051-4034-a267-87b644d5306c",
+  "issue_id": "ANTH-66416d6b-4d51-4ad6-9045-f4077411018b",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-07T20:55:33.737Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "Refactoring as agent opex (83% input-token cut)",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}
