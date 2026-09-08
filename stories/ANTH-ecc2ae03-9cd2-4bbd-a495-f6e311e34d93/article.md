@@ -84,9 +84,7 @@ data={{
 | Qwen 3 Coder + schema-guided agent   |          32.3% |         $0.13 |
 | Devstral 2 Small + interactive agent |          42.2% |         $0.30 |
 
-Here's the interesting part: **GPT-5 mini rivals GPT-5 at a fraction of the cost** in this setting. The larger model still does better on the hardest tasks, but it's worse on simpler work—partly because it asks unnecessary questions and runs longer interactions.
-
-Here's the point: for a lot of everyday engineering work, the best-value model is moving **down** the capability ladder faster than most developers are changing their defaults.
+**GPT-5 mini rivals GPT-5 at a fraction of the cost** in this setting. The larger model still does better on the hardest tasks, but it's worse on simpler work—partly because it asks unnecessary questions and runs longer interactions. For a lot of everyday engineering work, the best-value model is moving **down** the capability ladder faster than most developers are changing their defaults.
 
 ## The second curve: agents work longer
 
@@ -215,9 +213,9 @@ data={{
   }}
 /> Delegating a milestone to a hierarchy of agents is token-expensive by design.
 
-That's why this isn't just a savings story. <mark>Cheaper model usage made longer loops and agent hierarchies affordable.</mark>
+That's what made agent hierarchies affordable to run at all—not just cheaper models, but cheaper loops.
 
-A July 2026 paper, _The Harness Effect_, measures the second lever directly: holding the model constant, swapping in a better orchestration layer cut cost per task by 41%—more than switching between the cheapest and most expensive model did. The harness moved cost per task more than model choice did.<Citation
+A July 2026 paper, _The Harness Effect_, measures a third lever: holding the model constant, swapping in a better orchestration layer cut cost per task by 41%—more than switching between the cheapest and most expensive model did.<Citation
 data={{
     type: "article-journal",
     title: "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
@@ -276,7 +274,7 @@ data={{
   The same budget, a different unit of work.
 </p>
 
-The real change isn't simply that coding got cheaper. It's that the same budget can support a different way of working, including whole milestones handed to a supervised group of agents. Augment describes the shift as moving the unit of engineering work from the pull request to the project.<Citation
+The real shift is what the same budget can now buy: not just cheaper code, but whole milestones handed to a supervised group of agents. Augment describes the shift as moving the unit of engineering work from the pull request to the project.<Citation
 data={{
     type: "webpage",
     "container-title": "Augment Code",
@@ -288,7 +286,7 @@ data={{
 
 ## Chore tasks that finally get done
 
-Every engineering team has a list of work that is obviously valuable and never gets done. Documentation drifts. Dependency upgrades sit in the backlog until something breaks. Tests get written for new code and never backfilled for old code. Security advisories get triaged when they're loud enough. Changelogs get written when someone remembers.
+Most engineering teams carry a list of work that's obviously valuable and never gets done. Documentation drifts. Dependency upgrades sit in the backlog until something breaks. Tests get written for new code and rarely backfilled for old code. Security advisories get triaged when they're loud enough. Changelogs get written when someone remembers.
 
 These are the tasks that parallel agents are best at, because they are well-scoped, repeatable, and low-stakes enough to run under human review rather than by hand. And the tooling for them is now shipping.
 
@@ -348,7 +346,7 @@ That's a separate story, and we take it up in the companion piece: [Bugonomics: 
 
 ## What became scarce
 
-What changed in 2026 wasn't just that coding models got smarter. <mark>Useful coding capability got cheaper at the same time agents learned to work for longer.</mark> Cheap models made long loops affordable. Long loops made larger units of work delegable. The same budget began to buy a team instead of a single assistant.
+<mark>Coding models didn't just get smarter in 2026—they got cheap enough to run for longer, on more of the work at once.</mark> Cheap models made long loops affordable. Long loops made larger units of work delegable. The same budget began to buy a team instead of a single assistant.
 
 That doesn't make the human less important. It moves the scarce resource from implementation toward specification, taste, and judgment. The code became a commodity. Knowing what should be built—and whether the result is actually good—didn't.
 
