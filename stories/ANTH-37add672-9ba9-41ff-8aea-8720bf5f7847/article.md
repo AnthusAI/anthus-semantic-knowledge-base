@@ -30,9 +30,9 @@ The Software Director is not merely accepting bug reports and turning them into 
 
 That distinction matters. Dispatch alone is a queue. Supervision includes judgment.
 
-I explicitly instructed the Software Director to be hard on coding agents when it reviews their work, and it is. It can require test results, code coverage, documentation, security checks, and project-specific evidence before accepting a change. It works alongside automated systems such as CodeQL, Snyk, and Dependabot; it does not replace them. The difference is that a capable reviewing agent can interpret all of that evidence as part of a defined acceptance procedure and keep asking questions when something does not add up.
+I explicitly instructed the Software Director to be hard on coding agents when it reviews their work, and it is. It can require test results, code coverage, documentation, security checks, and project-specific evidence before accepting a change. It works alongside automated systems such as CodeQL, Snyk, and Dependabot; it does not replace them. The reviewing agent adds judgment: it evaluates the evidence against a defined acceptance procedure and requests clarification when needed.
 
-Smart coding agents can be remarkably good at catching problems in code written by other coding agents. In some circumstances, they can be more thorough than a human who is excited about the feature and wants to get it deployed. That is not because the human is obsolete. It is because the reviewing agent has one job, a written procedure, and no urge to declare victory at 5:30 on Friday.
+Smart coding agents can be remarkably good at catching problems in code written by other coding agents. In some circumstances, they can be more thorough than a human eager to get the feature deployed. That is not because the human is obsolete. It is because the reviewing agent has one job, a written procedure, and no urge to declare victory at 5:30 on Friday.
 
 The Researcher is not a ceremonial client, either. It has checked delivered work and sent it back for changes many times. The point is not to make an org chart that looks sophisticated. The point is to create a working cycle in which one role notices a problem, another role coordinates the fix, and the original requester checks whether the result solves the problem.
 
@@ -72,7 +72,7 @@ flowchart TB
     D -->|"assigns and reviews work"| B4
 ```
 
-The coding agents didn’t suddenly get smarter in the second diagram. The difference is that I don’t have to sit inside every conversation.
+The coding agents didn’t suddenly get smarter in the second diagram. But I don’t have to sit inside every conversation.
 
 The human still chooses what matters. The human defines the roles, the boundaries, and the acceptance requirements. The human remains responsible for the consequences. But the human no longer has to notice that a test suite finished, switch back to the correct tab, interpret the result, decide on the next iteration, and restart the work every time.
 
