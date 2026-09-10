@@ -3,7 +3,7 @@
   "title": "Desert Ant Labs: little brains, no token meter",
   "description": "Short Anth.us post from Researcher 4am find (2026-09-10). Source: https://desertant.com/blog/introducing-desert-ant-labs/",
   "type": "story",
-  "status": "copywriting",
+  "status": "published",
   "priority": 2,
   "assignee": null,
   "creator": null,
@@ -12,10 +12,12 @@
   "dependencies": [],
   "comments": [],
   "created_at": "2026-09-10T10:32:15.458133Z",
-  "updated_at": "2026-09-10T10:33:45.843420Z",
+  "updated_at": "2026-09-10T10:55:07.407510Z",
   "closed_at": null,
   "right_now_summary": null,
   "right_now_updated_at": null,
-  "custom": {},
-  "agent": null
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
 }
