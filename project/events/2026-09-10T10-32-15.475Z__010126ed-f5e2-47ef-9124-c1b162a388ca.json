@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "010126ed-f5e2-47ef-9124-c1b162a388ca",
+  "issue_id": "ANTH-1d4cf20a-b3e1-4173-9cd3-7f9b6341dd06",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-10T10:32:15.475Z",
+  "actor_id": "box",
+  "payload": {
+    "title": "Desert Ant Labs: little brains, no token meter",
+    "description": "Short Anth.us post from Researcher 4am find (2026-09-10). Source: https://desertant.com/blog/introducing-desert-ant-labs/",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": []
+  }
+}
