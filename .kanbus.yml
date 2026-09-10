@@ -113,61 +113,73 @@ statuses:
   name: Idea
   category: Editorial
   color: null
+  semantic_category: todo
   collapsed: false
 - key: assignment
   name: Assignment
   category: Editorial
   color: null
+  semantic_category: todo
   collapsed: false
 - key: research
   name: Research
   category: Reporting
   color: null
+  semantic_category: in_progress
   collapsed: false
 - key: report
   name: Report
   category: Reporting
   color: null
+  semantic_category: in_progress
   collapsed: false
 - key: editor_select
   name: Editor select
   category: Reporting
   color: null
+  semantic_category: in_progress
   collapsed: false
 - key: copywriting
   name: Copywriting
   category: Publishing
   color: null
+  semantic_category: in_progress
   collapsed: false
 - key: published
   name: Published
   category: Publishing
   color: null
+  semantic_category: done
   collapsed: true
 - key: backlog
   name: Backlog
   category: To do
   color: null
+  semantic_category: todo
   collapsed: true
 - key: open
   name: Discovery
   category: To do
   color: null
+  semantic_category: todo
   collapsed: false
 - key: in_progress
   name: In Progress
   category: In progress
   color: null
+  semantic_category: in_progress
   collapsed: false
 - key: blocked
   name: Blocked
   category: In progress
   color: null
+  semantic_category: in_progress
   collapsed: true
 - key: closed
   name: Done
   category: Done
   color: null
+  semantic_category: done
   collapsed: true
 categories:
 - name: Editorial
