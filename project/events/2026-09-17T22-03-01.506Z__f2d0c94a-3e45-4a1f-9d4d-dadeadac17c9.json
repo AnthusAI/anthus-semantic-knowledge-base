@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "f2d0c94a-3e45-4a1f-9d4d-dadeadac17c9",
+  "issue_id": "ANTH-3acd0819-82d0-403b-bd28-8734160da7d3",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-17T22:03:01.506Z",
+  "actor_id": "home",
+  "payload": {
+    "assignee": null,
+    "description": "Research TypeSafe Jev and write a full unpublished article for Ryan to review, connecting it to Anthus value-per-dollar philosophy. Deliver the review draft in this newsroom repository; publication and production evaluation remain separate work.",
+    "issue_type": "task",
+    "labels": [],
+    "parent": null,
+    "priority": 2,
+    "status": "idea",
+    "title": "Draft Jev article: useful decisions per dollar"
+  }
+}

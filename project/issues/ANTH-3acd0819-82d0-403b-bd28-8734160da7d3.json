@@ -1,0 +1,35 @@
+{
+  "id": "ANTH-3acd0819-82d0-403b-bd28-8734160da7d3",
+  "title": "Draft Jev article: useful decisions per dollar",
+  "description": "Research TypeSafe Jev and write a full unpublished article for Ryan to review, connecting it to Anthus value-per-dollar philosophy. Deliver the review draft in this newsroom repository; publication and production evaluation remain separate work.",
+  "type": "task",
+  "status": "closed",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "cecf5c7a-d70b-4eb8-825c-993d092e13fd",
+      "author": "home",
+      "text": "The newsroom configuration initializes all types at idea, although task workflow starts at open. Used the CLI validation override once to put this drafting task in its required in_progress state. Draft will stay in newsroom review files, outside Gatsby publication inputs.",
+      "created_at": "2026-09-17T22:03:15.726109Z",
+      "comment_type": "default"
+    },
+    {
+      "id": "fe3c880c-ad42-452b-b2ea-4abc9f3b81bf",
+      "author": "home",
+      "text": "Full 1,700-word draft and review notes complete in stories/ANTH-3acd0819-82d0-403b-bd28-8734160da7d3/. Primary sources checked; screenshot figures, confidence semantics, cost arithmetic, and Call Criteria URL verified. Unpublished newsroom Markdown with placeholder image. Remaining editorial review, final imagery and eventual MDX publication preparation are recorded in review-notes.md. No Jev production evaluation was run.",
+      "created_at": "2026-09-17T22:05:46.318547Z",
+      "comment_type": "default"
+    }
+  ],
+  "created_at": "2026-09-17T22:03:01.504597Z",
+  "updated_at": "2026-09-17T22:05:46.433567Z",
+  "closed_at": "2026-09-17T22:05:46.431211Z",
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}
