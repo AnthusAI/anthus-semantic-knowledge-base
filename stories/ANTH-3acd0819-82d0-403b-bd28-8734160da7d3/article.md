@@ -10,10 +10,7 @@ tags:
   - economics
 excerpt: |
   Jev puts fast, typed decisions inside ordinary software. That fits the Anthus approach to AI: define the quality bar, measure the whole workflow, and spend less to get more useful work done.
-preview_image: "./images/jev-useful-decisions.png"
-images:
-  - "./images/jev-useful-decisions.png"
-state: draft
+state: published
 ---
 
 # Jev: Intelligence Your Software Can Use
@@ -49,6 +46,8 @@ That's a good fit for the argument in [How AI Agents Do Things](https://anth.us/
 ## A scorecard in the playground
 
 Our playground example puts a bank-call transcript alongside several scoring questions. The visible responses include a 99% yes probability for whether the representative thanked the customer, and 91% for whether they identified whom they represented. A separate question about successfully handling the call gives YES 95%, NO 5%, and NA 0%.
+
+![TypeSafe AI playground showing a bank-call transcript and Jev’s structured call-quality decisions with probabilities and confidence scores.](./images/jev-playground-example.png)
 
 That's already a useful shape for a quality-assurance system. Each answer can become a scorecard field, a candidate for review, or an input to a rule. Nobody has to read a paragraph to discover which box the model checked.
 

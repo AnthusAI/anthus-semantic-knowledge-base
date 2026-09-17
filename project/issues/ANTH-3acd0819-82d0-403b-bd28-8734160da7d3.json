@@ -24,10 +24,17 @@
       "text": "Full 1,700-word draft and review notes complete in stories/ANTH-3acd0819-82d0-403b-bd28-8734160da7d3/. Primary sources checked; screenshot figures, confidence semantics, cost arithmetic, and Call Criteria URL verified. Unpublished newsroom Markdown with placeholder image. Remaining editorial review, final imagery and eventual MDX publication preparation are recorded in review-notes.md. No Jev production evaluation was run.",
       "created_at": "2026-09-17T22:05:46.318547Z",
       "comment_type": "default"
+    },
+    {
+      "id": "ea708e0c-e0fb-492f-8441-04a8853d141e",
+      "author": "home",
+      "text": "Ryan requested publication status and the supplied image in the body. Article frontmatter now says published; the original playground screenshot is embedded in-body; there is no headline image. Review notes updated. No production evaluation was run.",
+      "created_at": "2026-09-17T22:11:09.002509Z",
+      "comment_type": "default"
     }
   ],
   "created_at": "2026-09-17T22:03:01.504597Z",
-  "updated_at": "2026-09-17T22:05:46.433567Z",
+  "updated_at": "2026-09-17T22:11:09.002528Z",
   "closed_at": "2026-09-17T22:05:46.431211Z",
   "right_now_summary": null,
   "right_now_updated_at": null,
