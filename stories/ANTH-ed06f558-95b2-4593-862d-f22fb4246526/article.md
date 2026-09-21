@@ -151,7 +151,7 @@ We'd predicted the curve would first pass 0.802 at 300 to 500 labels and first p
 
 **The only lever Jev has.** TypeSafe's [model page](https://docs.typesafe.ai/models) says Jev "is not fine-tuned or LoRA-adapted with customer data".
 
-There's one more comparison we care about for production: if you auto-accept every verdict above a confidence threshold, how much of the traffic clears a 95% accuracy bar? [result pending]
+There's one more comparison we care about for production: if you auto-accept every verdict above a confidence threshold, how much of the traffic clears a 95% accuracy bar? On the 600 test items, Jev alone could auto-accept 46% of its verdicts, and Jev with the layer 72%. Laya alone managed 34%, and Laya with the layer 55%. Fine-tuned Laya averaged 71%, but swung from 59% to 82% across its three training seeds, and DistilBERT averaged 63%. So the most accurate system isn't the one that knows best when it's right. How well confidence ranks right answers above wrong ones (AUROC) tells the same story: 0.853 for Jev with the layer, 0.839 for DistilBERT, 0.800 for fine-tuned Laya (0.760 to 0.851 by seed), 0.799 for Laya with the layer. This comparison is exploratory; we didn't pre-register it. Jev rounds its probabilities to two decimals, so the Jev-alone figure sits on a block of 277 tied items. And the fine-tuned models here were retrained for the probe, so their accuracies differ from the table above by up to a point.
 
 ### Where we deviated
 
