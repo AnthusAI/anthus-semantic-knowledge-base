@@ -1,0 +1,42 @@
+{
+  "id": "ANTH-62703ac6-47f2-451e-be33-a43d5d064ab5",
+  "title": "Copy-edit published Jev article around Anthus classifier experience",
+  "description": "Rewrite the published Jev article so it leads with Anthus experience adapting generative language models for production call-center QA classifiers, including unreliable or unavailable log-probabilities, self-evolving evaluation and improvement loops, and the operational impact of Jev as a direct decision model. Preserve source attribution and distinguish vendor claims from Anthus experience.",
+  "type": "task",
+  "status": "closed",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "8d7dbfae-bfb3-4017-b042-6b93730bb7a3",
+      "author": "home",
+      "text": "Kanbus initialized this task in the editorial-only `idea` status even though it is a generic task. Moved it to `in_progress` with lifecycle validation bypassed because the configured task workflow otherwise has no legal transition from `idea`.",
+      "created_at": "2026-09-18T12:42:48.975218Z",
+      "comment_type": "default"
+    },
+    {
+      "id": "76ffe086-621d-40d0-b7be-3c12cc171a80",
+      "author": "home",
+      "text": "Final editorial pass complete: revised the published Jev article around Anthus post-call QA experience; added the Jev cost comparison chart, square-peg illustration, explanatory captions, TypeSafe/Jevons framing, and an optimistic evidence-based conclusion. Content commit c72cd31 is pushed to anthus-site-content/main. Verification: Limatus-guided review, MDX Prettier, diff checks, responsive image build, and Gatsby production build (exit 0).",
+      "created_at": "2026-09-18T13:55:25.775295Z",
+      "comment_type": "default"
+    },
+    {
+      "id": "87bd203e-50b6-424b-9e76-ac67d381227f",
+      "author": "home",
+      "text": "Published to Anth.us main at 7c5762b. Amplify deployment 189 succeeded and the Jev article URL returned HTTP 200. The Gatsby build dropped from 1,532 seconds cold to 79 seconds with reusable, content-addressed image derivatives.",
+      "created_at": "2026-09-18T15:21:18.916941Z",
+      "comment_type": "default"
+    }
+  ],
+  "created_at": "2026-09-18T12:41:05.996052Z",
+  "updated_at": "2026-09-18T15:21:18.994367Z",
+  "closed_at": "2026-09-18T15:21:18.992168Z",
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}

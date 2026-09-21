@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "580189b0-e778-42e1-9e12-2bcf27edd350",
+  "issue_id": "ANTH-801e620a-7124-4941-89a2-2a7c7e65d452",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-02T18:24:45.132Z",
+  "actor_id": "home",
+  "payload": {
+    "assignee": null,
+    "description": "## Intent\n\nResearch a long-form Anth.us article on coordinated teams of specialized LLM agents that plan, implement, test, review, and ship software, with humans setting direction and governing high-leverage decisions. Use Grok Bot–style persistent agent teams and PostHog’s software-factory and multi-agent review loops as current examples.\n\n## Preferred term\n\nUse **LLM-based multi-agent systems (MAS) for software engineering** as the formal umbrella. It matches the exact terminology of a peer-reviewed ACM TOSEM systematic review, while FIPA/IEEE and current platform documentation consistently use multi-agent systems or multi-agent collaboration.\n\n## Alternate and discovery terms\n\n- multi-agent software development\n- multi-agent collaboration\n- multi-agent orchestration\n- multi-agent software development framework\n- AI agent team / agent team\n- coding-agent team\n- AI-native software engineering team\n- team of always-on agents\n- AI teammates\n- team of Bots\n- agent swarm / coding-agent swarm / QA swarm\n- agentic software engineering\n- agentic software engineering system\n- autonomous software development\n- autonomous software development pipeline\n- software factory\n- AI software factory\n- agentic software factory\n- lights-off software factory\n- dark software factory\n- bot farm\n- model zoo\n\n## Terminology boundaries\n\nThese terms are not exact synonyms. A software factory is the broader end-to-end production operating model and an overloaded metaphor; PostHog explicitly says it has no fixed criteria. An agent swarm usually implies a large, dynamic, or decentralized multi-agent subtype. Orchestration is the coordination layer. Agentic software engineering is a broader discipline and can include single-agent systems. Bot farm commonly means mass-operated fake or spam accounts and carries an abuse connotation. Model zoo means a catalog of pretrained models, not a collaborating team.\n\n## Research questions for the next stage\n\nCompare supervisor-led hierarchies with decentralized handoffs; fixed specialists with dynamically formed teams; shared memory and communication; isolated workspaces; planning, implementation, testing, peer review, CI/CD, and production feedback loops; human-in-the-loop governance; and quality, security, observability, cost, evaluation, and failure modes.\n\n## Starting sources\n\n- ACM TOSEM systematic review: https://doi.org/10.1145/3712003\n- FIPA abstract architecture for intentional multi-agent systems: https://www.fipa.org/specs/fipa00001/XC00001J.html\n- Grok Bot team collaboration: https://docs.x.ai/grok-bot/chat-and-collaboration\n- Grok Bot engineering-team example: https://x.ai/bot/guides/grok-bot-for-pms\n- PostHog software-factory framing: https://newsletter.posthog.com/p/software-factories\n- PostHog multi-agent QA swarm: https://newsletter.posthog.com/p/code-review-tips\n- ChatDev, ACL 2024: https://aclanthology.org/2024.acl-long.810/",
+    "issue_type": "story",
+    "labels": [],
+    "parent": null,
+    "priority": 2,
+    "status": "idea",
+    "title": "LLM-Based Multi-Agent Systems for Software Engineering"
+  }
+}

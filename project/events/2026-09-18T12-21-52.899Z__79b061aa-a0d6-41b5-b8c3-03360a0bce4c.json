@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "event_id": "79b061aa-a0d6-41b5-b8c3-03360a0bce4c",
+  "issue_id": "ANTH-b5cb64c6-9281-45e0-9bf8-13160563aeed",
+  "event_type": "issue_deleted",
+  "occurred_at": "2026-09-18T12:21:52.899Z",
+  "actor_id": "home",
+  "payload": {
+    "issue_type": "task",
+    "status": "idea",
+    "title": "Copyedit published Jev article"
+  }
+}

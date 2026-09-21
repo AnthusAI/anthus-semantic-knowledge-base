@@ -1,0 +1,3 @@
+# Report
+
+Jev proposes a different model interface for calls where software needs a bounded decision rather than free-form prose. The source announcement says the model returns typed options with calibrated confidence, uses parallel sampling, and targets low latency and cost. The practical editorial angle is the match with Anthus value-per-dollar argument: use cheap inference only where it clears a measured quality bar. Key caveat: type safety controls output shape, not whether the decision is correct. Buyers should test calibration and error cost on their own workload.

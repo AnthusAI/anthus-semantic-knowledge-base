@@ -1,0 +1,3 @@
+# Editor selection
+
+Proceed with a practical product-architecture explainer. Keep TypeSafe performance and pricing details explicitly attributed and framed as reasons to test rather than benchmarks Anthus independently verified. Center the distinction between valid output and correct decision. Use the provided confidence illustration as a visual metaphor, clearly state that its percentages are not Jev results, and close with an evaluation checklist.

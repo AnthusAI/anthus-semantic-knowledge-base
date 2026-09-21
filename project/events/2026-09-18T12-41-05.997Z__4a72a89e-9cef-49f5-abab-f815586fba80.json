@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "4a72a89e-9cef-49f5-abab-f815586fba80",
+  "issue_id": "ANTH-62703ac6-47f2-451e-be33-a43d5d064ab5",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-18T12:41:05.997Z",
+  "actor_id": "home",
+  "payload": {
+    "assignee": null,
+    "description": "Rewrite the published Jev article so it leads with Anthus experience adapting generative language models for production call-center QA classifiers, including unreliable or unavailable log-probabilities, self-evolving evaluation and improvement loops, and the operational impact of Jev as a direct decision model. Preserve source attribution and distinguish vendor claims from Anthus experience.",
+    "issue_type": "task",
+    "labels": [],
+    "parent": null,
+    "priority": 2,
+    "status": "idea",
+    "title": "Copy-edit published Jev article around Anthus classifier experience"
+  }
+}
