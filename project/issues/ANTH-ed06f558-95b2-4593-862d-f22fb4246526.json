@@ -1,0 +1,24 @@
+{
+  "id": "ANTH-ed06f558-95b2-4593-862d-f22fb4246526",
+  "title": "Jev vs Laya: same labels, same questions, one variable",
+  "description": "",
+  "type": "story",
+  "status": "idea",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [],
+  "created_at": "2026-09-21T19:45:28.522247Z",
+  "updated_at": "2026-09-21T19:45:28.524253Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "claude-code",
+    "model": "claude-fable-5-1"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}

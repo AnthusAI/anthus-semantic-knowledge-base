@@ -1,0 +1,24 @@
+{
+  "id": "ANTH-a099a85f-c829-4fcd-aca8-6137ec8c4bac",
+  "title": "Fine-tuning Jev: you can't, and what gets you the same effect",
+  "description": "",
+  "type": "story",
+  "status": "idea",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [],
+  "created_at": "2026-09-21T19:45:28.466317Z",
+  "updated_at": "2026-09-21T19:45:28.468940Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "claude-code",
+    "model": "claude-fable-5-1"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}

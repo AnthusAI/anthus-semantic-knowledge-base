@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event_id": "dd303bb3-e79a-48c0-9510-7f8fd5619fa4",
+  "issue_id": "ANTH-123b30db-a03f-4a6d-ab0f-848f6a9940da",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-21T19:45:28.574Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "Distilling an aligned Jev system into a classifier you own",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1"
+    }
+  }
+}
