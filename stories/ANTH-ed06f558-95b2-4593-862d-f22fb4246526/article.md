@@ -143,7 +143,7 @@ We'd predicted the curve would first pass 0.802 at 300 to 500 labels and first p
 
 ### What the layer keeps
 
-**Calibration.** The layer's ECE is 0.015 on Laya and 0.030 on Jev. The fine-tune's is 0.087 after calibration, several times worse, and seeds range from 0.057 to 0.116. We don't trust that calibration step yet. The procedure fits one temperature per arm, and for arm A it came out at 5.07, which flattens confidences hard and made seed 1 worse than its raw output (0.116 against 0.108). [result pending] On Brier, which pays for accuracy, the fine-tune edges Jev with the layer, 0.089 to 0.093.
+**Calibration.** The layer's ECE is 0.015 on Laya and 0.030 on Jev. The fine-tune's is 0.087 after calibration, several times worse, and seeds range from 0.057 to 0.116. We don't trust that calibration step. The procedure fits one temperature per arm, and for arm A it came out at 5.07, which flattens confidences hard and made seed 1 worse than its raw output (0.116 against 0.108). We traced it. The temperature is fitted once per arm, on out-of-fold predictions from cross-validation models trained on about 93 of the 140 labels, and then applied to three different final models trained on all 140. It isn't stacked on Laya's own shipped calibration; our code reads raw logits. So it's a mismatch: a temperature that suits the stand-in models suits one seed and not another. There's a second problem underneath. When we retrained the same seeds for the drift probe, accuracy reproduced within about a point, but calibration error didn't: seed 1 came out at 0.046 where the recorded run had 0.116. Training on this GPU isn't bit-for-bit repeatable, and on 140 labels calibration is sensitive to it. Read the fine-tune's 0.087 as somewhere between 0.05 and 0.12. You won't know where without a held-out calibration set, and 140 labels doesn't leave room for one. On Brier, which pays for accuracy, the fine-tune edges Jev with the layer, 0.089 to 0.093.
 
 **A written account.** The layer's adaptation arrives as a question in English and a few coefficients. The fine-tune's arrives as 421M changed numbers.
 
@@ -155,7 +155,7 @@ There's one more comparison we care about for production: if you auto-accept eve
 
 ### Where we deviated
 
-Cross-validation used 3 folds where we'd pre-registered 5, to keep the run affordable on one GPU. Arm C chose its learning rate at 140 and 800 labels and reused it for the sizes in between. We killed the first attempt before it wrote a row, when MLX's buffer cache grew to about 24 GB on a 32 GB machine. It's all in the pre-registration file, beneath predictions we left unedited.
+Cross-validation used 3 folds where we'd pre-registered 5, to keep the run affordable on one GPU. Arm C chose its learning rate at 140 and 800 labels and reused each for the larger sizes that followed it (140's for 300 and 500, 800's for 2,000 and 5,140). We killed the first attempt before it wrote a row, when MLX's buffer cache grew to about 24 GB on a 32 GB machine. The 5,140-label run crashed once on a GPU error partway through, and we resumed only the missing seeds. It's all in the pre-registration file, beneath predictions we left unedited.
 
 ## What can you change with each engine?
 
