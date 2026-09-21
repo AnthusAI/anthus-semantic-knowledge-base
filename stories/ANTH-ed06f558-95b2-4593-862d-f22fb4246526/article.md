@@ -139,7 +139,7 @@ So the fine-tune's headline accuracy comes from the medium and weak tiers, 383 o
 
 Arm C draws labels at random from the pool where arm A uses the 140 the active selector picked. At 140 random labels it scores 0.884 (0.862 to 0.895), at 300 it scores 0.902, and at 500 it scores 0.926. The first step is inside the seed spread; the second isn't. The neutral tier moves the same way: 0.623, 0.644, then 0.736 at 500, level with Jev with the layer.
 
-We'd predicted the curve would first pass 0.802 at 300 to 500 labels and first pass 0.870 at 800 to 2,000. It passed the first at 140 in every seed, and the second at 140 on average and at 300 in every seed. We predicted about 0.93 at 5,140 labels, and it's nearly there at 500. At 800 labels it scored 0.928 (0.925 to 0.932 across seeds) and at 2,000 labels 0.938 (0.933 to 0.943), so the curve is flattening toward the 0.938 ceiling we measured for a text classifier with every pool label. The 5,140-label runs are still going. [result pending]
+We'd predicted the curve would first pass 0.802 at 300 to 500 labels and first pass 0.870 at 800 to 2,000. It passed the first at 140 in every seed, and the second at 140 on average and at 300 in every seed. We predicted about 0.93 at 5,140 labels, and it's nearly there at 500. At 800 labels it scored 0.928 (0.925 to 0.932 across seeds) and at 2,000 labels 0.938 (0.933 to 0.943), and at all 5,140 pool labels 0.942 (0.935 to 0.947), or 0.939 on the full 3,521 held-out items. That last prediction held: the curve flattens right around the 0.938 a plain text classifier reaches with every pool label. We're also running 20, 40 and 80 labels to find where fine-tuning stops beating the layer. [result pending]
 
 ### What the layer keeps
 
