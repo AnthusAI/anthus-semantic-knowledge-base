@@ -3,16 +3,39 @@
   "title": "Jev vs Laya: same labels, same questions, one variable",
   "description": "",
   "type": "story",
-  "status": "idea",
+  "status": "published",
   "priority": 2,
   "assignee": null,
   "creator": null,
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "b0a87537-003b-43f8-a627-11fa1c243869",
+      "author": "home",
+      "text": "Reached copywriting. article.md is a complete draft (about 2,700 words of prose plus tables), derived from the same source as the site MDX draft (state: draft, not published). Limatus: one editing round, verify = accept; remaining findings are attributed vendor figures, a verbatim quotation, and deliberate repeats of system names. Open items, all marked [result pending] in article.md with no values: (1) arm C of the fine-tune-Laya study at 800, 2,000 and 5,140 labels, and the learning-curve chart to re-render; (2) the drift probe; (3) the calibration diagnosis for the full fine-tune; (4) selective prediction (auto-accept coverage at 95% accuracy) for all six systems; (5) exploratory head-only runs at lower learning rates; (6) exploratory arm C at 20, 40, 80 labels. Final editorial approval is Ryan's. Stopping here; not publishing.",
+      "created_at": "2026-09-21T20:11:33.483396Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    },
+    {
+      "id": "15b2af16-2bbd-480a-a20a-c648e8af4acb",
+      "author": "home",
+      "text": "Published early on anth.us at Ryan's direction (2026-09-21) so crawlers can index it; not promoted yet. Sections that depend on the fine-tune-Laya study still running are marked as pending and will be updated as results land. Site content commit 5fee249.",
+      "created_at": "2026-09-21T21:25:55.742527Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    }
+  ],
   "created_at": "2026-09-21T19:45:28.522247Z",
-  "updated_at": "2026-09-21T19:45:28.524253Z",
+  "updated_at": "2026-09-21T21:25:55.742567Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",
@@ -20,5 +43,8 @@
   },
   "right_now_summary": null,
   "right_now_updated_at": null,
-  "custom": {}
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
 }

@@ -3,16 +3,39 @@
   "title": "Distilling an aligned Jev system into a classifier you own",
   "description": "",
   "type": "story",
-  "status": "idea",
+  "status": "published",
   "priority": 2,
   "assignee": null,
   "creator": null,
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "47816f1f-8704-4845-8cc9-95d85947af7b",
+      "author": "home",
+      "text": "Reached copywriting. article.md is a complete draft (about 2,850 words including two tables), copy-edited through one Limatus round (scan, a decision on every finding, hand rewrites, verify = accept) plus an editor's pass. Structure: stake and headline, flywheel in two paragraphs with links to the fine-tuning and confidence pieces, the six-step process, results (student against teacher, soft against hard labels, the per-slice gate, the cascade that did not help, cost and latency), the label-source comparison against a DistilBERT trained directly on the 140 labels, the relation to text-classifier-distillation, a ship checklist, the operating model, what we haven't tested, make student. Distillation figures were recomputed from studies/distill.jsonl and match the public README. One open hole, marked [result pending]: calibration figures for the direct fine-tune, held until that study's calibration step is checked. The direct fine-tune's accuracy figures come from the fine-tune-Laya study, which is not merged into the public README yet; they need confirming against the merged record before publication. Site MDX, five body images, cover and chart script are drafted in the Anth.us working tree (state: draft). Stops here: final editorial approval is Ryan's.",
+      "created_at": "2026-09-21T20:15:33.544263Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    },
+    {
+      "id": "4edbde95-e3b5-4a96-8366-f3d9c6c6f580",
+      "author": "home",
+      "text": "Published early on anth.us at Ryan's direction (2026-09-21) so crawlers can index it; not promoted yet. Sections that depend on the fine-tune-Laya study still running are marked as pending and will be updated as results land. Site content commit 5fee249.",
+      "created_at": "2026-09-21T21:25:55.848321Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    }
+  ],
   "created_at": "2026-09-21T19:45:28.572209Z",
-  "updated_at": "2026-09-21T19:45:28.574248Z",
+  "updated_at": "2026-09-21T21:25:55.848362Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",
@@ -20,5 +43,8 @@
   },
   "right_now_summary": null,
   "right_now_updated_at": null,
-  "custom": {}
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
 }

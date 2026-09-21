@@ -3,16 +3,39 @@
   "title": "Fine-tuning Jev: you can't, and what gets you the same effect",
   "description": "",
   "type": "story",
-  "status": "idea",
+  "status": "published",
   "priority": 2,
   "assignee": null,
   "creator": null,
   "parent": null,
   "labels": [],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "a3462adf-8e00-4f16-bafe-c4a518354592",
+      "author": "home",
+      "text": "Reached copywriting. article.md is the full draft (about 2,850 words of prose), edited through a Limatus scan/decide/verify loop against the anthus style profile (verify: accept). The site MDX draft, five images and the chart script are in the Anth.us working tree, state: draft, uncommitted. Four holes are marked [result pending] in article.md, all in the fine-tuning comparison section and all waiting on parts of the fine-tune-Laya study that are still running: (1) the exploratory low-learning-rate head-only reruns, (2) the calibration diagnosis for the full fine-tune, (3) selective-prediction coverage and AUROC for all six systems, (4) the drift probe. The detailed TKs are in the MDX draft. Also flagged for the coordinator: the repo's self-aligning diagram says refits bought +0.2 points where the README and the records say -0.3. Stopping here; publication and final editorial approval are Ryan's.",
+      "created_at": "2026-09-21T20:17:15.659485Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    },
+    {
+      "id": "9ffa69bd-14c9-4cb5-b000-67854519e1ad",
+      "author": "home",
+      "text": "Published early on anth.us at Ryan's direction (2026-09-21) so crawlers can index it; not promoted yet. Sections that depend on the fine-tune-Laya study still running are marked as pending and will be updated as results land. Site content commit 5fee249.",
+      "created_at": "2026-09-21T21:25:55.640056Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    }
+  ],
   "created_at": "2026-09-21T19:45:28.466317Z",
-  "updated_at": "2026-09-21T19:45:28.468940Z",
+  "updated_at": "2026-09-21T21:25:55.640106Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",
@@ -20,5 +43,8 @@
   },
   "right_now_summary": null,
   "right_now_updated_at": null,
-  "custom": {}
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
 }
