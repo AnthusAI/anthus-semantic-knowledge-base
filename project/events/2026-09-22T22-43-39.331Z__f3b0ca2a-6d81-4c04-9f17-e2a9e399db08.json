@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "event_id": "f3b0ca2a-6d81-4c04-9f17-e2a9e399db08",
+  "issue_id": "ANTH-3cb9808e-1dd7-4834-881f-c6fb0fdbec1b",
+  "event_type": "field_updated",
+  "occurred_at": "2026-09-22T22:43:39.331Z",
+  "actor_id": "home",
+  "payload": {
+    "changes": {
+      "title": {
+        "from": "Encoding Prejudice: System 1 models and the biases nobody measures",
+        "to": "We Told the AI She Was a Woman. It Demoted Her."
+      }
+    }
+  }
+}
