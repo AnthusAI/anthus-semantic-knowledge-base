@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event_id": "4b5fdf6e-4742-4175-b601-adb5e6e85dff",
+  "issue_id": "ANTH-3cb9808e-1dd7-4834-881f-c6fb0fdbec1b",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-22T16:33:34.776Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "Encoding Prejudice: System 1 models and the biases nobody measures",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1"
+    }
+  }
+}

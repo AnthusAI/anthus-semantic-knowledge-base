@@ -1,0 +1,50 @@
+{
+  "id": "ANTH-3cb9808e-1dd7-4834-881f-c6fb0fdbec1b",
+  "title": "Encoding Prejudice: System 1 models and the biases nobody measures",
+  "description": "",
+  "type": "story",
+  "status": "published",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "caea40c3-1548-48c3-be2a-6de98bb97c6e",
+      "author": "home",
+      "text": "Reached copywriting. article.md is a complete draft (about 4,600 words of prose plus a table), derived from the same source as the site MDX draft (state: draft, not published). Opens on the paralegal/attorney pair and the constructed shortlist, followed by the loop on that pair as a caveat (a question that passed the pronoun-invariance gate still worsened the hosted engine's shortlist ratio; the open engine's gated loop let nothing in); the four-occupation-pair gender test is the lead finding; the learning loop is demonstrated on surgeon/physician only, with the twin-averaging baseline reported in the shortlist's own currency as the cheapest fix for a swappable cue. Limatus: eleven editing rounds, verify = accept at each; the optional LLM judge and the options/headline commands did not run (no OPENAI_API_KEY), so rewrites and headline candidates were written by hand. Open items, marked [result pending] in article.md with no values: (1) Laya fine-tuned on the same labels; (2) one citation for the 2018 Amazon screener report, which could not be opened from this environment. Final editorial approval is Ryan's. Stopping here; not publishing.",
+      "created_at": "2026-09-22T16:49:49.879647Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    },
+    {
+      "id": "ca37e3dc-bbdc-45cd-b4eb-c5ba52c235ef",
+      "author": "home",
+      "text": "Published 2026-09-24 at https://anth.us/blog/encoding-prejudice/ (content 82ebd01, site 002a7f4). All results final; loop demonstrated on the surgeon/physician pair, paralegal/attorney kept as a caveat.",
+      "created_at": "2026-09-22T22:05:14.383206Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    }
+  ],
+  "created_at": "2026-09-22T16:33:34.774067Z",
+  "updated_at": "2026-09-22T22:05:14.383228Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "claude-code",
+    "model": "claude-fable-5-1"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
+}
