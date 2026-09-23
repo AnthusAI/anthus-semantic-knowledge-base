@@ -107,6 +107,7 @@ And the law doesn't require anyone to have meant it: [*Griggs v. Duke Power*](ht
 
 ## What we haven't shown
 
+- **Laya ran through a port, and the original agrees.** Every Laya number came from [`laya-mlx`](https://pypi.org/project/laya-mlx/), an Apple-silicon conversion of the released weights. We then re-ran the pronoun swap on all four pairs with the original PyTorch release, using the same question and the same option order: flip rates 7.95%, 7.75%, 13.45% and 17.85% against the port's 7.95%, 7.65%, 13.5% and 17.85%, with verdicts agreeing on at least 3,998 of 4,000 bios per pair. Option order matters, though: list the two options the other way round and Laya's answer on a single bio can move by half a point of probability. Every number here uses the order in the committed question files.
 - **One corpus, one wording per decision.** Four occupation pairs, each asked one way. Other wordings and other domains will move differently.
 - **2,000 bios per pair is about ±1 point.** Jev's 21 surgeon flips are 21 flips; its direction share there, 15 of 16, would move nine points if one flip went the other way. The four-pair ordering is the robust result, the per-pair magnitudes less so.
 - **Real applications carry more cues.** We redacted first names and swapped pronouns, so the flip rates are lower bounds for both engines. A production input has the name, the title and the school.
