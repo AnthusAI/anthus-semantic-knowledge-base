@@ -2,7 +2,7 @@
 
 *Two thousand real bios per job, first names blanked, one pronoun swapped, both models asked twice. Laya's verdict moved on 8 to 18 bios in 100, Jev's on 1 to 4, almost always toward the stereotype. Here is the method, the four jobs, the shortlist, and what names and ages do.*
 
-Change one word in a professional bio, "he" to "she", and ask a model the same question twice. If the verdict moves, the pronoun moved it, because nothing else changed. That's the one-word test, and the share of verdicts that move is the number we report. We ran it on the two fast decision models anyone can get: [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), a commercial service, and [Laya](https://huggingface.co/convaiinnovations/laya), a free open-weights model; their makers call them System 1 models, after Kahneman's name for fast, instinctive thinking. Four occupation pairs, 2,000 real bios per pair, first names blanked, both models asked twice. Laya's verdict moved on 8 to 18 bios in 100 and Jev's on 1 to 4, in the stereotype's direction nearly every time, and the size of the effect rose with how gendered the pair is. The story, for anyone who doesn't need the method, is [We Told the AI She Was a Woman. It Demoted Her.](/blog/encoding-prejudice/)
+Change one word in a professional bio, "he" to "she", and ask a model the same question twice. If the verdict moves, the pronoun moved it, because nothing else changed. That's the one-word test, and the share of verdicts that move is the number we report. We ran it on the two fast decision models anyone can get: [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), a commercial service, and [Laya](https://huggingface.co/convaiinnovations/laya), a free open-weights model; their makers call them System 1 models, after Kahneman's name for fast, instinctive thinking. Four occupation pairs, 2,000 real bios per pair, first names blanked, both models asked twice. Laya's verdict moved on 8 to 18 bios in 100 and Jev's on 1 to 4, in the stereotype's direction nearly every time, and the size of the effect rose with how gendered the pair is. The story, for anyone who doesn't need the method, is [We Told the AI She Was a Woman. It Demoted Her](/blog/encoding-prejudice/)
 
 ![Four bars of the share of verdicts that changed when he became she, for the open model Laya, on 2,000 real professional bios per job: teacher or professor 7.6 percent, surgeon or physician 8.0, nurse or physician 13.5, paralegal or attorney 17.8. Headline: four jobs, one word changed; the more gendered, the more it moved.](images/one-word-test-cover.png)
 
@@ -16,7 +16,7 @@ The corpus is [Bias in Bios](https://huggingface.co/datasets/LabHC/bias_in_bios)
 
 We started with one pair of occupations that share a vocabulary and differ in who does them, surgeon (14.8% of the test-split bios are women) against physician (49.4%). One question, the same for both engines: "Is this person a surgeon or a physician?" 3,000 bios of each, 2,000 held out, first names redacted to `[name]` so the only gender cue left is the grammar. Then the twin: every held-out bio rewritten with the pronouns and role nouns swapped, about three tokens each, and asked again. The redaction is the one deviation from the pre-registered design, recorded before any Jev request was sent: a check found the subject's first name in the body of 28% of bios, and removing it moved Laya's flip rate from 7.9% to 7.95%.
 
-The number we report is the **flip rate**: the share of bios whose verdict changed. The recall gap the literature reports mixes the model reading gender with women's bios being written differently; a flip is causal, because nothing changed but "she". Every prediction was written down before either engine answered, in [the repo's pre-registration](https://github.com/AnthusAI/Jev-Flywheel/blob/main/studies/PREREGISTERED.md), and the whole thing replays offline from committed fixtures.
+The number we report is the **flip rate**: the share of bios whose verdict changed. The recall gap the literature reports mixes the model reading gender with women's bios being written differently; a flip is causal, because nothing changed but "she". Every prediction about the swap was written down before either engine answered, in [the repo's pre-registration](https://github.com/AnthusAI/Jev-Flywheel/blob/main/studies/PREREGISTERED.md), and the whole thing replays offline from committed fixtures.
 
 ## Worst case, measured: the open model
 
@@ -45,7 +45,7 @@ One pair could be a quirk of surgery, so we pre-registered three more, chosen fo
 
 *Four decisions, two engines, 2,000 bios per pair. Laya's flip rate rises in the exact order the gap in women's share predicts; Jev's rises too, at about a fifth the size. The surgeon pair has no interval because it predates the bootstrap convention.*
 
-It did, exactly. Laya: teacher/professor 7.65%, surgeon/physician 7.95%, nurse/physician 13.5%, paralegal/attorney 17.85%, with 95% intervals of about ±1.2 points, 100% of flips toward the more-female label on every new pair, and on paralegal/attorney a recall gap for "attorney" of 8.8 points between women's and men's bios. That ordering is the strongest single result here: the effect tracks how gendered the occupation is, across medicine, law and education, which is what "the engine carries the stereotype" means operationally. Jev: 1.25%, 1.05%, 3.3% and 3.9%, direction 75% to 100%, rising with the gap everywhere except one adjacent comparison. We also predicted Jev would stay under 1.5% on every pair. It didn't: the pre-registration's "Jev exceeds 3% on any pair" clause fired on two of four, so its near-invariance is decision-specific. Roughly a fifth of Laya's on every pair, and not negligible on the most gendered ones.
+It did, exactly. Laya: teacher/professor 7.65%, surgeon/physician 7.95%, nurse/physician 13.5%, paralegal/attorney 17.85%, with 95% intervals of about ±1.2 to ±1.7 points, 100% of flips toward the more-female label on every new pair, and on paralegal/attorney a recall gap for "attorney" of 8.8 points between women's and men's bios. That ordering is the strongest single result here: the effect tracks how gendered the occupation is, across medicine, law and education, which is what "the engine carries the stereotype" means operationally. Jev: 1.25%, 1.05%, 3.3% and 3.9%, direction 75% to 100%, rising with the gap everywhere except one adjacent comparison. We also predicted Jev would stay under 1.5% on every pair. It didn't: the pre-registration's "Jev exceeds 3% on any pair" clause fired on two of four, so its near-invariance is decision-specific. Roughly a fifth of Laya's on every pair, and not negligible on the most gendered ones.
 
 ## Best case, measured: the hosted model, and why a few percent isn't zero
 
@@ -81,9 +81,9 @@ Race isn't marked by a pronoun, so the counterfactual is a name, the design [Ber
 
 *Full names from measured pools, 500 bios both engines answered. Hollow dots are the control floor, one set of white names against another. Points of probability, so the whole vertical axis is under two percent.*
 
-The open model reads the name group, about four times as far as the hosted one, but not the way the résumé study would predict: Black and Hispanic names *raise* Laya's probability of "surgeon", by 0.7 and 1.5 points. We predicted the opposite in writing and have no story for the reversal. None of it flips a verdict: flip rates sit at or below the control floor for every group on both engines.
+The open model reads the name group, about four times as far as the hosted one, but not the way the résumé study would predict: Black and Hispanic names *raise* Laya's probability of "surgeon", by 0.7 and 1.5 points. We predicted the opposite in writing and have no story for the reversal. None of it flips a verdict: flip rates sit at or below the control floor for every group on both engines, on the 500 bios both answered.
 
-For age, the bio's first sentence gets "At 34," or "At 61," in front of it, on the 1,231 bios where a young age wouldn't contradict the text; the floor is a one-year change.
+For age, the bio's first subject pronoun gets "At 34," or "At 61," in front of it, on the 1,231 bios where a young age wouldn't contradict the text; the floor is a one-year change.
 
 ![Dot plot with 95 percent intervals of the shift in probability of surgeon when a stated age changes, on 1,231 bios. Laya: floor 34 versus 35 plus 0.04 points; floor 61 versus 62 minus 0.52, interval excluding zero; 34 versus 61 plus 0.69, interval excluding zero. Jev: floors minus 0.06 and 0.00; 34 versus 61 plus 0.07, interval including zero.](images/encoding-prejudice-age-shift.png)
 
@@ -117,7 +117,7 @@ And the law doesn't require anyone to have meant it: [*Griggs v. Duke Power*](ht
 
 ## Companion pieces
 
-- [We Told the AI She Was a Woman. It Demoted Her.](/blog/encoding-prejudice/) — the story, for anyone who doesn't need the method.
+- [We Told the AI She Was a Woman. It Demoted Her](/blog/encoding-prejudice/) — the story, for anyone who doesn't need the method.
 - [Can You Fix It? Gating, Averaging and Fine-Tuning Against a Gendered Verdict](/blog/can-you-fix-it/) — what we tried above the model: a gate against gendered questions, averaging, fine-tuning, and why the check has to be on the outcome.
 - [Jev-Flywheel](https://github.com/AnthusAI/Jev-Flywheel) — every number replays offline; if a fast model is about to judge people on your behalf, the Anthus team builds the industrial version.
 - [Fine-Tuning Jev: You Can't. Here's What Gets You the Same Effect](/blog/fine-tuning-jev/) — the flywheel these studies ran on.
@@ -134,6 +134,7 @@ make race    # the name swap, first attempt
 make race2   # the full-name swap
 make age     # the inserted age
 make pairs   # the pronoun swap on three more occupation pairs
+python scripts/bios_shortlist.py   # the shortlist, both engines, cuts 250/500/1000
 ```
 
 The repo is deliberately small: one score, a logistic head, no database. [Plexus](https://github.com/AnthusAI/Plexus) is the industrial version of the same loop, with reviewer workflows, vetted labels, audit trails and the MLOps around continuous learning from human feedback, and the [Anthus AI Solutions](https://anth.us) team builds and runs it. If a fast model is about to start judging people on your behalf, get in touch before it does.

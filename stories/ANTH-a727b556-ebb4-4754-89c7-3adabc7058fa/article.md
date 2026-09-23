@@ -59,7 +59,7 @@ One caveat: paralegal is the smallest class in the corpus, so the loop's pool ha
 
 ## Twin averaging: the fix that needs no fitting
 
-For a cue you can swap, there's a fallback that needs no fitting: score the bio and its twin and average the two probabilities. Zero pronoun flips by construction, twice the inference. In the shortlist's currency, averaging takes Laya from 0.48 to 0.79 on paralegal/attorney and Jev from 0.85 to 0.91, at a cost of 5.6 and 1.3 points of accuracy. So on that pair pronouns carry most of the adverse impact, and the residue is in what the bios say. On nurse/physician it overshoots to 1.25 in women's favour: with the pronoun neutralised, women physicians' bios read *more* physician-like to Laya than men's. And it does nothing for a cue you can't swap.
+For a cue you can swap, there's a fallback that needs no fitting: score the bio and its twin and average the two probabilities. Zero pronoun flips by construction, twice the inference. In the shortlist's currency, averaging takes Laya from 0.48 to 0.79 on paralegal/attorney and Jev from 0.85 to 0.91, at a cost of 5.6 and 1.3 points of accuracy. That is the engines alone. Average the loop's fitted Jev head instead and the ratio is 0.72, below the engine by itself, because on Jev the fitted head had already leaned on the support-role question; the pre-registration predicted the opposite and was wrong. So on that pair pronouns carry most of the adverse impact, and the residue is in what the bios say. On nurse/physician it overshoots to 1.25 in women's favour: with the pronoun neutralised, women physicians' bios read *more* physician-like to Laya than men's. And it does nothing for a cue you can't swap.
 
 We tried four fitted-head versions on Laya: refit on the 140 labels and their twins, penalise the gap between a bio's probability and its twin's, gate every feature including the holistic answer, and steer the analyst with the flips. Three of the four land within about half a point of twin averaging's accuracy while flipping an order of magnitude more often, 11.3 to 11.4% against zero. Gating everything removes the only feature this scorecard has, since the holistic answer itself flips on 7.95%, and collapses to 0.50 accuracy. No fitted arm beats twin averaging on both axes.
 
@@ -108,7 +108,7 @@ Five of the six were in the flywheel before this study. **Delay the intuitive co
 
 ## Companion pieces
 
-- [We Told the AI She Was a Woman. It Demoted Her.](/blog/encoding-prejudice/) — the story, for anyone who doesn't need the method.
+- [We Told the AI She Was a Woman. It Demoted Her](/blog/encoding-prejudice/) — the story, for anyone who doesn't need the method.
 - [The One-Word Test: How Jev and Laya Read Gender, Race and Age](/blog/one-word-test/) — how we ran it: two models, four jobs, the shortlist, and what swapping a name or an age does.
 - [Jev-Flywheel](https://github.com/AnthusAI/Jev-Flywheel) — every number replays offline; if a fast model is about to judge people on your behalf, the Anthus team builds the industrial version.
 - [Fine-Tuning Jev: You Can't. Here's What Gets You the Same Effect](/blog/fine-tuning-jev/) — the analyst, the refit and the fitted head.
@@ -124,5 +124,7 @@ make bios      # the surgeon pair, both engines alone, from committed answers
 make attorney  # the paralegal/attorney pair, both engines alone, amended twins
 make flipopt   # twin averaging and the fitted-head arms at the 2% gate, no GPU
 ```
+
+The loop arms replay one recording at a time with `flywheel replay fixtures/bios/recordings/<arm>-seed<N> --fixtures fixtures/bios`; the fine-tune and any seed that promoted a question need Apple silicon or a Jev key to regenerate, and everything else runs from committed answers.
 
 The repo is deliberately small: one score, a logistic head, no database. [Plexus](https://github.com/AnthusAI/Plexus) is the industrial version of the same loop, with reviewer workflows, vetted labels, audit trails and the MLOps around continuous learning from human feedback, and the [Anthus AI Solutions](https://anth.us) team builds and runs it. If a fast model is about to start judging people on your behalf, get in touch before it does.
