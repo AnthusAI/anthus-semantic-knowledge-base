@@ -8,7 +8,7 @@ Change one word in a professional bio, "he" to "she", and ask a model the same q
 
 *Laya, the open model, on four occupation pairs: 2,000 real bios each, first names blanked, one pronoun swapped. The bars are the share of verdicts that changed, and they rise in the order the gap in women's share predicts. Jev moved too, at about a fifth the size.*
 
-Ask a large language model to classify a bio and it'll say what it decided and why: "This person is a physician; the bio mentions a family practice." Ask Jev or Laya and you get `physician`, 0.83. There's nothing to read. It's tempting to count the explanation as a safeguard, but [Turpin and colleagues](https://arxiv.org/abs/2305.04388) showed in 2023 that a model's written reasoning can be a story told after the fact: "CoT explanations can systematically misrepresent the true reason for a model's prediction." The safeguard was always the test. The fast models just make that obvious.
+Ask a large language model to classify a bio and it'll say what it decided and why. Ask Jev or Laya and you get `physician`, 0.83. There's nothing to read, so the only way to know what a fast model is reading is to change one thing and ask again.
 
 ## The test: change one word
 
