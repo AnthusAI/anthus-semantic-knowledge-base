@@ -36,13 +36,13 @@ Since [*Griggs v. Duke Power*](https://www.law.cornell.edu/supremecourt/text/401
 
 ## It isn't only law
 
-Law was the worst of four. We ran the same one-word test on four pairs of jobs that share a vocabulary and differ in how many women hold each title: teacher or professor, surgeon or physician, nurse or physician, paralegal or attorney. The free model changed its answer on 8, 8, 14 and 18 bios in every 100, and the order is the stereotype's: the bigger the gap in how many women hold the two titles, the more often "she" got the lesser one. The paid model changed on about a fifth as many, 1 to 4 in every 100.
+Law was the worst of seven. We ran the same one-word test on other pairs of jobs that share a vocabulary and differ in how many women hold each title: teacher or professor, surgeon or physician, nurse or physician, dietitian or physician, architect or interior designer, and, as a control, journalist or professor, where women hold both titles about equally. The free model changed its answer on between 5 and 18 bios in every 100 on the six lopsided pairs, and on every one of them the change ran the same way: "she" got the lesser title. On the control pair it changed on fewer than 2 in 100, with no direction at all. How big the effect is varies from job to job; which way it points does not. The paid model changed on about a fifth as many, 1 to 4 in every 100, in the same direction.
 
 That sounds small. Put the better model in front of a million decisions a year and 1 in 100 is ten thousand people whose outcome turned on a pronoun; 4 in 100 is forty thousand. And that's the least they do. We blanked the names and swapped only the words that mark gender. A real application carries the name, the title and the school.
 
 ![Bar chart of how often each model's answer changed under a pronoun swap on four occupation pairs, ordered by the gap in women's share between the two titles, with 95 percent intervals. Teacher or professor: Jev 1.2 percent, Laya 7.6. Surgeon or physician: Jev 1.1, Laya 8.0. Nurse or physician: Jev 3.3, Laya 13.5. Paralegal or attorney: Jev 3.9, Laya 17.8.](images/encoding-prejudice-pairs.png)
 
-*Four jobs, two models, 2,000 bios per pair. The free model's answer changed on 7.65%, 7.95%, 13.5% and 17.85% of bios, in the order of the gap in women's share; the paid model's on 1.25%, 1.05%, 3.3% and 3.9%.*
+*The first four jobs we tested, two models, 2,000 bios per pair. The free model's answer changed on 7.65%, 7.95%, 13.5% and 17.85% of bios; the paid model's on 1.25%, 1.05%, 3.3% and 3.9%. Three later pairs are in the companion piece; the direction held on all of them, the size did not follow the gap.*
 
 ## Fast thinking, sold as a product
 
