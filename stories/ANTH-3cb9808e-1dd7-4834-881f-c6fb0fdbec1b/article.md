@@ -1,12 +1,12 @@
 # We Told the AI She Was a Woman. It Demoted Her
 
-*Change one word in a lawyer's online bio, "he" to "she", and a new kind of instant AI demotes her to paralegal one time in five. Build a hiring shortlist on it and women attorneys make the cut at half the rate of men, at every firm that rents the same model.*
+*Change one word in a lawyer's online bio, "he" to "she", and a new kind of instant AI demotes her to paralegal one time in five. That is gender bias, measured. Build a hiring shortlist on it and women attorneys make the cut at half the rate of men, at every firm that rents the same model.*
 
 A new kind of artificial intelligence took the software world by storm in the last week. Unlike the chat-style AI that writes out its reasoning, these models answer a simple question about a document in a fraction of a second, for a fraction of a cent, with no explanation at all. Within days, engineers were putting them in front of the queues that decide which applications get read, which claims get flagged, which customers get called back.
 
 Those advantages are real, for the engineers. The trade is speed and cost against visibility: with the older kind of AI you could at least read why it decided something; with these, there is nothing to read, and there is no free lunch. The question nobody is asking is what the models do to the people on the other end.
 
-So we asked. Two thousand real online bios of lawyers and paralegals, two of these models, one free and one a paid service, one question: paralegal or attorney? Then we changed one word in every bio, "he" to "she" or the reverse, and asked again. Nothing about anyone's work had changed. The free model changed its answer on nearly one bio in five, and every time, the woman became the paralegal. The paid model changed on about one in twenty-five, almost always the same way.
+So we asked. Two thousand real online bios of lawyers and paralegals, two of these models, one free and one a paid service, one question: paralegal or attorney? Then we changed one word in every bio, "he" to "she" or the reverse, and asked again. Nothing about anyone's work had changed. The free model changed its answer on nearly one bio in five, and every time, the woman became the paralegal. The paid model changed on about one in twenty-five, almost always the same way. That is gender bias, in one number: the same bio, judged lower because of one pronoun.
 
 ![Two bars show how often each model's answer changed when the pronoun was swapped, on 2,000 real bios asked one question, paralegal or attorney: 3.9 percent for the paid model, Jev, and 17.8 percent for the free one, Laya.](images/encoding-prejudice-cover.png)
 
