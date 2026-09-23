@@ -1,6 +1,6 @@
 {
   "id": "ANTH-3cb9808e-1dd7-4834-881f-c6fb0fdbec1b",
-  "title": "We Told the AI She Was a Woman. It Demoted Her.",
+  "title": "We Told the AI She Was a Woman. It Demoted Her",
   "description": "",
   "type": "story",
   "status": "published",
@@ -43,10 +43,21 @@
         "platform": "claude-code",
         "model": "claude-fable-5-1"
       }
+    },
+    {
+      "id": "afc67a9c-681c-4042-94d7-c8ce5374996e",
+      "author": "home",
+      "text": "Rewritten 2026-09-22 as the general-reader story with a labelled composite; technical detail moved to ANTH-0af49577-36fe-4a86-9809-7afe29b6e125 and ANTH-a727b556-ebb4-4754-89c7-3adabc7058fa. Content e550f2c, site 75627b3.",
+      "created_at": "2026-09-23T00:28:15.636968Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
     }
   ],
   "created_at": "2026-09-22T16:33:34.774067Z",
-  "updated_at": "2026-09-22T22:43:39.347679Z",
+  "updated_at": "2026-09-23T00:28:15.636989Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",

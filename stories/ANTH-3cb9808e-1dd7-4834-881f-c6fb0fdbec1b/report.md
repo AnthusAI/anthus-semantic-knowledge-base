@@ -15,3 +15,22 @@ Findings, all traced in `research.md`.
 Proposed structure: stake and headline (paralegal/attorney as the opening example; the measured decision as a component of hiring and ranking decisions; correlated failure across firms sharing HR software or models); what a System 1 model doesn't tell you (Turpin); the test; worst case (Laya); four decisions, two engines; best case and why 1% isn't zero (Jev); names and ages; is this new? (history, three changes, monoculture, disparate impact); why developers don't notice; decision hygiene implemented; three things to do; what we haven't shown; `make` targets; Plexus.
 
 Visuals: cover; the shortlist; flip rates over floors; four pairs with intervals; direction of flips; race v2 shifts with intervals; age shifts with intervals; two diagrams (hygiene mapping; correlated failure).
+
+## Split (2026-09-22)
+
+The measurement (findings 1-7 above) moves to a new sibling story, "The One-Word Test: How Jev
+and Laya Read Gender, Race and Age" (ANTH-0af49577-36fe-4a86-9809-7afe29b6e125). The mitigation
+record (findings 8-9: the Kahneman framing, the learning loop with and without the invariance
+gate on both engines, the paralegal/attorney re-ranking caveat, twin-averaging, and the pending
+fine-tuned-Laya result) moves to a second sibling, "Can You Fix It? Gating, Averaging and
+Fine-Tuning Against a Gendered Verdict" (ANTH-a727b556-ebb4-4754-89c7-3adabc7058fa). Neither
+sibling makes a new measurement; both point back to this story's `research.md` for every number
+they use.
+
+What stays here: this story becomes a roughly 1,200-word general-reader story built around one
+composite example (the paralegal/attorney pair, one bio, one pronoun changed), with a labelled
+composite illustration marking it as constructed rather than a real applicant. It keeps the
+headline flip-rate numbers for that one pair and links out to both siblings for the reader who
+wants the full measurement or the mitigation record. It drops the four-pair table, the race and
+age sections, the Kahneman decision-hygiene mapping, and the learning-loop detail; all of that
+now lives in the two siblings.

@@ -1,0 +1,39 @@
+{
+  "id": "ANTH-a727b556-ebb4-4754-89c7-3adabc7058fa",
+  "title": "Can You Fix It? Gating, Averaging and Fine-Tuning Against a Gendered Verdict",
+  "description": "",
+  "type": "story",
+  "status": "published",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "c911cdc5-fb93-443d-b513-9427ff285c95",
+      "author": "home",
+      "text": "Published 2026-09-22 at https://anth.us/blog/can-you-fix-it/ (content 29192bc, site bec8d47). Split out of ANTH-3cb9808e-1dd7-4834-881f-c6fb0fdbec1b; carries the invariance gate, the loop results, the attorney-pair caveat, twin averaging, fine-tuning, decision hygiene.",
+      "created_at": "2026-09-23T00:28:15.578477Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1"
+      }
+    }
+  ],
+  "created_at": "2026-09-22T23:59:37.601784Z",
+  "updated_at": "2026-09-23T00:28:15.578494Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "claude-code",
+    "model": "claude-fable-5-1"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
+}

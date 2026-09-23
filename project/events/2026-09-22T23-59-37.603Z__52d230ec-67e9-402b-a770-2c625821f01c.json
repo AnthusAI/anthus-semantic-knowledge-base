@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event_id": "52d230ec-67e9-402b-a770-2c625821f01c",
+  "issue_id": "ANTH-a727b556-ebb4-4754-89c7-3adabc7058fa",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-22T23:59:37.603Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "Can You Fix It? Gating, Averaging and Fine-Tuning Against a Gendered Verdict",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1"
+    }
+  }
+}

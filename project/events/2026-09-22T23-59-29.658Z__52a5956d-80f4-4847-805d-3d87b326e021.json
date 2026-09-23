@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event_id": "52a5956d-80f4-4847-805d-3d87b326e021",
+  "issue_id": "ANTH-0af49577-36fe-4a86-9809-7afe29b6e125",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-22T23:59:29.658Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "The One-Word Test: How Jev and Laya Read Gender, Race and Age",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1"
+    }
+  }
+}
