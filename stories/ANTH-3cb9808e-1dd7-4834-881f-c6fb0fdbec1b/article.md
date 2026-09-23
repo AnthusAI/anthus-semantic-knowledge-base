@@ -1,6 +1,6 @@
 # We Told the AI She Was a Woman. It Demoted Her
 
-*The new instant-decision AI models are being adopted faster than anyone is checking them. We checked. Change "he" to "she" in a lawyer's bio and one demotes her to paralegal one time in five: gender bias, measured. Put it in hiring software and every firm that rents it makes the same mistake about the same woman.*
+*A new kind of AI makes instant decisions about people: who gets an interview, whose claim gets flagged. It's cheap and fast, and companies are adopting it without checking what it does. We checked. It quietly ranks women lawyers below men, and every company using it makes the same mistake.*
 
 A new kind of artificial intelligence took the software world by storm in the last week. Unlike the chat-style AI that writes out its reasoning, these models answer a simple question about a document in a fraction of a second, for a fraction of a cent, with no explanation at all. Within days, engineers were putting them in front of the queues that decide which applications get read, which claims get flagged, which customers get called back.
 
