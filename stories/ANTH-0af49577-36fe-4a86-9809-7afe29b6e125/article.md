@@ -8,7 +8,7 @@ Change one word in a professional bio, "he" to "she", and ask a model the same q
 
 *Laya, the open model, on four occupation pairs: 2,000 real bios each, first names blanked, one pronoun swapped. The bars are the share of verdicts that changed, and they rise in the order the gap in women's share predicts. Jev moved too, at about a fifth the size.*
 
-Ask a large language model to classify a bio and it'll say what it decided and why. Ask Jev or Laya and you get `physician`, 0.83. There's nothing to read, so the only way to know what a fast model is reading is to change one thing and ask again.
+Ask Jev or Laya about a bio and you get `physician`, 0.83, and nothing else. There's nothing to read, so the only way to know what a fast model is reading is to change one thing and ask again.
 
 ## The test: change one word
 
