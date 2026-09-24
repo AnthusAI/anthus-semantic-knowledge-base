@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "event_id": "7fad82ce-763d-4445-8832-545f3b52cd06",
+  "issue_id": "ANTH-a59c8115-b5b3-464f-8abf-af368edc7c7e",
+  "event_type": "comment_added",
+  "occurred_at": "2026-09-24T17:35:18.886Z",
+  "actor_id": "home",
+  "payload": {
+    "comment_id": "343b68ed-ec5e-44a9-9c10-cbca2062d675",
+    "comment_author": "home",
+    "agent": {
+      "platform": "codex",
+      "model": "gpt-6-sol",
+      "name": "Codex"
+    }
+  }
+}

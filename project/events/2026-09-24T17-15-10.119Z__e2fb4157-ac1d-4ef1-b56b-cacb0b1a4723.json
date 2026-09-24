@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "event_id": "e2fb4157-ac1d-4ef1-b56b-cacb0b1a4723",
+  "issue_id": "ANTH-a59c8115-b5b3-464f-8abf-af368edc7c7e",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-24T17:15:10.119Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "Text rendered as images for VLMs: LensVLM link post",
+    "description": "As an Anth.us reader, I want a concise link post about LensVLM, so I can understand the visual-text compression mechanism and its practical tradeoff. Source: https://arxiv.org/abs/2605.07019. Use the latest 2026-09-24 Desktop screenshot of Figure 7.\n\nFeature: LensVLM link post\nScenario: Reader opens the short post\nGiven a published Anth.us post with a 1200x630 preview derived from Figure 7\nWhen the reader opens the post and follows its source link\nThen the post explains selective expansion and the source link opens the paper\nAnd the image and social preview render correctly.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "codex",
+      "model": "gpt-6-sol"
+    }
+  }
+}
