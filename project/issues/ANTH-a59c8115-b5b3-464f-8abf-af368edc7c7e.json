@@ -3,7 +3,7 @@
   "title": "Text rendered as images for VLMs: LensVLM link post",
   "description": "As an Anth.us reader, I want a concise link post about LensVLM, so I can understand the visual-text compression mechanism and its practical tradeoff. Source: https://arxiv.org/abs/2605.07019. Use the latest 2026-09-24 Desktop screenshot of Figure 7.\n\nFeature: LensVLM link post\nScenario: Reader opens the short post\nGiven a published Anth.us post with a 1200x630 preview derived from Figure 7\nWhen the reader opens the post and follows its source link\nThen the post explains selective expansion and the source link opens the paper\nAnd the image and social preview render correctly.",
   "type": "story",
-  "status": "copywriting",
+  "status": "published",
   "priority": 2,
   "assignee": null,
   "creator": null,
@@ -22,10 +22,22 @@
         "model": "gpt-6-sol",
         "name": "Codex"
       }
+    },
+    {
+      "id": "63d2ce71-aa98-4939-acd2-7f85e37c6fda",
+      "author": "home",
+      "text": "Published at https://anth.us/blog/text-as-image-lensvlm/ after Amplify job 230 succeeded for site commit f8efebe. Production checks: permalink 200; Figure 7 cover and social image both 200 image/png at 1200×630; absolute matching og:image/twitter:image; twitter:card summary_large_image; /posts/ excerpt headline present; robots.txt 200. Gatsby production build and posts-cache verification passed locally.",
+      "created_at": "2026-09-24T18:03:38.015184Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-6-sol",
+        "name": "Codex"
+      }
     }
   ],
   "created_at": "2026-09-24T17:15:10.114832Z",
-  "updated_at": "2026-09-24T17:35:18.886734Z",
+  "updated_at": "2026-09-24T18:03:38.015242Z",
   "closed_at": null,
   "agent": {
     "platform": "codex",

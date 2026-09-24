@@ -1,6 +1,10 @@
 # Text as an Image, Then a Magnifying Glass
 
-**Status:** Copywriting; publication verification pending.
+**Status:** Published to https://anth.us/blog/text-as-image-lensvlm/ on 2026-09-24.
+
+**Published content:** `AnthusAI/anthus-site-content` main @ `ddf976e`.
+
+**Site release:** `AnthusAI/Anth.us` main @ `f8efebe`.
 
 **Source:** https://arxiv.org/abs/2605.07019
 
