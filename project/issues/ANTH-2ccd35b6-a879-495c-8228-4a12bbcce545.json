@@ -1,0 +1,41 @@
+{
+  "id": "ANTH-2ccd35b6-a879-495c-8228-4a12bbcce545",
+  "title": "RubyHack report: RubyGems as an agent data channel",
+  "description": "As an Anth.us reader, I want a concise link post about the RubyHack investigation, so I can see what the RubyGems campaign demonstrates about agent access to registries and build systems. Date the post 2026-09-12. Primary source: https://rubyhack.ai/. RubyGems response: https://blog.rubygems.org/2026/09/11/update-may-spam-publishing-campaign.html.\n\nFeature: RubyHack link post\nScenario: Reader opens the short post\nGiven a published Anth.us post dated September 12, 2026\nWhen the reader opens the post and follows the RubyHack link\nThen the post explains the reported package-to-documentation-build-to-data path\nAnd it distinguishes confirmed registry abuse from contested AI-agent attribution\nAnd the cover and social preview render correctly.",
+  "type": "story",
+  "status": "published",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "6c92508f-026b-4ed9-8b2d-7ccbb70631b6",
+      "author": "home",
+      "text": "Published at https://anth.us/blog/rubygems-agent-data-channel/ dated September 12, 2026. Gatsby production build passed. Amplify main job 232 succeeded for commit a8445ac. Live checks passed: permalink 200, cover 200 image/png 1200x630, matching absolute og:image and twitter:image, summary_large_image card, robots.txt 200, and /posts/ excerpt link visible. Copy distinguishes RubyHack's AI-agent attribution from RubyGems' confirmation and uncertainty.",
+      "created_at": "2026-09-24T20:41:57.223037Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-6-sol",
+        "name": "Codex"
+      }
+    }
+  ],
+  "created_at": "2026-09-24T20:30:44.456081Z",
+  "updated_at": "2026-09-24T20:41:57.223062Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "codex",
+    "model": "gpt-6-sol",
+    "name": "Codex"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "event_id": "47335c49-3eb2-4111-aa9e-f8e94a2e1d0f",
+  "issue_id": "ANTH-2ccd35b6-a879-495c-8228-4a12bbcce545",
+  "event_type": "state_transition",
+  "occurred_at": "2026-09-24T20:32:28.176Z",
+  "actor_id": "home",
+  "payload": {
+    "from_status": "research",
+    "to_status": "report"
+  }
+}

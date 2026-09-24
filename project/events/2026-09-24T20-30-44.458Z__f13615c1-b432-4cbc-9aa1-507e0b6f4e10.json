@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "event_id": "f13615c1-b432-4cbc-9aa1-507e0b6f4e10",
+  "issue_id": "ANTH-2ccd35b6-a879-495c-8228-4a12bbcce545",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-24T20:30:44.458Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "RubyHack report: RubyGems as an agent data channel",
+    "description": "As an Anth.us reader, I want a concise link post about the RubyHack investigation, so I can see what the RubyGems campaign demonstrates about agent access to registries and build systems. Date the post 2026-09-12. Primary source: https://rubyhack.ai/. RubyGems response: https://blog.rubygems.org/2026/09/11/update-may-spam-publishing-campaign.html.\n\nFeature: RubyHack link post\nScenario: Reader opens the short post\nGiven a published Anth.us post dated September 12, 2026\nWhen the reader opens the post and follows the RubyHack link\nThen the post explains the reported package-to-documentation-build-to-data path\nAnd it distinguishes confirmed registry abuse from contested AI-agent attribution\nAnd the cover and social preview render correctly.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "codex",
+      "model": "gpt-6-sol",
+      "name": "Codex"
+    }
+  }
+}
