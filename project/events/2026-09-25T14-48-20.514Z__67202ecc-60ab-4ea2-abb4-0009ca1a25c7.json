@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "event_id": "67202ecc-60ab-4ea2-abb4-0009ca1a25c7",
+  "issue_id": "ANTH-3a22a3fb-69e2-45f0-a0b8-19658968b000",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-25T14:48:20.514Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "Decision Models Are Not Calculators",
+    "description": "As a practitioner choosing a fast decision model, I want to know whether its probabilities for a fair die stay uniform as option order changes, so that I test its outputs as learned judgments rather than mathematical guarantees. Scope: exhaustive permutation experiment across Jev, Kev, and Laya; digit and word labels; repeated runs; public MIT harness; evidence-led Anth.us article and social figure. Feature: Fair-die choice predictions under all label orders. Scenario: Measure model choice and order sensitivity. Given a fixed fair-die state and six face labels, When every ordering is submitted in numeric and word forms twice to each registered model, Then every response is retained with model provenance and summarized by label, position, representation, and repeat stability. Definition of done: pre-registration committed before inference; all authorized runs completed; exact replies and replayable records published; claims bounded to observed results; article passes Anth.us Limatus workflow and remains at copywriting pending final approval; public experiment repo created under MIT; article/content PRs opened without deployment.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "codex",
+      "model": "GPT-6",
+      "name": "Codex desk"
+    }
+  }
+}
