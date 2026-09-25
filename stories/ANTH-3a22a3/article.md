@@ -6,6 +6,10 @@ cover and two detailed figures under `images/`. This story packet deliberately
 links to that single source of publishable copy instead of keeping a second
 version that can drift.
 
+The matching Gatsby submodule pin is in [Anth.us PR #62](https://github.com/AnthusAI/Anth.us/pull/62)
+against `develop`; its isolated production build passed. Neither review PR
+has been merged.
+
 Status: awaiting Ryan's editorial approval. The MDX frontmatter is
 `state: draft`; do not merge or deploy until approved.
 
