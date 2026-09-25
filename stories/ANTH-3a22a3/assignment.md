@@ -50,7 +50,7 @@ changes? Does the result differ between digit labels (`1`–`6`) and word labels
 
 ## Required outputs
 
-- Public MIT GitHub repository `AnthusAI/benford-decisions` with a tested,
+- Public MIT GitHub repository [Decision Models Are Not Calculators](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators) with a tested,
   resumable harness, pre-registration committed before live inference, raw
   response records, generated result tables/figures, model setup, and replay
   instructions.

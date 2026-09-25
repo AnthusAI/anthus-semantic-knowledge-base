@@ -17,7 +17,7 @@ Law. A six-face choice task is not itself a Benford-distributed dataset.
 
 ## Frozen procedure
 
-The public MIT project, [AnthusAI/benford-decisions](https://github.com/AnthusAI/benford-decisions),
+The public MIT project, [Decision Models Are Not Calculators](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators),
 contains the pre-registration committed before inference, the request matrix,
 adapters, tests, and result-validation tools. It exhausts all 720 semantic-face
 permutations with digit labels and all 720 with word labels, repeated once per
@@ -52,23 +52,31 @@ Exact prompt:
   described as calibrated for affected entries. The experiment retains the
   returned choice distribution and does not make calibration claims.
 
-## Collection status before editorial report
+## Completed collection
 
-- Laya: 2,880 valid responses collected across both representations and both
-  passes. Strict “face 1 always has the unique highest probability” claim:
-  false. Descriptively, face 6 is dominant in returned probability mass and
-  selected choices for this prompt; digit and word forms differ substantially.
-- Kev: 2,880 valid responses collected across both representations and both
-  passes. Strict “face 1 always has the unique highest probability” claim:
-  false. Face 1 wins more often than any other face among the top-probability
-  choices in the first digit pass but is not top for every order; word-label
-  and option-position effects must be reported separately.
-- Jev: the local TypeSafe credential is present, but the first request returned
-  HTTP 402 because the organization has no available API credits. No model
-  response was returned; fail-fast stopped the run after that single attempt.
-  The conservative estimate for the remaining full matrix is $0.093, under the
-  approved $1 cap. Do not write the three-model conclusion until all 2,880 Jev
-  responses are available. No auto-reload or credit purchase was initiated.
+All 8,640 planned request IDs have a valid response (2,880 per engine),
+checksummed in the public release. Jev initially returned HTTP 402; Ryan
+purchased credits and the run completed under the approved $1 input cap.
+Jev's two-decimal returned probabilities sometimes sum to 0.99 after rounding.
+The validator was corrected to accept up to six independent half-centesimal
+rounding errors, without altering the returned values or the frozen requests.
+The [measurement note](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/measurement-notes.md)
+records that correction and excluded failed attempts.
+
+- **Jev:** face 1 selected and uniquely top-probability in all 2,880 replies,
+  including both digit and word forms and both passes. The service returned
+  `jev-1.13.0` for every recorded reply. Digit pass 1 mean probability of 1:
+  89.7%; word pass 1: 87.6%.
+- **Kev:** face 1 selected 1,410/2,880 (49.0%), not always. Digit pass 1
+  selected the first-listed choice in 426/720 (59.2%) balanced orders.
+  Digit-to-word wording changed the selected face in 324/720 paired orders.
+- **Laya:** face 6 selected 2,610/2,880 (90.6%), not face 1. Digit pass 1
+  never selected the last-listed option (0/720); digit-to-word wording changed
+  the selected face in 129/720 paired orders. Its returned confidence field
+  should not be called calibrated.
+- **Repeats:** all three selected the same semantic face on every exact repeat;
+  Jev's numeric probabilities moved slightly, while Kev's and Laya's matched
+  exactly. The repeats are stability checks, not independent samples.
 
 ## Claims to keep bounded
 
