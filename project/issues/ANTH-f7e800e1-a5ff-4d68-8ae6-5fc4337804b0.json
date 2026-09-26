@@ -24,10 +24,22 @@
         "model": "claude-sonnet-5",
         "name": "plexus-lab-article"
       }
+    },
+    {
+      "id": "598c24bd-ee98-4a4d-80d3-85a1b2134a7f",
+      "author": "unknown",
+      "text": "Framing from Ryan, 2026-09-26 (his LinkedIn comment on a Jev post): the industry talks about two ways to get a classifier, build a labelled dataset first and train your own, or take the zero-shot answer. The third way is ours: start classifying immediately with a decision model, review the decisions continuously as it makes them, label the ones you disagree with, and use those labels to continuously align the classifier. Far cheaper than a dataset built up front. Use this as the one-paragraph statement of the offer in the opening; it is now in the fine-tuning-jev article's opening and its closing section links to /engage.",
+      "created_at": "2026-09-26T12:52:12.277758029Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1",
+        "name": "anth-content-strategy-clients"
+      }
     }
   ],
   "created_at": "2026-09-26T09:51:53.281478548Z",
-  "updated_at": "2026-09-26T10:06:26.565152566Z",
+  "updated_at": "2026-09-26T12:52:12.277798230Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",
