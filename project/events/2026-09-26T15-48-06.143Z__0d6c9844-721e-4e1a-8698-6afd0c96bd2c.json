@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "0d6c9844-721e-4e1a-8698-6afd0c96bd2c",
+  "issue_id": "ANTH-a76a4a09-6e02-4cc0-93e5-10a61f3fdbdc",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-26T15:48:06.143Z",
+  "actor_id": "unknown",
+  "payload": {
+    "title": "Stepping back from the code: instruments for watching a factory",
+    "description": "Anchor for a Kanbus observability series (Ryan, 2026-09-26). Thesis: as you delegate coding to agents, the instruments that worked when you wrote the code yourself (reading diffs, sitting in standups) stop scaling, and delegation without observation is abdication. Kanbus is where Anthus is building the new instruments: an automated right-now status per issue, an automated standup report, and recursive auto-compaction so the record stays readable for agents and people. Inherit the glass-cockpit metaphor from the cybernetic-development article. Buyer angle: a client who hires a factory needs to see what is happening without reading code. Ends on the factory-run engagement offer at /engage. Related: ANTH-864e95 (governance and audit trail). Write from real boards, not feature descriptions.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 1,
+    "assignee": null,
+    "parent": null,
+    "labels": [
+      "client-acquisition",
+      "kanbus-observability"
+    ],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1",
+      "name": "anth-content-strategy-clients"
+    }
+  }
+}

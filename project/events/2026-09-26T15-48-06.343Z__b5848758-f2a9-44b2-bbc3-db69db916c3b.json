@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "b5848758-f2a9-44b2-bbc3-db69db916c3b",
+  "issue_id": "ANTH-1af8df2a-945e-44c0-85a1-3343087ffaa8",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-26T15:48:06.343Z",
+  "actor_id": "unknown",
+  "payload": {
+    "title": "A record that stays readable: recursive auto-compaction",
+    "description": "Drill-down 3 of the Kanbus observability series (anchor: ANTH-a76a4a). Recursive auto-compaction of issue content so agents consume it efficiently and people can still read it after months of traffic. Show one issue before and after: comment count, tokens an agent has to load, and what survived compaction. Checkable numbers from a real issue.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [
+      "client-acquisition",
+      "kanbus-observability"
+    ],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1",
+      "name": "anth-content-strategy-clients"
+    }
+  }
+}

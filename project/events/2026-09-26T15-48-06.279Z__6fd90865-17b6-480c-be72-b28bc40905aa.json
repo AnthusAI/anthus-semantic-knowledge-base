@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "6fd90865-17b6-480c-be72-b28bc40905aa",
+  "issue_id": "ANTH-119061e6-5445-4c08-9189-22d3ccc8768e",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-26T15:48:06.279Z",
+  "actor_id": "unknown",
+  "payload": {
+    "title": "The standup nobody attends",
+    "description": "Drill-down 2 of the Kanbus observability series (anchor: ANTH-a76a4a). The automated standup report: a real generated standup from this site's board or the Biased-Decisions board, placed beside the commits and comments it summarised, with what it caught, what it missed, and how a human who has stepped back uses it. Real output only.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [
+      "client-acquisition",
+      "kanbus-observability"
+    ],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1",
+      "name": "anth-content-strategy-clients"
+    }
+  }
+}
