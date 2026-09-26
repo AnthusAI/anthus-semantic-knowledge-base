@@ -45,10 +45,22 @@
         "model": "claude-fable-5-1",
         "name": "anth-content-strategy-clients"
       }
+    },
+    {
+      "id": "40498b19-ab9c-499f-a6b3-556ab2a71afd",
+      "author": "unknown",
+      "text": "Related series filed 2026-09-26: Kanbus observability (anchor ANTH-a76a4a; drill-downs ANTH-91d236, ANTH-119061, ANTH-1af8df). This story stays the governance and audit-trail piece; the series covers watching the work after you step back: right-now status, automated standups, auto-compaction.",
+      "created_at": "2026-09-26T15:48:06.402835250Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1",
+        "name": "anth-content-strategy-clients"
+      }
     }
   ],
   "created_at": "2026-08-29T06:44:52.005202Z",
-  "updated_at": "2026-09-26T09:52:21.382151457Z",
+  "updated_at": "2026-09-26T15:48:06.402900096Z",
   "closed_at": null,
   "right_now_summary": null,
   "right_now_updated_at": null,
