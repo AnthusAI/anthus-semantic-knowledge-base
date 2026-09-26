@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "event_id": "12802f7a-5271-494f-9ff9-b9bf7507faf7",
+  "issue_id": "ANTH-3a22a3fb-69e2-45f0-a0b8-19658968b000",
+  "event_type": "comment_added",
+  "occurred_at": "2026-09-25T15:23:33.526Z",
+  "actor_id": "home",
+  "payload": {
+    "comment_id": "75f2e5c1-ae4e-464b-a67a-aee16cd28612",
+    "comment_author": "home",
+    "agent": {
+      "platform": "codex",
+      "model": "GPT-6",
+      "name": "Codex desktop"
+    }
+  }
+}
