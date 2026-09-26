@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "event_id": "a35e95ac-c2e5-46c7-9000-362b55184fdf",
+  "issue_id": "ANTH-75187625-de04-4e47-a626-e51443bbbfd9",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-26T09:56:21.034Z",
+  "actor_id": "unknown",
+  "payload": {
+    "title": "Plexus as the lab for the new decision models: a self-aligning harness",
+    "description": "Second Plexus piece, sequenced after ANTH-f7e800 (the general classifier-lab offer). Timely argument: decision models like Jev arrive frozen and vendor-served, so you cannot fine-tune them; alignment has to happen in the harness around them. The published Jev series already has every component as a separate result (decisions as native output, calibration, question and fitted-head adaptation, distillation into a student you own, per-slice bias gates). This article is the one that says these are stages of a single loop, shows it running as one system in Plexus, and names Anthus as the shop that has run it. Write from studies already run and harness capability already in Plexus, not roadmap; no coming-soon framing. Keep the general offer in f7e800 and make this the why-now piece; both end on the engagement page.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 1,
+    "assignee": null,
+    "parent": null,
+    "labels": [
+      "client-acquisition"
+    ],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1",
+      "name": "anth-content-strategy-clients"
+    }
+  }
+}
