@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "event_id": "e7ebe0d9-60b2-440d-b4dd-096e25befb76",
+  "issue_id": "ANTH-1b484ee5-767e-436b-b092-3505babf5e5c",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-26T09:51:53.388Z",
+  "actor_id": "unknown",
+  "payload": {
+    "title": "Three years of production RLHF: the Call Criteria retrospective",
+    "description": "Refresh of the flagship case, which the site currently dates 2023. Frame the engagement by duration and cumulative figures (years in production, models managed, interactions processed, expert hours, accuracy trend from the data flywheel) rather than point-in-time numbers. Every other credibility claim on the site points at this case, so it needs numbers a prospect can check. Anchor for the Plexus lab story.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [
+      "client-acquisition"
+    ],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1",
+      "name": "anth-content-strategy-clients"
+    }
+  }
+}

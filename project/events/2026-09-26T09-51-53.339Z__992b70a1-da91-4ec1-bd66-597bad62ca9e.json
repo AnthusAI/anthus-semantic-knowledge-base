@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "event_id": "992b70a1-da91-4ec1-bd66-597bad62ca9e",
+  "issue_id": "ANTH-6360c246-907a-4a33-9e37-9997d6526095",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-26T09:51:53.339Z",
+  "actor_id": "unknown",
+  "payload": {
+    "title": "How this publication is produced: the Papyrus newsroom",
+    "description": "Papyrus case study with a public audit trail. The publication the reader is looking at is run as a Kanbus-governed newsroom: the ANTH board, the gated story pipeline (idea, assignment, research, report, editor select, copywriting, published), Limatus checks against the style profile, and human approval as the publish step. Same shape as a software factory, different product. Sequencing: wait until the Anth.us editorial migration onto Papyrus (tracked on the site board) has a few weeks of real board history to show, then write from that record. Pairs with the Kanbus story (ANTH-864e95), which is the same proof for code.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [
+      "client-acquisition"
+    ],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1",
+      "name": "anth-content-strategy-clients"
+    }
+  }
+}

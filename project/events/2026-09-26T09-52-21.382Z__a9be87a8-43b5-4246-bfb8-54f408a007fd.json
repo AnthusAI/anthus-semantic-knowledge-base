@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "a9be87a8-43b5-4246-bfb8-54f408a007fd",
+  "issue_id": "ANTH-864e95f9-6cc3-4f21-9403-368e7a94a76b",
+  "event_type": "field_updated",
+  "occurred_at": "2026-09-26T09:52:21.382Z",
+  "actor_id": "unknown",
+  "payload": {
+    "changes": {
+      "labels": {
+        "from": [],
+        "to": [
+          "client-acquisition"
+        ]
+      }
+    }
+  }
+}
