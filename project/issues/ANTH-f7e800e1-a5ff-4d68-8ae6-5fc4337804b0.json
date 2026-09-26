@@ -3,7 +3,7 @@
   "title": "Plexus is a classifier lab: operationalizing classifiers at scale",
   "description": "The offer article. Start with a business problem, not a model, then walk one classifier through the Plexus loop: labelled examples, evaluation, confidence gating, human review, retraining, controlled rollout, and what the scorecard looks like at month one versus month six. Reuse the checkable figures already published in the distillation piece (ANTH-123b30) and the Classification with Confidence work rather than inventing new ones; cite Call Criteria for the at-scale claim. End state: the reader knows the whole method and knows Anthus will run it for them. This is the top of the client-acquisition funnel; the Kanbus and Papyrus pieces sit under it and all three land on the same engagement page (site board).",
   "type": "story",
-  "status": "idea",
+  "status": "copywriting",
   "priority": 1,
   "assignee": null,
   "creator": null,
@@ -12,9 +12,22 @@
     "client-acquisition"
   ],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "906d769f-ad61-4606-9102-ead4cf5f4326",
+      "author": "unknown",
+      "text": "Advanced ANTH-f7e800 from idea through copywriting: assignment.md, research.md, report.md, editor_select.md, article.md all written under stories/ANTH-f7e800e1-a5ff-4d68-8ae6-5fc4337804b0/. Story now sits in copywriting with a complete draft (~1,900 words); final approval and publication are Ryan's.\n\nFigures used, all traced to already-published Anth.us content (no external research, no invented numbers):\n- distilling-jev-into-a-classifier.mdx: 140 human labels seeded the flywheel; student 91.2% vs. teacher 89.0% agreement with the human label; per-slice ship gate (2-point margin, min 30 items) cleared 10 or 11 of 11 slices depending on seed, with the neutral/workplace slice (n=150) as the one that misses; the cascade to the larger system never beat the student alone across five thresholds.\n- fine-tuned-classification-with-confidence.mdx: the 95-100% raw-confidence band scoring only 83.5% observed accuracy (532 of 1,000 examples) -- the calibration-matters evidence used for the \"month one\" half of the scorecard.\n- can-you-trust-jev-confidence.mdx and solutions/Classification-with-Confidence.mdx: supporting context for calibration and HITL routing (referenced qualitatively, no additional numbers quoted beyond the raw-reliability figure above).\n- solutions/Plexus.mdx / platform/plexus.mdx: platform description (RLHF data flywheel, MLOps lifecycle, HITL, controlled rollout) and the \"hundreds of scorecards / millions of interactions cumulatively\" figure.\n- solutions/Call Criteria.mdx: cited for scale strictly as duration + cumulative counts (\"continuous production... for years,\" \"hundreds of scorecards,\" \"millions of interactions cumulatively\"). No claim about current status, no present-tense \"powers today\" framing, per the assignment's constraint.\n- ai-coding-cost-collapse-2026.mdx / maximize-value-not-intelligence.mdx: qualitative why-now framing only (falling cost of a fixed capability level); no classifier-specific number pulled from these.\n\nThe month-one/month-six scorecard is explicitly flagged in the article itself as a composite shape of the method assembled from these published figures, not one client's literal timeline -- this was called out as a risk in research.md and addressed directly in the copy rather than left implicit.\n\nAlso created the site draft at /home/user/Anth.us/src/site-content/plexus-classifier-lab.mdx (state: draft, tags articles/AI/featured/how-to, no `posts` tag), following distilling-jev-into-a-classifier.mdx's frontmatter conventions, plus the placeholder cover image at src/site-content/images/plexus-classifier-lab.png (1200x630, generated with Python Pillow since ImageMagick's `convert` wasn't available in this environment; pip install pillow was needed first).\n\nLeft for Ryan: final editorial read and approval, the /engage page itself (this piece assumes it exists per the idea brief -- \"an engagement page being built in parallel\"), and the decision on whether to commission real charts (the report proposed reusing the teacher-vs-student and per-slice-gate charts from distilling-jev-into-a-classifier.mdx, but the article as drafted stands on prose alone and doesn't require them). No git commit or push was made in either repository, per instructions.\n\nAgent: claude-code / claude-sonnet-5 / plexus-lab-article",
+      "created_at": "2026-09-26T10:06:26.565116180Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-sonnet-5",
+        "name": "plexus-lab-article"
+      }
+    }
+  ],
   "created_at": "2026-09-26T09:51:53.281478548Z",
-  "updated_at": "2026-09-26T09:51:53.285203314Z",
+  "updated_at": "2026-09-26T10:06:26.565152566Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",
@@ -23,5 +36,8 @@
   },
   "right_now_summary": null,
   "right_now_updated_at": null,
-  "custom": {}
+  "custom": {
+    "project_label": "ANTH",
+    "source": "shared"
+  }
 }
