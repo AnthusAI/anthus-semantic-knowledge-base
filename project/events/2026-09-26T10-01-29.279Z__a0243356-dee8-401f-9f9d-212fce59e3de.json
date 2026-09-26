@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "event_id": "a0243356-dee8-401f-9f9d-212fce59e3de",
+  "issue_id": "ANTH-f7e800e1-a5ff-4d68-8ae6-5fc4337804b0",
+  "event_type": "state_transition",
+  "occurred_at": "2026-09-26T10:01:29.279Z",
+  "actor_id": "unknown",
+  "payload": {
+    "from_status": "idea",
+    "to_status": "assignment"
+  }
+}
