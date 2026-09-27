@@ -48,10 +48,22 @@
         "model": "claude-fable-5-1",
         "name": "anth-content-strategy-clients"
       }
+    },
+    {
+      "id": "a2189b35-b914-44ca-b77e-a6fe8a496da4",
+      "author": "unknown",
+      "text": "Post-publish copy-edit 2026-09-27 via Limatus scan and verify against publications/anthus/style-profile.yml (rewrite generator and judge unavailable here, so edits were hand-written and Limatus diagnosed and checked): 1,926 to 1,200 words; clarity 0.12 to 0.66, voice match 0.40 to 0.82, unsupported-certainty findings 6 to 2; verify recommends accept at net 0.39. Every published figure retained. Cover replaced with Plexus's own gauge graphic, needles at the article's figures, in Jersey 25 and Montserrat. article.md synced. Next pass: borrow one month-six sentence from /engage for the close (vision beat).",
+      "created_at": "2026-09-27T19:29:22.811672277Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1",
+        "name": "anth-content-strategy-clients"
+      }
     }
   ],
   "created_at": "2026-09-26T09:51:53.281478548Z",
-  "updated_at": "2026-09-27T15:19:17.878462945Z",
+  "updated_at": "2026-09-27T19:29:22.811716371Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",
