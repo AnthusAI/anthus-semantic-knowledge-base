@@ -13,9 +13,22 @@
     "process"
   ],
   "dependencies": [],
-  "comments": [],
+  "comments": [
+    {
+      "id": "cdc2d970-7949-4562-a576-f1667fc6f4e7",
+      "author": "unknown",
+      "text": "Pull request opened for the gate: https://github.com/AnthusAI/anthus-semantic-knowledge-base/pull/2 (doctrine story-job section, advance-story skill gate, idea scaffold headings). Ryan to review and merge; no hook logic changed.",
+      "created_at": "2026-09-27T15:38:17.029652522Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1",
+        "name": "anth-content-strategy-clients"
+      }
+    }
+  ],
   "created_at": "2026-09-27T15:17:19.518021196Z",
-  "updated_at": "2026-09-27T15:17:19.521306438Z",
+  "updated_at": "2026-09-27T15:38:17.029689719Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",
