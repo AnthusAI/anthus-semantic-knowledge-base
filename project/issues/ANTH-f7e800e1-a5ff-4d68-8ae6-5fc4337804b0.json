@@ -3,7 +3,7 @@
   "title": "Plexus is a classifier lab: operationalizing classifiers at scale",
   "description": "The offer article. Start with a business problem, not a model, then walk one classifier through the Plexus loop: labelled examples, evaluation, confidence gating, human review, retraining, controlled rollout, and what the scorecard looks like at month one versus month six. Reuse the checkable figures already published in the distillation piece (ANTH-123b30) and the Classification with Confidence work rather than inventing new ones; cite Call Criteria for the at-scale claim. End state: the reader knows the whole method and knows Anthus will run it for them. This is the top of the client-acquisition funnel; the Kanbus and Papyrus pieces sit under it and all three land on the same engagement page (site board).",
   "type": "story",
-  "status": "copywriting",
+  "status": "published",
   "priority": 1,
   "assignee": null,
   "creator": null,
@@ -36,10 +36,22 @@
         "model": "claude-fable-5-1",
         "name": "anth-content-strategy-clients"
       }
+    },
+    {
+      "id": "cde7731f-a353-4a1f-9b87-c146430ac8f2",
+      "author": "unknown",
+      "text": "Final pass 2026-09-27 before publishing, applying the writing-effective-stories skill: the opening is now the sourced Jev flywheel run as a teaching story (calibration 15 to 3 points over 87 rounds while accuracy sat at 77 percent, one approved question took it to 87), the third way stated after the event earns it, the composite month-one/month-six scorecard replaced with the real four-version scorecard table from the fine-tuning study, three contrast devices flattened so the close keeps the one allowed. Every figure traces to fine-tuning-jev, distilling-jev-into-a-classifier, and fine-tuned-classification-with-confidence. Publishing on the site with state published, date 2026-09-27.",
+      "created_at": "2026-09-27T15:19:00.470179906Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "claude-code",
+        "model": "claude-fable-5-1",
+        "name": "anth-content-strategy-clients"
+      }
     }
   ],
   "created_at": "2026-09-26T09:51:53.281478548Z",
-  "updated_at": "2026-09-26T12:52:12.277798230Z",
+  "updated_at": "2026-09-27T15:19:17.878462945Z",
   "closed_at": null,
   "agent": {
     "platform": "claude-code",
