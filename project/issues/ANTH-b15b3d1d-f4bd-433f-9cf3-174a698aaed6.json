@@ -1,0 +1,28 @@
+{
+  "id": "ANTH-b15b3d1d-f4bd-433f-9cf3-174a698aaed6",
+  "title": "Story-job gate: adopt writing-effective-stories at assignment and editor select",
+  "description": "Ryan, 2026-09-27: the Limatus writing-effective-stories skill (.cursor/skills/writing-effective-stories/SKILL.md on Limatus main) is central to Anthus marketing. Make it a stage gate, not a reading. Assignment stage: the charter names the story's job (who I am, why I'm here, vision, teaching, values in action, I know what you're thinking) and the sourced moment it is built on; no manufactured people, events, quotes, or numbers; thin material becomes a concise factual example. Editor select: check for a clear job, a real source, a visible turning point, and a takeaway proportionate to the evidence. Client-acquisition overlay: opening is a teaching story or values-in-action scene, closing section is a vision story of the client's month six, the engage box is why-we're-here. Doctrine and skill edits in this repo go through a pull request per AGENTS.md; the Limatus profile gets the same four checks as findings. This is a process story, not an article.",
+  "type": "story",
+  "status": "idea",
+  "priority": 1,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [
+    "client-acquisition",
+    "process"
+  ],
+  "dependencies": [],
+  "comments": [],
+  "created_at": "2026-09-27T15:17:19.518021196Z",
+  "updated_at": "2026-09-27T15:17:19.521306438Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "claude-code",
+    "model": "claude-fable-5-1",
+    "name": "anth-content-strategy-clients"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}
