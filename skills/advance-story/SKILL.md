@@ -35,6 +35,17 @@ story remains in `copywriting`. Do not skip stages; workflow and hooks refuse sk
 | `copywriting` | `editor_select.md` |
 | `published` | `article.md` |
 
+## Story job gate
+
+Two stages carry an extra check from `doctrine/anthus.md`:
+
+- **assignment**: `assignment.md` names the story's job (who we are, why we're
+  here, vision, teaching, values in action, "I know what you're thinking") and the
+  sourced moment it is built on. No job or no source means the charter is not done.
+- **editor_select**: `editor_select.md` records the four checks: clear job, real
+  source, visible turning point, takeaway proportionate to the evidence. A failed
+  check sends the story back to research, not forward to copywriting.
+
 ## Advance a story
 
 ```bash

@@ -19,6 +19,14 @@ Who should care?
 
 ## Working title
 
+## Story job
+
+Which one job does this story do for the reader: who we are, why we're here, vision, teaching, values in action, or "I know what you're thinking"?
+
+## Sourced moment
+
+The real situation, tension, choice, and result this story is built on, and where each fact lives.
+
 """
 
 
