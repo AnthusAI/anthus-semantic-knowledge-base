@@ -1,0 +1,38 @@
+{
+  "id": "ANTH-ed684fe1-ab37-4984-90f8-51be475f2a90",
+  "title": "Who Is Responsible After You Deploy a Decision Model?",
+  "description": "As an AI engineer or founder deploying a consequential decision model, I want to understand who may hold the system accountable when credible evidence of discriminatory behavior emerges, so that I design with testable controls, records, and appropriate escalation paths.\n\nScope: research the FTC chair’s agent-responsibility remarks; enforcement and agency positions for vendors/deployers in employment, housing, credit, and product marketing; and documented cases where advocacy, public evidence, or employee reporting created regulatory or operational pressure.\n\nFeature: Evidence-led warning about responsibility after deployment.\nScenario: An engineer learns their deployed model is sensitive to protected cues.\nGiven a version-pinned decision system and counterfactual findings that clear a matched control floor,\nWhen an affected person, advocacy organization, customer, regulator, or employee raises the result,\nThen the article distinguishes the relevant legal and practical accountability paths, cites primary sources, and does not imply that a benchmark alone proves unlawful discrimination.",
+  "type": "story",
+  "status": "research",
+  "priority": 1,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "58776b08-5873-4018-8ce5-335382af5493",
+      "author": "home",
+      "text": "Research packet added in `stories/ed684f/research.md`. Key verified cases: (1) ACLU/NFHA/CWA challenges to Meta/Facebook ad targeting preceded product changes; DOJ's 2022 settlement required withdrawal of Special Ad Audience for housing and a Variance Reduction System. (2) EPIC filed an FTC complaint over HireVue in 2019; HireVue later removed visual analysis, while attributing the product decision to its own research rather than any compelled result. Primary sources and precise limits are recorded.\n\nResearch also records Ferguson's Reuters remarks, the EEOC's Workday employment-agency position, DOJ/HUD's SafeRent statement, CFPB adverse-action guidance, FTC Workado substantiation action, and the limited EEO retaliation route for insiders.\n\nAgent provenance: Codex desktop / gpt-5.",
+      "created_at": "2026-09-29T17:24:57.147344Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-5",
+        "name": "Codex desktop"
+      }
+    }
+  ],
+  "created_at": "2026-09-29T17:21:57.001386Z",
+  "updated_at": "2026-09-29T17:24:57.147362Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "codex",
+    "model": "gpt-5",
+    "name": "Codex desktop"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}
