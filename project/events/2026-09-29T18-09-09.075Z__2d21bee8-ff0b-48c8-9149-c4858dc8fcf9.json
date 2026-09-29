@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "event_id": "2d21bee8-ff0b-48c8-9149-c4858dc8fcf9",
+  "issue_id": "ANTH-c9367741-97b3-4574-886d-e41dbf4bb55f",
+  "event_type": "issue_created",
+  "occurred_at": "2026-09-29T18:09:09.075Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "When “Ultra” Thinking Makes an LLM Worse",
+    "description": "",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "codex",
+      "model": "gpt-5",
+      "settings": {
+        "reasoning_effort": "medium"
+      }
+    }
+  }
+}
