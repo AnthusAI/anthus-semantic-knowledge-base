@@ -1,0 +1,850 @@
+{
+  "schemaVersion": 1,
+  "document_intent": "import BlogImage from '../components/blog-image';",
+  "audience": "Practicing AI and ML engineers, product developers, and technical leaders evaluating tools, cost, and risk. Flagship stories may target a general reader first, opening for someone with no AI background and linking to technical drill-downs; the drill-downs keep the engineering audience.",
+  "generic_passages": [],
+  "unsupported_claims": [
+    {
+      "id": "finding-a8fa0bb02ef3388c",
+      "kind": "unsupported_certainty",
+      "excerpt": "Jev is flat, Kev favors early options, and Laya's digit responses never select the last option.\" />",
+      "span": {
+        "start": 7605,
+        "end": 7704
+      },
+      "rationale": "Sentence states certainty without attributable evidence.",
+      "source": "profile"
+    },
+    {
+      "id": "finding-e478948d3b13d874",
+      "kind": "unsupported_certainty",
+      "excerpt": "The three measured model patterns argue against a universal \u201cdecision models always pick one\u201d story.",
+      "span": {
+        "start": 9609,
+        "end": 9709
+      },
+      "rationale": "Sentence states certainty without attributable evidence.",
+      "source": "profile"
+    }
+  ],
+  "repetition_groups": [
+    {
+      "id": "finding-0df52be9ff901ed0",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-5dcfce9e8bb969f7",
+          "kind": "redundancy",
+          "excerpt": "Someone rolls a fair six-sided die where nobody can see it.",
+          "span": {
+            "start": 726,
+            "end": 785
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-bf94f74502652be5",
+          "kind": "redundancy",
+          "excerpt": "We used one short state: \u201cA fair six-sided die was rolled once.",
+          "span": {
+            "start": 2198,
+            "end": 2261
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-67778152f3ce3582",
+          "kind": "redundancy",
+          "excerpt": "```json\n{\n  \"model\": \"jev-latest\",\n  \"state\": \"A fair six-sided die was rolled once.",
+          "span": {
+            "start": 2544,
+            "end": 2628
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-7c71fcd401e0dc10",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-5784e12b51c31061",
+          "kind": "redundancy",
+          "excerpt": "The [public, MIT-licensed project](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators) has the preregistered question, exact replies, checksummed response files, and code that generated the figures.",
+          "span": {
+            "start": 1872,
+            "end": 2083
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-b0176c5016686df7",
+          "kind": "redundancy",
+          "excerpt": "These are the actual selected choices and returned per-face probabilities, extracted from the [complete response envelopes](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/examples.json):",
+          "span": {
+            "start": 3095,
+            "end": 3316
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-69cef7771d83b3ad",
+          "kind": "redundancy",
+          "excerpt": "We repeated both sets once, making **2,880 requests per model**, as [the release manifest confirms](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json).",
+          "span": {
+            "start": 3939,
+            "end": 4144
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-b1d254fae2f4cf48",
+          "kind": "redundancy",
+          "excerpt": "The [preregistered matrix](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/PREREGISTERED.md) puts each face at each list position exactly 120 times per form and pass.",
+          "span": {
+            "start": 4145,
+            "end": 4342
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-36fd8a7cd8151cc8",
+          "kind": "redundancy",
+          "excerpt": "The [released summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json) supplies every count and mean in this table:",
+          "span": {
+            "start": 4590,
+            "end": 4753
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-6b43eb263264e23a",
+          "kind": "redundancy",
+          "excerpt": "*Source: the [complete model-by-model summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).*",
+          "span": {
+            "start": 5034,
+            "end": 5178
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-e9a21960d474c808",
+          "kind": "redundancy",
+          "excerpt": "Kev and Laya both falsified the literal \u201calways one\u201d claim in the [complete record](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 5343,
+            "end": 5523
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-ffbd0b66a72e8017",
+          "kind": "redundancy",
+          "excerpt": "Laya strongly favored six, especially with word labels: its mean returned probability for `six` was **91.8%** in the [first word pass](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 5658,
+            "end": 5889
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-cded55ba38f1d4d5",
+          "kind": "redundancy",
+          "excerpt": "That baseline comes from the [stated fair-die setup](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/PREREGISTERED.md); the models never observed the roll.",
+          "span": {
+            "start": 6455,
+            "end": 6641
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-3adf80ebda675a4b",
+          "kind": "redundancy",
+          "excerpt": "In the first digit pass, Kev picked the **first-listed choice in 426 of 720 orders**\u201459.2%, where a position-neutral pattern across this balanced set would be 16.7%, according to the [position breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 6718,
+            "end": 7018
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-fca55121d7abac1a",
+          "kind": "redundancy",
+          "excerpt": "Jev always picked face one, which occupied each position 120 times, so its selected-position counts were exactly even in the [same recorded breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 7096,
+            "end": 7343
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-58cb52abec4e299e",
+          "kind": "redundancy",
+          "excerpt": "The [build notes](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/engines.md) and [release manifest](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json) record the versions.",
+          "span": {
+            "start": 8456,
+            "end": 8713
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-a691eb25b058444b",
+          "kind": "redundancy",
+          "excerpt": "Jev rounds probabilities to two decimal places; the [measurement note](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/measurement-notes.md) explains why we preserved those raw values.",
+          "span": {
+            "start": 8856,
+            "end": 9071
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-8749ad0fa78ec62f",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-bf94f74502652be5",
+          "kind": "redundancy",
+          "excerpt": "We used one short state: \u201cA fair six-sided die was rolled once.",
+          "span": {
+            "start": 2198,
+            "end": 2261
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-67778152f3ce3582",
+          "kind": "redundancy",
+          "excerpt": "```json\n{\n  \"model\": \"jev-latest\",\n  \"state\": \"A fair six-sided die was rolled once.",
+          "span": {
+            "start": 2544,
+            "end": 2628
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-df4534a193d55654",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-bfdf0caf4ebaf389",
+          "kind": "redundancy",
+          "excerpt": "The result is unknown.\u201d The question was \u201cWhich face showed on the roll?\u201d The six alternatives described the six marked faces.",
+          "span": {
+            "start": 2262,
+            "end": 2388
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-c506d47cf54c8b72",
+          "kind": "redundancy",
+          "excerpt": "The result is unknown.\",\n  \"questions\": {\n    \"die_result\": {\n      \"type\": \"choice\",\n      \"instructions\": \"Which face showed on the roll?\",\n      \"criteria\": {\n        \"1\": \"the die face marked 1\",\n        \"2\": \"the die face marked 2\",\n        \"3\": \"the die face marked 3\",\n        \"4\": \"the die face marked 4\",\n        \"5\": \"the die face marked 5\",\n        \"6\": \"the die face marked 6\"\n      }\n    }\n  }\n}\n```",
+          "span": {
+            "start": 2629,
+            "end": 3041
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-7d966d2af86144bf",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-b0176c5016686df7",
+          "kind": "redundancy",
+          "excerpt": "These are the actual selected choices and returned per-face probabilities, extracted from the [complete response envelopes](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/examples.json):",
+          "span": {
+            "start": 3095,
+            "end": 3316
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-69cef7771d83b3ad",
+          "kind": "redundancy",
+          "excerpt": "We repeated both sets once, making **2,880 requests per model**, as [the release manifest confirms](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json).",
+          "span": {
+            "start": 3939,
+            "end": 4144
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-b1d254fae2f4cf48",
+          "kind": "redundancy",
+          "excerpt": "The [preregistered matrix](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/PREREGISTERED.md) puts each face at each list position exactly 120 times per form and pass.",
+          "span": {
+            "start": 4145,
+            "end": 4342
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-36fd8a7cd8151cc8",
+          "kind": "redundancy",
+          "excerpt": "The [released summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json) supplies every count and mean in this table:",
+          "span": {
+            "start": 4590,
+            "end": 4753
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-6b43eb263264e23a",
+          "kind": "redundancy",
+          "excerpt": "*Source: the [complete model-by-model summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).*",
+          "span": {
+            "start": 5034,
+            "end": 5178
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-e9a21960d474c808",
+          "kind": "redundancy",
+          "excerpt": "Kev and Laya both falsified the literal \u201calways one\u201d claim in the [complete record](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 5343,
+            "end": 5523
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-ffbd0b66a72e8017",
+          "kind": "redundancy",
+          "excerpt": "Laya strongly favored six, especially with word labels: its mean returned probability for `six` was **91.8%** in the [first word pass](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 5658,
+            "end": 5889
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-cded55ba38f1d4d5",
+          "kind": "redundancy",
+          "excerpt": "That baseline comes from the [stated fair-die setup](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/PREREGISTERED.md); the models never observed the roll.",
+          "span": {
+            "start": 6455,
+            "end": 6641
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-3adf80ebda675a4b",
+          "kind": "redundancy",
+          "excerpt": "In the first digit pass, Kev picked the **first-listed choice in 426 of 720 orders**\u201459.2%, where a position-neutral pattern across this balanced set would be 16.7%, according to the [position breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 6718,
+            "end": 7018
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-fca55121d7abac1a",
+          "kind": "redundancy",
+          "excerpt": "Jev always picked face one, which occupied each position 120 times, so its selected-position counts were exactly even in the [same recorded breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 7096,
+            "end": 7343
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-58cb52abec4e299e",
+          "kind": "redundancy",
+          "excerpt": "The [build notes](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/engines.md) and [release manifest](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json) record the versions.",
+          "span": {
+            "start": 8456,
+            "end": 8713
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-a691eb25b058444b",
+          "kind": "redundancy",
+          "excerpt": "Jev rounds probabilities to two decimal places; the [measurement note](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/measurement-notes.md) explains why we preserved those raw values.",
+          "span": {
+            "start": 8856,
+            "end": 9071
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-ac8664a9271ad6dc",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-b0176c5016686df7",
+          "kind": "redundancy",
+          "excerpt": "These are the actual selected choices and returned per-face probabilities, extracted from the [complete response envelopes](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/examples.json):",
+          "span": {
+            "start": 3095,
+            "end": 3316
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-69cef7771d83b3ad",
+          "kind": "redundancy",
+          "excerpt": "We repeated both sets once, making **2,880 requests per model**, as [the release manifest confirms](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json).",
+          "span": {
+            "start": 3939,
+            "end": 4144
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-36fd8a7cd8151cc8",
+          "kind": "redundancy",
+          "excerpt": "The [released summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json) supplies every count and mean in this table:",
+          "span": {
+            "start": 4590,
+            "end": 4753
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-6b43eb263264e23a",
+          "kind": "redundancy",
+          "excerpt": "*Source: the [complete model-by-model summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).*",
+          "span": {
+            "start": 5034,
+            "end": 5178
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-e9a21960d474c808",
+          "kind": "redundancy",
+          "excerpt": "Kev and Laya both falsified the literal \u201calways one\u201d claim in the [complete record](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 5343,
+            "end": 5523
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-ffbd0b66a72e8017",
+          "kind": "redundancy",
+          "excerpt": "Laya strongly favored six, especially with word labels: its mean returned probability for `six` was **91.8%** in the [first word pass](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 5658,
+            "end": 5889
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-3adf80ebda675a4b",
+          "kind": "redundancy",
+          "excerpt": "In the first digit pass, Kev picked the **first-listed choice in 426 of 720 orders**\u201459.2%, where a position-neutral pattern across this balanced set would be 16.7%, according to the [position breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 6718,
+            "end": 7018
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-fca55121d7abac1a",
+          "kind": "redundancy",
+          "excerpt": "Jev always picked face one, which occupied each position 120 times, so its selected-position counts were exactly even in the [same recorded breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 7096,
+            "end": 7343
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-58cb52abec4e299e",
+          "kind": "redundancy",
+          "excerpt": "The [build notes](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/engines.md) and [release manifest](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json) record the versions.",
+          "span": {
+            "start": 8456,
+            "end": 8713
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-95a3e38030e5fcd4",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-69cef7771d83b3ad",
+          "kind": "redundancy",
+          "excerpt": "We repeated both sets once, making **2,880 requests per model**, as [the release manifest confirms](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json).",
+          "span": {
+            "start": 3939,
+            "end": 4144
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-58cb52abec4e299e",
+          "kind": "redundancy",
+          "excerpt": "The [build notes](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/engines.md) and [release manifest](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json) record the versions.",
+          "span": {
+            "start": 8456,
+            "end": 8713
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-af959ce55d0b9841",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-b1d254fae2f4cf48",
+          "kind": "redundancy",
+          "excerpt": "The [preregistered matrix](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/PREREGISTERED.md) puts each face at each list position exactly 120 times per form and pass.",
+          "span": {
+            "start": 4145,
+            "end": 4342
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-cded55ba38f1d4d5",
+          "kind": "redundancy",
+          "excerpt": "That baseline comes from the [stated fair-die setup](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/PREREGISTERED.md); the models never observed the roll.",
+          "span": {
+            "start": 6455,
+            "end": 6641
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-58cb52abec4e299e",
+          "kind": "redundancy",
+          "excerpt": "The [build notes](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/engines.md) and [release manifest](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/release-manifest.json) record the versions.",
+          "span": {
+            "start": 8456,
+            "end": 8713
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-a691eb25b058444b",
+          "kind": "redundancy",
+          "excerpt": "Jev rounds probabilities to two decimal places; the [measurement note](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/measurement-notes.md) explains why we preserved those raw values.",
+          "span": {
+            "start": 8856,
+            "end": 9071
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-313846b223776a26",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-b1d254fae2f4cf48",
+          "kind": "redundancy",
+          "excerpt": "The [preregistered matrix](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/PREREGISTERED.md) puts each face at each list position exactly 120 times per form and pass.",
+          "span": {
+            "start": 4145,
+            "end": 4342
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-cded55ba38f1d4d5",
+          "kind": "redundancy",
+          "excerpt": "That baseline comes from the [stated fair-die setup](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/docs/PREREGISTERED.md); the models never observed the roll.",
+          "span": {
+            "start": 6455,
+            "end": 6641
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-c712c9ee10db5166",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-36fd8a7cd8151cc8",
+          "kind": "redundancy",
+          "excerpt": "The [released summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json) supplies every count and mean in this table:",
+          "span": {
+            "start": 4590,
+            "end": 4753
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-6b43eb263264e23a",
+          "kind": "redundancy",
+          "excerpt": "*Source: the [complete model-by-model summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).*",
+          "span": {
+            "start": 5034,
+            "end": 5178
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-57df886492d56aa5",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-36fd8a7cd8151cc8",
+          "kind": "redundancy",
+          "excerpt": "The [released summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json) supplies every count and mean in this table:",
+          "span": {
+            "start": 4590,
+            "end": 4753
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-6b43eb263264e23a",
+          "kind": "redundancy",
+          "excerpt": "*Source: the [complete model-by-model summary](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).*",
+          "span": {
+            "start": 5034,
+            "end": 5178
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-e9a21960d474c808",
+          "kind": "redundancy",
+          "excerpt": "Kev and Laya both falsified the literal \u201calways one\u201d claim in the [complete record](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 5343,
+            "end": 5523
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-ffbd0b66a72e8017",
+          "kind": "redundancy",
+          "excerpt": "Laya strongly favored six, especially with word labels: its mean returned probability for `six` was **91.8%** in the [first word pass](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 5658,
+            "end": 5889
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-3adf80ebda675a4b",
+          "kind": "redundancy",
+          "excerpt": "In the first digit pass, Kev picked the **first-listed choice in 426 of 720 orders**\u201459.2%, where a position-neutral pattern across this balanced set would be 16.7%, according to the [position breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 6718,
+            "end": 7018
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-fca55121d7abac1a",
+          "kind": "redundancy",
+          "excerpt": "Jev always picked face one, which occupied each position 120 times, so its selected-position counts were exactly even in the [same recorded breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 7096,
+            "end": 7343
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-80fe92fefa866a82",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-3adf80ebda675a4b",
+          "kind": "redundancy",
+          "excerpt": "In the first digit pass, Kev picked the **first-listed choice in 426 of 720 orders**\u201459.2%, where a position-neutral pattern across this balanced set would be 16.7%, according to the [position breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 6718,
+            "end": 7018
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-fca55121d7abac1a",
+          "kind": "redundancy",
+          "excerpt": "Jev always picked face one, which occupied each position 120 times, so its selected-position counts were exactly even in the [same recorded breakdown](https://github.com/AnthusAI/Decision-Models-Are-Not-Calculators/blob/main/results/summary.json).",
+          "span": {
+            "start": 7096,
+            "end": 7343
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    },
+    {
+      "id": "finding-db0ce0e394c57a04",
+      "kind": "redundancy",
+      "members": [
+        {
+          "id": "finding-6dc2c9cd860144ae",
+          "kind": "redundancy",
+          "excerpt": "In [The Dominance of Ones](/blog/the-dominance-of-ones/), I looked at Benford's Law: in many real-world numerical datasets, one turns up as the *leading digit* more often than nine.",
+          "span": {
+            "start": 9117,
+            "end": 9298
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        },
+        {
+          "id": "finding-f42c1152895099d4",
+          "kind": "redundancy",
+          "excerpt": "Benford's Law concerns leading digits in some observed datasets, as the [earlier examples](/blog/the-dominance-of-ones/) show.",
+          "span": {
+            "start": 9482,
+            "end": 9608
+          },
+          "rationale": "Repeated phrasing across the draft.",
+          "source": "profile"
+        }
+      ],
+      "rationale": "Multiple passages repeat the same four-word phrase."
+    }
+  ],
+  "voice_observations": [
+    {
+      "id": "finding-e3469a9dc9d9423b",
+      "kind": "uncontracted_form",
+      "excerpt": "Are Not",
+      "span": {
+        "start": 1354,
+        "end": 1361
+      },
+      "rationale": "'Are Not' could contract to 'Aren't' -- the profile favors contractions.",
+      "source": "profile"
+    },
+    {
+      "id": "finding-8b2b2d48a90ba8c7",
+      "kind": "voice_mismatch",
+      "excerpt": "We used one short state: \u201cA fair six-sided die was rolled once.",
+      "span": {
+        "start": 2198,
+        "end": 2261
+      },
+      "rationale": "Sentence uses passive voice where the profile prefers active voice.",
+      "source": "profile"
+    },
+    {
+      "id": "finding-efadedcac1ce17a3",
+      "kind": "voice_mismatch",
+      "excerpt": "```json\n{\n  \"model\": \"jev-latest\",\n  \"state\": \"A fair six-sided die was rolled once.",
+      "span": {
+        "start": 2544,
+        "end": 2628
+      },
+      "rationale": "Sentence uses passive voice where the profile prefers active voice.",
+      "source": "profile"
+    }
+  ],
+  "required_facts": [
+    {
+      "id": "finding-5948474f74d70041",
+      "kind": "missing_attribution",
+      "excerpt": "| Model | Face 1 selected, all 2,880 replies | Face 6 selected, all 2,880 replies | Mean P(1), digit pass 1 | Mean P(6), digit pass 1 |\n| :-- | --: | --: | --: | --: |\n| Jev | 2,880 | 0 | 89.7% | 4.4% |\n| Kev | 1,410 | 294 | 18.6% | 18.4% |\n| Laya | 40 | 2,610 | 6.5% | 66.2% |",
+      "span": {
+        "start": 4755,
+        "end": 5032
+      },
+      "rationale": "Numeric or statistical claim lacks attributable evidence.",
+      "source": "profile"
+    }
+  ],
+  "density": {
+    "wordCount": 1490,
+    "sentenceCount": 78,
+    "lexicalDensity": 0.7268,
+    "gzipRatio": 0.3692,
+    "skippedTooShort": false,
+    "withinThresholds": true
+  }
+}
