@@ -3,7 +3,7 @@
   "title": "Who Is Responsible After You Deploy a Decision Model?",
   "description": "As an AI engineer or founder deploying a consequential decision model, I want to understand who may hold the system accountable when credible evidence of discriminatory behavior emerges, so that I design with testable controls, records, and appropriate escalation paths.\n\nScope: research the FTC chair’s agent-responsibility remarks; enforcement and agency positions for vendors/deployers in employment, housing, credit, and product marketing; and documented cases where advocacy, public evidence, or employee reporting created regulatory or operational pressure.\n\nFeature: Evidence-led warning about responsibility after deployment.\nScenario: An engineer learns their deployed model is sensitive to protected cues.\nGiven a version-pinned decision system and counterfactual findings that clear a matched control floor,\nWhen an affected person, advocacy organization, customer, regulator, or employee raises the result,\nThen the article distinguishes the relevant legal and practical accountability paths, cites primary sources, and does not imply that a benchmark alone proves unlawful discrimination.",
   "type": "story",
-  "status": "research",
+  "status": "copywriting",
   "priority": 1,
   "assignee": null,
   "creator": null,
@@ -22,10 +22,22 @@
         "model": "gpt-5",
         "name": "Codex desktop"
       }
+    },
+    {
+      "id": "51368d44-c2cb-499c-857c-c2140c02c3f6",
+      "author": "home",
+      "text": "Draft completed at `stories/ed684f/article.md` and story advanced to `copywriting`. The 1,265-word draft leads with the post-deployment decision owner, attributes Ferguson narrowly, uses Meta/Facebook and HireVue as documented escalation cases, and distinguishes counterfactual sensitivity from a legal conclusion. Source links are in the draft and research packet.\n\nAgent provenance: Codex desktop / gpt-5.",
+      "created_at": "2026-09-29T18:43:29.482710Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-5",
+        "name": "Codex desktop"
+      }
     }
   ],
   "created_at": "2026-09-29T17:21:57.001386Z",
-  "updated_at": "2026-09-29T17:24:57.147362Z",
+  "updated_at": "2026-09-29T18:43:29.482733Z",
   "closed_at": null,
   "agent": {
     "platform": "codex",
