@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "event_id": "0ac2c818-ab7b-4aa2-9d7c-8523f7530a52",
+  "issue_id": "ANTH-134bbcf6-fc04-45d4-a679-160086ffa2dd",
+  "event_type": "issue_created",
+  "occurred_at": "2026-10-03T15:49:51.262Z",
+  "actor_id": "unknown",
+  "payload": {
+    "title": "Auritus: narration for your pages on a GPU you run",
+    "description": "Auritus is live at aurit.us: an open-source (MIT) embed that narrates a page's content with an open TTS model, synthesized on a GPU you run, with AWS Batch as fallback. Anth.us has no article or platform page about it, and it's one of three products Ryan wants ad campaigns for. Story shape: the plain fact first (what a reader hears when they press play on an Auritus page), the choice (your own GPU first, cloud only when it's offline; the page content never goes to a TTS vendor), then the checkable details from the README: six backends (Kokoro, Qwen 3 CustomVoice, F5-TTS, Higgs Audio v3, Chatterbox, Fish Speech), the 15-minute claim timeout, the private signed audio URL. Honest limits: the CLI isn't on PyPI yet. Close on the product site and the engage page. Source: github.com/AnthusAI/Auritus README and docs/ARCHITECTURE.md.",
+    "issue_type": "story",
+    "status": "idea",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [
+      "client-acquisition"
+    ],
+    "agent": {
+      "platform": "claude-code",
+      "model": "claude-fable-5-1",
+      "name": "anthus-content-review"
+    }
+  }
+}
