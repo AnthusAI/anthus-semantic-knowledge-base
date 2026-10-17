@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "event_id": "69ba1f75-ae91-49fd-b068-bf29e0dd9cc9",
+  "issue_id": "ANTH-cbca2435-21f8-42c8-9591-b9c52734119c",
+  "event_type": "state_transition",
+  "occurred_at": "2026-10-17T19:58:05.983Z",
+  "actor_id": "home",
+  "payload": {
+    "from_status": "blocked",
+    "to_status": "in_progress"
+  }
+}

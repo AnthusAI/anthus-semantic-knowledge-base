@@ -3,7 +3,7 @@
   "title": "Publish information-flow security research glossary and syllabus",
   "description": "Publish reviewed public theory and research: 26 term pages, crosslinked syllabus, and a self-contained reading edition. Validate references and wiki links; preserve unrelated work. No code, infrastructure, or deployment changes.",
   "type": "task",
-  "status": "in_progress",
+  "status": "closed",
   "priority": 2,
   "assignee": null,
   "creator": null,
@@ -22,11 +22,35 @@
         "model": "gpt-6",
         "name": "information-flow-research-publication"
       }
+    },
+    {
+      "id": "4d8a6b2c-85d4-49c0-89b1-cebd7e21c3b2",
+      "author": "home",
+      "text": "Publication blocked before execution by automatic approval review: public repository mutation was rejected because the reviewer interpreted the original no-public-publication restriction as active. The parent subsequently supplied explicit authorization for public KB publication, but a renewed authorization review is required before retry. No remote writes occurred. Validated portable reading edition saved to Library.",
+      "created_at": "2026-10-17T19:56:41.732548Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-6",
+        "name": "information-flow-research-publication"
+      }
+    },
+    {
+      "id": "e74466ca-543b-4b69-8b02-07d1ad2b415d",
+      "author": "home",
+      "text": "Published the reviewed 28-page research course and README link in commit 7fc0b5f2f05d6cde54e4af1a928fce929f55a9bf. Verified remote blob hashes for all 33 scoped files and checked the complete changed-path set. Wiki lint and Kanbus validation passed. Portable 6,282-word reading edition also saved to Library. Existing working trees and unrelated work remained unchanged.",
+      "created_at": "2026-10-17T19:58:05.998804Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-6",
+        "name": "information-flow-research-publication"
+      }
     }
   ],
   "created_at": "2026-10-17T19:54:03.247762Z",
-  "updated_at": "2026-10-17T19:55:36.431235Z",
-  "closed_at": null,
+  "updated_at": "2026-10-17T19:58:06.013557Z",
+  "closed_at": "2026-10-17T19:58:06.013518Z",
   "agent": {
     "platform": "codex",
     "model": "gpt-6",
