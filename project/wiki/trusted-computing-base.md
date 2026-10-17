@@ -12,7 +12,7 @@ Answer: No. Shared identities, writable volumes, task-level privileges, administ
 
 ## Related concepts
 
-[Reference monitor](reference-monitor.md) · [Credential broker](credential-broker.md) · [Observation model](observation-model.md)
+[Reference monitor](reference-monitor.md) · [Credential broker](credential-broker.md) · [Observation model](observation-model.md) · [Container isolation](container-isolation.md) · [Security evidence](security-evidence.md)
 
 [Return to the syllabus](information-flow-security.md)
 

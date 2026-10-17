@@ -12,7 +12,11 @@ Answer: No. Undecidability concerns a universal procedure over the general unbou
 
 ## Related concepts
 
-[Undecidability](undecidability.md) · [Hyperproperty](hyperproperty.md) · [Soundness](soundness.md)
+[Undecidability](undecidability.md) · [Hyperproperty](hyperproperty.md) · [Soundness](soundness.md) · [Security evidence](security-evidence.md)
+
+## A recent agent-plan example
+
+CaMeLoT translates restricted Python plans into finite-state CTL models checked with nuXmv. Its abstraction treats conditions as nondeterministic choices and tools as black boxes. This illustrates verification relative to an explicit model; it does not verify arbitrary Python or the internals of a tool provider. [Nikolaou et al., CaMeLoT, version 1](https://arxiv.org/html/2609.18674v1).
 
 [Return to the syllabus](information-flow-security.md)
 

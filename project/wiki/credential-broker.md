@@ -17,7 +17,13 @@ Answer: Key confidentiality may hold while authority control fails catastrophica
 
 ## Related concepts
 
-[Trusted computing base](trusted-computing-base.md) · [Authority misuse](authority-misuse.md) · [Declassification](declassification.md)
+[Trusted computing base](trusted-computing-base.md) · [Authority misuse](authority-misuse.md) · [Declassification](declassification.md) · [Credential proxies](credential-proxy.md) · [Credential surrogation](credential-surrogation.md)
+
+## Responses and interface design
+
+Keeping the credential out of worker memory does not complete the argument. Authentication results, reflected headers, errors, logs, returned sessions, and cumulative queries must obey a response-release policy. Robust declassification provides a framework for reasoning about attacker influence over intentional release. [Enforcing Robust Declassification](https://www.cs.cornell.edu/andru/papers/csfw04.pdf).
+
+A narrow broker can offer CLI or HTTP frontends callable from native code; it need not forbid all native scripts. Conversely, an interface protocol such as MCP does not establish a confinement boundary by itself. Analyze which operations the worker can actually cause and which results it can observe.
 
 [Return to the syllabus](information-flow-security.md)
 

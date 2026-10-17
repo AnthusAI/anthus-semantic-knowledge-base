@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "event_id": "9e586cbe-5b6f-4b2d-bf39-4bfa3d54dba3",
+  "issue_id": "ANTH-d45f3697-81e8-44bb-8cc1-437e8580294d",
+  "event_type": "issue_created",
+  "occurred_at": "2026-10-17T20:12:52.112Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "Expand agent security research with credential and isolation evidence",
+    "description": "Extend public research with vetted container isolation, credential surrogation, proof of possession, proxy mediation, provenance, and security evidence. Add a separate citation-free NotebookLM video outline. Preserve theorem distinctions and concurrent work; publish no implementation or infrastructure changes.",
+    "issue_type": "task",
+    "status": "open",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "codex",
+      "model": "gpt-6",
+      "name": "information-flow-research-expansion"
+    }
+  }
+}

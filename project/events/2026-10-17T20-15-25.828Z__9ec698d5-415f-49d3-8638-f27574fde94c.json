@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "event_id": "9ec698d5-415f-49d3-8638-f27574fde94c",
+  "issue_id": "ANTH-d45f3697-81e8-44bb-8cc1-437e8580294d",
+  "event_type": "comment_added",
+  "occurred_at": "2026-10-17T20:15:25.828Z",
+  "actor_id": "home",
+  "payload": {
+    "comment_id": "db47fea3-2ec7-4348-ae2c-d0ec19645b62",
+    "comment_author": "home",
+    "agent": {
+      "platform": "codex",
+      "model": "gpt-6",
+      "name": "information-flow-research-expansion"
+    }
+  }
+}

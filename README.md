@@ -59,4 +59,6 @@ Use `skills/advance-story/SKILL.md` when advancing work in this pod.
 
 ## Information flow security research
 
-Start with the [information flow security syllabus](project/wiki/information-flow-security.md) for 26 crosslinked concept pages, worked examples, exercises with answers, and primary readings. The [complete reading edition](project/wiki/information-flow-security-notebooklm.md) collects the course in one portable Markdown document.
+Start with the [information flow security syllabus](project/wiki/information-flow-security.md) for 32 crosslinked concept pages, worked examples, exercises with answers, and primary readings. The [complete reading edition](project/wiki/information-flow-security-notebooklm.md) collects the course in one portable Markdown document.
+
+The [citation-free NotebookLM video outline](project/wiki/information-flow-security-video-outline.md) provides a separate teaching narrative. The cited reading edition retains the original 26 chapters; six additional companion chapters cover credentials, isolation, provenance, and security evidence.

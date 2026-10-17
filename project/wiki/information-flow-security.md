@@ -49,6 +49,17 @@ A long-lived harness may eventually run agents much more capable than those used
 6. [Credential broker](credential-broker.md)
 7. [Authority misuse](authority-misuse.md)
 
+## 6 Evaluate credentials, deployment boundaries, and new evidence
+
+1. [Credential surrogation and substitute authority](credential-surrogation.md)
+2. [Proof of possession and token replay](proof-of-possession.md)
+3. [Credential proxies and complete mediation](credential-proxy.md)
+4. [Container isolation and deployment boundaries](container-isolation.md)
+5. [Agent provenance and instruction/data separation](agent-provenance.md)
+6. [Security evidence: tests, proofs, and deployment claims](security-evidence.md)
+
+These companion chapters connect the foundational concepts to documented platform behavior, OAuth standards, and recent agent-security research. They distinguish published results, provider architecture descriptions, and architectural deductions. The underlying impossibility argument and halting reduction retain their original assumptions.
+
 # Read the original papers
 
 Start with Lampson for confinement intuition, Denning for label structure, Goguen and Meseguer for noninterference, and Sabelfeld and Myers for a readable survey. Then study Volpano and colleagues for type-system soundness; Schneider and Clarkson with Schneider for enforcement and hyperproperties; Myers and colleagues for robust declassification; and Wedge and Capsicum for concrete compartmentalization.
@@ -76,7 +87,9 @@ Each article should state one claim, one model, one worked example, and what wou
 
 # Complete reading edition
 
-[NotebookLM ready reading edition](information-flow-security-notebooklm.md) contains the course as one self-contained document.
+[NotebookLM ready reading edition](information-flow-security-notebooklm.md) preserves the original 26 concept chapters, exercises, and bibliography as one self-contained document. The six companion chapters above extend that foundation with additional details and citations.
+
+[Citation-free video outline](information-flow-security-video-outline.md) is a separate 3,522-word teaching narrative for NotebookLM. It connects the foundational arguments with the deployment and credential questions while leaving citations in the academic reading materials.
 
 # Bibliography
 

@@ -14,7 +14,7 @@ Answer: No. A single host may expose many operations and resources, redirects, u
 
 ## Related concepts
 
-[Credential broker](credential-broker.md) · [Capability](capability.md) · [Declassification](declassification.md)
+[Credential broker](credential-broker.md) · [Capability](capability.md) · [Declassification](declassification.md) · [Substitute authority](credential-surrogation.md) · [Proof of possession](proof-of-possession.md) · [Agent provenance](agent-provenance.md)
 
 [Return to the syllabus](information-flow-security.md)
 
