@@ -1,0 +1,38 @@
+{
+  "id": "ANTH-cbca2435-21f8-42c8-9591-b9c52734119c",
+  "title": "Publish information-flow security research glossary and syllabus",
+  "description": "Publish reviewed public theory and research: 26 term pages, crosslinked syllabus, and a self-contained reading edition. Validate references and wiki links; preserve unrelated work. No code, infrastructure, or deployment changes.",
+  "type": "task",
+  "status": "in_progress",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "2068d722-f716-4dbd-bd02-13eb53ac0c01",
+      "author": "home",
+      "text": "Staged 26 reviewed term pages, crosslinked syllabus, and self-contained reading edition. Applied review clarifications for divergent executions and overt versus covert channels. Wiki lint and Kanbus validation passed. Research only; no private operational details or implementation changes.",
+      "created_at": "2026-10-17T19:55:36.431215Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-6",
+        "name": "information-flow-research-publication"
+      }
+    }
+  ],
+  "created_at": "2026-10-17T19:54:03.247762Z",
+  "updated_at": "2026-10-17T19:55:36.431235Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "codex",
+    "model": "gpt-6",
+    "name": "information-flow-research-publication"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}

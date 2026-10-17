@@ -56,3 +56,7 @@ command to fail with coaching that names the stage ladder.
 ## Agent skill
 
 Use `skills/advance-story/SKILL.md` when advancing work in this pod.
+
+## Information flow security research
+
+Start with the [information flow security syllabus](project/wiki/information-flow-security.md) for 26 crosslinked concept pages, worked examples, exercises with answers, and primary readings. The [complete reading edition](project/wiki/information-flow-security-notebooklm.md) collects the course in one portable Markdown document.

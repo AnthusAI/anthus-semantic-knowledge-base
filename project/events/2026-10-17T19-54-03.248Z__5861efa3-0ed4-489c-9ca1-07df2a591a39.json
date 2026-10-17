@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "event_id": "5861efa3-0ed4-489c-9ca1-07df2a591a39",
+  "issue_id": "ANTH-cbca2435-21f8-42c8-9591-b9c52734119c",
+  "event_type": "issue_created",
+  "occurred_at": "2026-10-17T19:54:03.248Z",
+  "actor_id": "home",
+  "payload": {
+    "title": "Publish information-flow security research glossary and syllabus",
+    "description": "Publish reviewed public theory and research: 26 term pages, crosslinked syllabus, and a self-contained reading edition. Validate references and wiki links; preserve unrelated work. No code, infrastructure, or deployment changes.",
+    "issue_type": "task",
+    "status": "open",
+    "priority": 2,
+    "assignee": null,
+    "parent": null,
+    "labels": [],
+    "agent": {
+      "platform": "codex",
+      "model": "gpt-6",
+      "name": "information-flow-research-publication"
+    }
+  }
+}
