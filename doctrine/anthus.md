@@ -38,7 +38,7 @@ hosted Papyrus infrastructure exists.
 - Client-acquisition stories: the opening is a teaching story or a values-in-action
   scene; the closing section is a vision of the reader's month six; the engage box
   is why we're here. The lesson is named after the event earns it.
-- The full guidance is the `writing-effective-stories` skill in the Limatus repo.
+- The full guidance is the `writing-effective-stories` skill in the [Humanus](https://github.com/AnthusAI/Humanus) repo (formerly Limatus).
 
 ## Board names
 
