@@ -1,0 +1,110 @@
+{
+  "id": "ANTH-3a22a3fb-69e2-45f0-a0b8-19658968b000",
+  "title": "Decision Models Are Not Calculators",
+  "description": "As a practitioner choosing a fast decision model, I want to know whether its probabilities for a fair die stay uniform as option order changes, so that I test its outputs as learned judgments rather than mathematical guarantees. Scope: exhaustive permutation experiment across Jev, Kev, and Laya; digit and word labels; repeated runs; public MIT harness; evidence-led Anth.us article and social figure. Feature: Fair-die choice predictions under all label orders. Scenario: Measure model choice and order sensitivity. Given a fixed fair-die state and six face labels, When every ordering is submitted in numeric and word forms twice to each registered model, Then every response is retained with model provenance and summarized by label, position, representation, and repeat stability. Definition of done: pre-registration committed before inference; all authorized runs completed; exact replies and replayable records published; claims bounded to observed results; article passes Anth.us Limatus workflow and remains at copywriting pending final approval; public experiment repo created under MIT; article/content PRs opened without deployment.",
+  "type": "story",
+  "status": "copywriting",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "a376bed8-be64-4887-b222-38ef8af879a6",
+      "author": "home",
+      "text": "Pre-registration committed and pushed in open repository https://github.com/AnthusAI/benford-decisions before inference (a83a9b5; test suite 6/6 pass). Full matrix: 8,640 requests; Jev cap estimate /bin/zsh.093. Laya 2,880 valid outputs complete; Kev collection underway. Laya first needed a matching TorchVision build; no valid result was lost. Next: finish Kev, resolve Jev credentials, then article and social preview.",
+      "created_at": "2026-09-25T15:12:05.463721Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "GPT-6",
+        "name": "Codex desktop"
+      }
+    },
+    {
+      "id": "75f2e5c1-ae4e-464b-a67a-aee16cd28612",
+      "author": "home",
+      "text": "Research notes now separate Benford as the motivating question from any causal finding. Kev and Laya each completed 2,880 valid requests; exact version notes and Laya confidence-calibration warning are captured. Jev remains blocked only on the host credential; no three-model conclusion will be written before its full matrix.",
+      "created_at": "2026-09-25T15:23:33.526148Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "GPT-6",
+        "name": "Codex desktop"
+      }
+    },
+    {
+      "id": "49ddcf5c-a831-4d49-a3c1-7f7f10869459",
+      "author": "home",
+      "text": "Core harness and final export/plot code are public at https://github.com/AnthusAI/benford-decisions (main ffdda40), MIT; 8/8 tests pass. Jev attempt stopped on the first request with provider HTTP 402 — no organization credits — before any model reply. No purchase or auto-reload initiated. Need up to /bin/zsh.093 available in existing TypeSafe account to complete the approved Jev matrix and finish the three-model visual/article.",
+      "created_at": "2026-09-25T15:33:55.704058Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "GPT-6",
+        "name": "Codex desktop"
+      }
+    },
+    {
+      "id": "d55dba26-53e7-4d05-8044-909fd08d5f6d",
+      "author": "home",
+      "text": "All 8,640 planned responses are valid and public at AnthusAI/Decision-Models-Are-Not-Calculators (main f3bbfc8); Jev selected one 2,880/2,880, Kev one 1,410/2,880, Laya six 2,610/2,880. The response-derived cover and full plots, exact examples, checksummed archives, and measurement note are pushed. Copywriting draft is in anthus-site-content PR #16 with state: draft. Limatus scan is saved in the story packet; density passes, automatic false positives were manually checked against released data. Awaiting Ryan editorial approval; do not publish or deploy.",
+      "created_at": "2026-09-25T16:46:37.835852Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-6",
+        "name": "Codex desktop"
+      }
+    },
+    {
+      "id": "de01bcef-eb3a-4283-aa6f-4cbefc04e990",
+      "author": "home",
+      "text": "Resuming copywriting for Anth.us article. Reworking the open draft to follow the approved README sequence: anonymous public reaction, Benford-inspired hypothesis, preliminary Jev result, explicit ordering investigation, Kev/Laya counterresults, bounded conclusion. Will run the publication style profile through Limatus and build the Gatsby worktree; no production publish without editorial approval.",
+      "created_at": "2026-09-25T19:30:52.411332Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-5",
+        "name": "Codex desktop"
+      }
+    },
+    {
+      "id": "3cbf4112-d797-4a3d-ac42-64dc5223024d",
+      "author": "home",
+      "text": "Updated draft article in anthus-site-content PR #16 (commit cc95ad3) and site pin in Anth.us PR #62 (commit e65e560). Exact-title draft remains state: draft; social cover is 1200x630. Editorial sequence: anonymous quote -> Benford hypothesis -> one ordinary-order Jev result -> exhaustive ordering test -> Kev/Laya contrast -> bounded conclusion. Limatus scan with publications/anthus/style-profile.yml: 0 generic passages, density within thresholds; remaining certainty/attribution warnings checked against linked released summary, quote screenshot, and required image alt text. Gatsby production build exits 0 and generated article HTML with matching og:image/twitter:image large-card metadata; Gatsby also logged unrelated citation-provider errors from other pages. Awaiting Ryan editorial approval; no merge or production release.",
+      "created_at": "2026-09-25T19:47:32.436365Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-5",
+        "name": "Codex desktop"
+      }
+    },
+    {
+      "id": "2a47abde-5345-46a3-9065-be5ba7569c76",
+      "author": "home",
+      "text": "Removed the third-party social quote and all screenshot/exchange references from the Anth.us draft. The opening now introduces Jev and uses the study’s archived 88% example. Verified the revised article on Gatsby develop at localhost:8000: quote absent, three charts loaded, no browser-console errors. Content PR #16 and site PR #62 branches updated; draft remains unpublished pending editorial review.",
+      "created_at": "2026-09-25T20:08:42.628521Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-5",
+        "name": "Codex Desktop"
+      }
+    }
+  ],
+  "created_at": "2026-09-25T14:48:20.512622Z",
+  "updated_at": "2026-09-25T20:09:08.720405Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "codex",
+    "model": "GPT-6",
+    "name": "Codex desk"
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}

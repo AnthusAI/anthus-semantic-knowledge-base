@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "event_id": "9348e743-0287-49f1-b04c-78138b0259af",
+  "issue_id": "ANTH-3a22a3fb-69e2-45f0-a0b8-19658968b000",
+  "event_type": "state_transition",
+  "occurred_at": "2026-09-25T16:29:21.942Z",
+  "actor_id": "home",
+  "payload": {
+    "from_status": "editor_select",
+    "to_status": "copywriting"
+  }
+}

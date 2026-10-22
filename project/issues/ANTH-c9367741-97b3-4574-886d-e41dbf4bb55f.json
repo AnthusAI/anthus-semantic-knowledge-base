@@ -1,0 +1,44 @@
+{
+  "id": "ANTH-c9367741-97b3-4574-886d-e41dbf4bb55f",
+  "title": "When “Ultra” Thinking Makes an LLM Worse",
+  "description": "## Pitch\n\n**Working title:** When “Ultra” Thinking Makes an LLM Worse\n\nAs an AI engineer or technical leader tuning a reasoning model, I want to understand why maximum reasoning effort can reduce benchmark and agent performance, so that I can benchmark the cost/accuracy curve for my own workloads rather than treating more thinking tokens as automatically better.\n\nThe story will explain **overthinking** as the umbrella failure mode: an o1-style model spends excessive test-time compute on a task, producing no gain or an accuracy decline. It will distinguish that from **inverse scaling with test-time compute**, the specific non-monotonic pattern where additional reasoning tokens hurt measured accuracy.\n\n## Reader stake\n\n“Ultra” is a cost and reliability setting, not a quality guarantee. The practical close should be a lightweight evaluation plan: test representative workloads at each reasoning level; record accuracy, latency, token cost, and failure modes; then choose the smallest budget that meets the operational target.\n\n## Evidence to verify and use\n\n- Chen et al., “Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs” (Dec. 2024): https://arxiv.org/abs/2412.21187\n- “Do LLMs Overthink Basic Math Reasoning? Benchmarking the ...”: https://aclanthology.org/2026.findings-acl.1285.pdf\n- “Examining the Reasoning-Action Dilemma in Agentic Tasks”: https://arxiv.org/pdf/2502.08235.pdf\n- “Declining Legal Classification Performance in Reasoning LLMs”: https://www.cs.cit.tum.de/fileadmin/w00cfj/sebis/_my_direct_uploads/Wa26b.pdf\n- Apple, “The Illusion of Thinking” — verify the precise findings and preferred primary citation before drafting.\n\nUse primary research and original benchmark results only for claims. Treat reported figures—including 18× tokens, the 7.9% issue-resolution relationship, and o1-high vs. o1-low SWE-bench performance—as leads that require source-level verification before publication.\n\n## Anth.us angle\n\nFrame thinking effort as an MLOps control: measure quality, token spend, latency, and agent interaction with environmental feedback. The useful outcome is an operating policy for production-scale agentic AI, not a generic warning against reasoning models.\n\n## Scope\n\n- Explain the terminology and evidence without implying that all longer reasoning is harmful.\n- Cover simple benchmarks and agentic tasks separately.\n- Give concrete evaluation checks for model operators.\n- Do not make unverified model-performance or cost claims.\n\n## Acceptance criteria\n\nFeature: Calibrating reasoning effort\n\nScenario: A reader chooses a reasoning budget\nGiven a team is configuring a reasoning model for a production workload\nWhen it evaluates representative tasks at low, medium, high, and maximum reasoning settings\nThen it can identify whether extra test-time compute improves, plateaus, or harms quality\nAnd it can select a budget using accuracy, latency, token cost, and environmental-feedback outcomes.",
+  "type": "story",
+  "status": "idea",
+  "priority": 2,
+  "assignee": null,
+  "creator": null,
+  "parent": null,
+  "labels": [],
+  "dependencies": [],
+  "comments": [
+    {
+      "id": "fa8d77df-8950-4dc0-995f-394b082fcf2e",
+      "author": "home",
+      "text": "Intake recorded by Codex (gpt-5). Editorial framing: call the umbrella behavior “overthinking” and reserve “inverse scaling with test-time compute” for the measured degradation pattern. All supplied quantitative claims are research leads only; the research stage must verify them against primary papers and original benchmark records before they appear in copy.",
+      "created_at": "2026-09-29T18:09:39.254510Z",
+      "comment_type": "default",
+      "agent": {
+        "platform": "codex",
+        "model": "gpt-5",
+        "name": "Codex",
+        "settings": {
+          "reasoning_effort": "medium"
+        }
+      }
+    }
+  ],
+  "created_at": "2026-09-29T18:09:09.073142Z",
+  "updated_at": "2026-09-29T18:09:39.254532Z",
+  "closed_at": null,
+  "agent": {
+    "platform": "codex",
+    "model": "gpt-5",
+    "name": "Codex",
+    "settings": {
+      "reasoning_effort": "medium"
+    }
+  },
+  "right_now_summary": null,
+  "right_now_updated_at": null,
+  "custom": {}
+}
